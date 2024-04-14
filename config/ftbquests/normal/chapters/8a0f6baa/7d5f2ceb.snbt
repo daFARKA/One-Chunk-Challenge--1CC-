@@ -1,0 +1,79 @@
+{
+	title: "Workbench Tier 4",
+	icon: "modularmachinery:blockcontroller",
+	x: 4.0d,
+	y: -4.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"50c5e157",
+		"a6cc5bda"
+	],
+	tasks: [{
+		uid: "41f36372",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "a3a0649b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 4"
+		}],
+		count: 15L
+	},
+	{
+		uid: "699961d2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}],
+		count: 6L
+	},
+	{
+		uid: "580abef8",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:molecular_assembler"
+		}]
+	},
+	{
+		uid: "4f7eb5f9",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch"
+		}]
+	},
+	{
+		uid: "6355a08b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch"
+		}]
+	},
+	{
+		uid: "f9a7d7c6",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	},
+	{
+		uid: "93193f2e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "7c408e4e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:workbench4_block"
+		}],
+		count: 7L
+	}]
+}

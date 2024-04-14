@@ -1,0 +1,18 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	description: "To make life a little bit easier.",
+	text: [
+		""
+	],
+	dependencies: [
+		"539760bf"
+	],
+	tasks: [{
+		uid: "4bd3520b",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_res_miner_cont_1"
+		}]
+	}]
+}

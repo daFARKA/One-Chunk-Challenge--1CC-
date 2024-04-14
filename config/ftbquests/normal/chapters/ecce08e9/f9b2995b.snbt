@@ -1,0 +1,39 @@
+{
+	title: "AE2 Terminals",
+	x: -1.5d,
+	y: -3.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"5eb8a3f4"
+	],
+	tasks: [{
+		uid: "42d77559",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 360"
+		}]
+	},
+	{
+		uid: "bf61fc17",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 340"
+		}]
+	},
+	{
+		uid: "c14d0266",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 480"
+		}]
+	},
+	{
+		uid: "086a333b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 520"
+		}]
+	}]
+}

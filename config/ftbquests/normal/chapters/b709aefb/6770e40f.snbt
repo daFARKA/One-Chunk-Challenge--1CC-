@@ -1,0 +1,12 @@
+{
+	icon: "environmentaltech:solar_cont_1",
+	x: 2.0d,
+	y: 2.5d,
+	dependencies: [
+		"051ae427"
+	],
+	tasks: [{
+		uid: "2b1efee4",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	dependencies: [
+		"eba8ffe6"
+	],
+	tasks: [{
+		uid: "b6320599",
+		type: "item",
+		items: [{
+			item: "minecraft:log"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "5f4b0cce",
+		type: "item",
+		item: "minecraft:sapling",
+		count: 16
+	}]
+}

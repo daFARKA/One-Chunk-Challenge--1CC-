@@ -1,0 +1,14 @@
+{
+	x: -1.0d,
+	y: -2.0d,
+	dependencies: [
+		"57094906"
+	],
+	tasks: [{
+		uid: "2378cfbe",
+		type: "item",
+		items: [{
+			item: "compactmachines3:fieldprojector"
+		}]
+	}]
+}

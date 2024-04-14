@@ -1,0 +1,57 @@
+{
+	title: "Uranium Enricher",
+	icon: "modularmachinery:blockcontroller",
+	x: 2.5d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4e206f21",
+		"08994250"
+	],
+	tasks: [{
+		uid: "b21f6c80",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "2c88a4e7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 4"
+		}],
+		count: 19L
+	},
+	{
+		uid: "8649a642",
+		type: "item",
+		items: [{
+			item: "contenttweaker:reactorcasing_block"
+		}],
+		count: 3L
+	},
+	{
+		uid: "6f8d6e94",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "9e80667b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	},
+	{
+		uid: "e748a5c0",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch"
+		}]
+	}]
+}

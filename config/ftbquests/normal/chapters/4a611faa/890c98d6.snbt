@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: -6.0d,
+	dependencies: [
+		"b63e771a"
+	],
+	tasks: [{
+		uid: "e59db777",
+		type: "item",
+		items: [{
+			item: "minecraft:lava_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

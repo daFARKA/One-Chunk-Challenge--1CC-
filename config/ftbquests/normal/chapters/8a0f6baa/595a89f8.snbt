@@ -1,0 +1,18 @@
+{
+	title: "Tier 6 Ores aka Rare Earth",
+	x: 2.0d,
+	y: -16.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"d1fde1ad"
+	],
+	tasks: [{
+		uid: "62a213f4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 25"
+		}]
+	}]
+}

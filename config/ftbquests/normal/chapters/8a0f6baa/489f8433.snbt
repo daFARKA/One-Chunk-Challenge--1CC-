@@ -1,0 +1,25 @@
+{
+	title: "Magnesium Alloys",
+	x: 6.0d,
+	y: -12.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"595a89f8"
+	],
+	tasks: [{
+		uid: "f0aed235",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 205"
+		}]
+	},
+	{
+		uid: "4cd021e9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 270"
+		}]
+	}]
+}

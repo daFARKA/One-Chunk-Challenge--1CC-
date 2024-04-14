@@ -1,0 +1,10 @@
+{
+	title: "Genesis",
+	icon: "minecraft:grass",
+	description: [
+		"The beginning to a great journey."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

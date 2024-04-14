@@ -1,0 +1,24 @@
+{
+    "machine": "heater",
+    "registryName": "heater_amalgamationtolava",
+    "recipeTime": 2000,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 5
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "contenttweaker:amalgamation_block",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "output",
+            "fluid": "lava",
+            "amount": 100
+        }
+    ]
+}

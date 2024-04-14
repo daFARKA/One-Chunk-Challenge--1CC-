@@ -1,0 +1,44 @@
+{
+	title: "Wind Mill",
+	icon: "modularmachinery:blockcontroller",
+	x: 0.5d,
+	y: -2.5d,
+	text: [
+		"This is a very poweful multiblock. The wind mill consumes nothing and produces completely passive 512 RF/t.",
+		"Additionally, it can be placed within a Compact Machine."
+	],
+	dependencies: [
+		"32b158dc",
+		"540379f5"
+	],
+	tasks: [{
+		uid: "a26bc3e8",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "a32d815c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 4"
+		}],
+		count: 12L
+	},
+	{
+		uid: "e2f724d3",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:storage_alloy"
+		}],
+		count: 9L
+	},
+	{
+		uid: "9596de51",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyoutputhatch 1 1"
+		}]
+	}]
+}

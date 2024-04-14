@@ -1,0 +1,46 @@
+{
+    "machine": "rock_crusher",
+    "registryName": "rock_crusher_1xnetherrack",
+    "recipeTime": 600,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 512
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "extrautils2:compressednetherrack@0",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@0",
+            "amount": 1,
+            "chance": 0.5
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@69",
+            "amount": 1,
+            "chance": 0.25
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:material_part@145",
+            "amount": 1,
+            "chance": 0.2
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:netherrack",
+            "amount": 1,
+            "chance": 0.05
+        }
+    ]
+}

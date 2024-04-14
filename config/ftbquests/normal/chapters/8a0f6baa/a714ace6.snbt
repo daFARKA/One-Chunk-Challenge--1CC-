@@ -1,0 +1,39 @@
+{
+	title: "Tier 4 Ores",
+	x: 8.0d,
+	y: -2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"47d6989a"
+	],
+	tasks: [{
+		uid: "ade64560",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 51"
+		}]
+	},
+	{
+		uid: "8162fa8c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 53"
+		}]
+	},
+	{
+		uid: "b2cb6ec9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 59"
+		}]
+	},
+	{
+		uid: "db024f0f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 57"
+		}]
+	}]
+}

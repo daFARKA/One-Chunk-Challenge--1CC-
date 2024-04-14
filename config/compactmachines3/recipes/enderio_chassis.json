@@ -1,0 +1,58 @@
+{
+  "name": "enderio:chassis",
+  "disabled": false,
+  "target-item": "enderio:item_material",
+  "target-meta": 0,
+  "target-count": 1,
+
+  "duration": 440,
+
+  "catalyst": "minecraft:ender_pearl",
+
+  "input-types": {
+    "c": { "id": "extrautils2:compressedcobblestone", "meta": 0 },
+    "i": { "id": "minecraft:iron_block" },
+    "b": { "id": "minecraft:iron_bars" },
+    "g": { "id": "minecraft:glass"},
+    "e": { "id": "thermalexpansion:cell", "meta": 0}
+  },
+
+  "symmetrical": true,
+  "shape": [
+    [
+      ["c","c","c","c","c"],
+      ["c","g","g","g","c"],
+      ["c","g","g","g","c"],
+      ["c","g","g","g","c"],
+      ["c","c","c","c","c"]
+    ],
+    [
+      ["c","b","b","b","c"],
+      ["b","_","_","_","b"],
+      ["b","_","_","_","b"],
+      ["b","_","_","_","b"],
+      ["c","b","b","b","c"]
+    ],
+    [
+      ["i","b","b","b","i"],
+      ["b","_","_","_","b"],
+      ["b","_","e","_","b"],
+      ["b","_","_","_","b"],
+      ["i","b","b","b","i"]
+    ],
+    [
+      ["c","b","b","b","c"],
+      ["b","_","_","_","b"],
+      ["b","_","_","_","b"],
+      ["b","_","_","_","b"],
+      ["c","b","b","b","c"]
+    ],
+    [
+      ["c","c","c","c","c"],
+      ["c","g","g","g","c"],
+      ["c","g","g","g","c"],
+      ["c","g","g","g","c"],
+      ["c","c","c","c","c"]
+    ]
+  ]
+}

@@ -1,0 +1,69 @@
+{
+	title: "Ore Processing Unit",
+	icon: "modularmachinery:blockcontroller",
+	x: 6.0d,
+	y: -0.5d,
+	text: [
+		"You need to empty the fluid buffer of the Ore Processing unit as fast as possible or else the recipe won't work anymore."
+	],
+	dependencies: [
+		"734b7500"
+	],
+	tasks: [{
+		uid: "d55ebabc",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "bb94914b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 4"
+		}],
+		count: 19L
+	},
+	{
+		uid: "bc8dd891",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}]
+	},
+	{
+		uid: "a2cb716a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "ffb7443a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	},
+	{
+		uid: "01f6a375",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch"
+		}]
+	},
+	{
+		uid: "9644eeee",
+		type: "item",
+		items: [{
+			item: "enderio:block_alloy 1 6"
+		}]
+	},
+	{
+		uid: "2c9fb497",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidoutputhatch"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: 2.0d,
+	text: [
+		"Every side is input except the side with the hole/circle, this side is the output."
+	],
+	tasks: [{
+		uid: "2b614729",
+		type: "item",
+		items: [{
+			item: "solarenergy:basic_battery"
+		}]
+	}]
+}

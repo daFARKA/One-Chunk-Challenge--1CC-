@@ -1,0 +1,78 @@
+{
+	title: "Rock Crusher",
+	icon: "modularmachinery:blockcontroller",
+	x: 2.0d,
+	y: -4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"717cb23e",
+		"e13c01bb"
+	],
+	tasks: [{
+		uid: "4e6d3553",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "929eac4c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch"
+		}]
+	},
+	{
+		uid: "db9a758a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	},
+	{
+		uid: "e3851a1a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 1"
+		}]
+	},
+	{
+		uid: "134a2277",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:storage"
+		}],
+		count: 2L
+	},
+	{
+		uid: "ef465073",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_block"
+		}],
+		count: 2L
+	},
+	{
+		uid: "40f7a6f8",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_trapdoor"
+		}]
+	},
+	{
+		uid: "ded9f578",
+		type: "item",
+		items: [{
+			item: "environmentaltech:laser_lens"
+		}]
+	},
+	{
+		uid: "b7a6a28d",
+		type: "item",
+		items: [{
+			item: "environmentaltech:litherite"
+		}]
+	}]
+}

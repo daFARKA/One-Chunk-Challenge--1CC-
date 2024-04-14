@@ -1,0 +1,15 @@
+tile.contenttweaker.modularium_block.name=Modularium Block
+tile.contenttweaker.amalgamation_block.name=Amalgamation Block
+tile.contenttweaker.reactorcasing_block.name=Reactor Casing
+tile.contenttweaker.reactorfuelrod_block.name=Reactor Fuel Rod
+tile.contenttweaker.workbench4_block.name=Workbench Tier 4 Casing
+tile.contenttweaker.workbench5_block.name=Workbench Tier 5 Casing
+tile.contenttweaker.workbench6_block.name=Workbench Tier 6 Casing
+tile.contenttweaker.factorycore_block.name=Factory Core
+tile.contenttweaker.commondusts_block.name=Rest Elements
+
+
+fluid.test_fluid=Test Fluid
+fluid.oxygen=Oxygen
+fluid.hydrogen=Hydrogen
+fluid.chlorine=Chlorine

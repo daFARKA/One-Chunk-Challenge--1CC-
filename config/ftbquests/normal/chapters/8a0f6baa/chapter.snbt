@@ -1,0 +1,7 @@
+{
+	title: "Automating the automation!",
+	icon: "contenttweaker:material_part 1 148",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

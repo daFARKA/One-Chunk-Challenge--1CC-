@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: -4.0d,
+	dependencies: [
+		"8cbf09f4"
+	],
+	tasks: [{
+		uid: "3f55db77",
+		type: "item",
+		items: [{
+			item: "solarenergy:elite_battery"
+		}]
+	}]
+}

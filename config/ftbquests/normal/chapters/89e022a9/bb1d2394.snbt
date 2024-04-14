@@ -1,0 +1,75 @@
+{
+	title: "Cobblestone Generator",
+	icon: "modularmachinery:blockcontroller",
+	x: 3.0d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"1136c57a"
+	],
+	optional: true,
+	tasks: [{
+		uid: "2b01c461",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "6830bb03",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}],
+		count: 29L
+	},
+	{
+		uid: "41f11389",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 4"
+		}],
+		count: 10L
+	},
+	{
+		uid: "83731ab8",
+		type: "item",
+		items: [{
+			item: "tp:emerald_cobblegen_block"
+		}]
+	},
+	{
+		uid: "59cc1f58",
+		type: "item",
+		items: [{
+			item: "minecraft:water_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "10e8cee2",
+		type: "item",
+		items: [{
+			item: "minecraft:lava_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d75c57ad",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 4"
+		}]
+	},
+	{
+		uid: "64351ddc",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Food",
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"If you play this pack in another difficulty than Peaceful this might be useful.",
+		"Your food for this entire playthrough probably will be potatoes and carrots ^^"
+	],
+	optional: true,
+	tasks: [{
+		uid: "e9cbbe62",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "021602a3",
+		type: "item",
+		item: "minecraft:potato",
+		count: 64
+	},
+	{
+		uid: "8106b5ac",
+		type: "item",
+		item: "minecraft:carrot",
+		count: 64
+	}]
+}

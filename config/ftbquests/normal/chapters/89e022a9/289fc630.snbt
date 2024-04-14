@@ -1,0 +1,72 @@
+{
+	title: "Compact Machines Crafter",
+	icon: "modularmachinery:blockcontroller",
+	x: -3.0d,
+	y: -4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"5eb8a3f4",
+		"5366354b"
+	],
+	tasks: [{
+		uid: "15e7b21a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "0e145e73",
+		type: "item",
+		items: [{
+			item: "compactmachines3:wallbreakable"
+		}],
+		count: 16L
+	},
+	{
+		uid: "f6e257e8",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}],
+		count: 4L
+	},
+	{
+		uid: "eaff309c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 1"
+		}]
+	},
+	{
+		uid: "7e69f284",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "06888ac2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch"
+		}]
+	},
+	{
+		uid: "04d6bf5e",
+		type: "item",
+		items: [{
+			item: "enderio:block_fused_quartz"
+		}],
+		count: 2L
+	},
+	{
+		uid: "676d069a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:molecular_assembler"
+		}]
+	}]
+}

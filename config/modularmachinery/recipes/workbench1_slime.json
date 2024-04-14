@@ -1,0 +1,19 @@
+{
+    "machine": "workbench1",
+    "registryName": "workbench1_slime",
+    "recipeTime": 60,
+    "requirements": [
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:cactus",
+            "amount": 8
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:slime_ball",
+            "amount": 1
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+	x: 4.5d,
+	y: -10.0d,
+	dependencies: [
+		"f069a825"
+	],
+	optional: true,
+	tasks: [{
+		uid: "8752bdfd",
+		type: "item",
+		items: [{
+			item: "solarenergy:intermediate_dense_battery"
+		}]
+	}]
+}

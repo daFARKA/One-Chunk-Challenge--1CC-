@@ -1,0 +1,41 @@
+{
+	title: "Presses",
+	x: 7.0d,
+	y: -4.0d,
+	shape: "square",
+	text: [
+		"These can be crafted with the Workbench Tier 3."
+	],
+	dependencies: [
+		"32b158dc",
+		"a6cc5bda"
+	],
+	tasks: [{
+		uid: "25136493",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 13"
+		}]
+	},
+	{
+		uid: "9c1b723e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 14"
+		}]
+	},
+	{
+		uid: "935e2d16",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 15"
+		}]
+	},
+	{
+		uid: "e956cb68",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 19"
+		}]
+	}]
+}

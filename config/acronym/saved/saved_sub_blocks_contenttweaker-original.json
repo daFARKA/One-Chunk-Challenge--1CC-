@@ -1,0 +1,50 @@
+{
+  "savedSubBlockNames": {
+    "0": {
+      "0": "samarium_block",
+      "1": "scheelite_ore",
+      "2": "gadolinium_block",
+      "3": "pyroxene_ore",
+      "4": "calcium_block",
+      "5": "tungsten_steel_block",
+      "6": "vanadium_block",
+      "7": "vanadinite_ore",
+      "8": "titanium_steel_block",
+      "9": "stainless_steel_block",
+      "10": "sodium_block",
+      "11": "molybdenum_block",
+      "12": "scandium_block",
+      "13": "tungsten_block",
+      "14": "rare_earth_ore",
+      "15": "chromium_block"
+    },
+    "1": {
+      "0": "titanium6_al-4_v_block",
+      "1": "magnesium_alloy_block",
+      "2": "niobium_block",
+      "3": "wulfenite_ore",
+      "4": "manganese_block",
+      "5": "wolframite_ore",
+      "6": "chromite_ore",
+      "7": "titanium_block",
+      "8": "zamak_block",
+      "9": "cobalt_block",
+      "10": "rutile_ore",
+      "11": "terbium_block",
+      "12": "lithium_block",
+      "13": "cobalt-_chrome_block",
+      "14": "molybdenum_copper_alloy_block",
+      "15": "victorium_block"
+    },
+    "2": {
+      "0": "ilmenite_ore",
+      "1": "uranium_ore",
+      "2": "zirconium_block",
+      "3": "tantalum_block",
+      "4": "magnesium_block",
+      "5": "zinc_block",
+      "6": "samarium_scandium_alloy_block",
+      "7": "magnesium_lithium_alloy_block"
+    }
+  }
+}

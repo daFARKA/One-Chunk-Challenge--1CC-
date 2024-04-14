@@ -1,0 +1,15 @@
+{
+	x: 4.5d,
+	y: -8.5d,
+	dependencies: [
+		"fa6794a6"
+	],
+	optional: true,
+	tasks: [{
+		uid: "c6a0e273",
+		type: "item",
+		items: [{
+			item: "solarenergy:regular_dense_battery"
+		}]
+	}]
+}

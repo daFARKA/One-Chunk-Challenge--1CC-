@@ -1,0 +1,22 @@
+{
+	x: 8.0d,
+	y: -6.5d,
+	shape: "square",
+	dependencies: [
+		"5b5bf99e"
+	],
+	tasks: [{
+		uid: "e8c7e8a6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:reactorcasing_block"
+		}]
+	},
+	{
+		uid: "17dd6e5f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:reactorfuelrod_block"
+		}]
+	}]
+}

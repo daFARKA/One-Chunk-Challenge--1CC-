@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: -4.0d,
+	dependencies: [
+		"e13c01bb"
+	],
+	optional: true,
+	tasks: [{
+		uid: "8caf1d81",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:grindstone"
+		}]
+	},
+	{
+		uid: "59addcaa",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crank"
+		}]
+	}]
+}

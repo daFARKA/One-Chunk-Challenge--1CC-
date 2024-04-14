@@ -1,0 +1,13 @@
+{
+	title: "HINT!",
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"If you do not know what you are doing, it is advised to follow the quest pack very closely, ",
+		"especially in the early stages, as this world is very limited on resources."
+	],
+	tasks: [{
+		uid: "89604cf6",
+		type: "checkmark"
+	}]
+}

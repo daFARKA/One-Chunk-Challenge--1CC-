@@ -1,0 +1,62 @@
+{
+	title: "Workbench Tier 1",
+	icon: "modularmachinery:blockcontroller",
+	x: 4.0d,
+	y: -3.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"717cb23e"
+	],
+	tasks: [{
+		uid: "6e365c22",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "54a4f300",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 1"
+		}]
+	},
+	{
+		uid: "0e3b8588",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "4db46f78",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	},
+	{
+		uid: "e7b39861",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	},
+	{
+		uid: "a9d7e37e",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_block"
+		}]
+	},
+	{
+		uid: "73f71c45",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_trapdoor"
+		}],
+		count: 2L
+	}]
+}

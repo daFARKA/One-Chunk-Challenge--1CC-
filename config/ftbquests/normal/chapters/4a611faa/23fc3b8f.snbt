@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: -6.0d,
+	dependencies: [
+		"a675a649",
+		"890c98d6"
+	],
+	tasks: [{
+		uid: "947f2e8d",
+		type: "item",
+		items: [{
+			item: "tp:cobblegen_block"
+		}]
+	}]
+}

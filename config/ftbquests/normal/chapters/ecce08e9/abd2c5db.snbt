@@ -1,0 +1,15 @@
+{
+	x: 9.0d,
+	y: -3.0d,
+	dependencies: [
+		"ac9090ff"
+	],
+	optional: true,
+	tasks: [{
+		uid: "62599277",
+		type: "item",
+		items: [{
+			item: "aeadditions:storage.component 1 3"
+		}]
+	}]
+}

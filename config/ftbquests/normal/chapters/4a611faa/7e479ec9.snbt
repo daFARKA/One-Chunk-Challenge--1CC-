@@ -1,0 +1,13 @@
+{
+	title: "Awful Textures",
+	x: 0.0d,
+	y: 3.0d,
+	text: [
+		"I am terribly sorry for my awful textures/artwork in general."
+	],
+	optional: true,
+	tasks: [{
+		uid: "f494a14b",
+		type: "checkmark"
+	}]
+}

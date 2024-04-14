@@ -1,0 +1,38 @@
+{
+    "machine": "green_house",
+    "registryName": "green_house_oak",
+    "recipeTime": 1200,
+    "requirements": [
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 1000
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:sapling@0",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:log@0",
+            "amount": 8
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:sapling@0",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:sapling@0",
+            "amount": 1,
+            "chance": 0.5
+        }
+    ]
+}

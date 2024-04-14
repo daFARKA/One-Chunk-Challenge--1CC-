@@ -1,0 +1,51 @@
+{
+	x: 4.0d,
+	y: -12.5d,
+	dependencies: [
+		"8f75f09c",
+		"45cb915c"
+	],
+	optional: true,
+	tasks: [{
+		uid: "fd931860",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 6"
+		}]
+	},
+	{
+		uid: "33f770e8",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 6"
+		}]
+	},
+	{
+		uid: "a2cb5f76",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch 1 6"
+		}]
+	},
+	{
+		uid: "7235c260",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidoutputhatch 1 6"
+		}]
+	},
+	{
+		uid: "358b93d6",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 6"
+		}]
+	},
+	{
+		uid: "c39c2332",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyoutputhatch 1 6"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: 0.5d,
+	dependencies: [
+		"d3e6fa1e"
+	],
+	tasks: [{
+		uid: "0e1b49f3",
+		type: "item",
+		items: [{
+			item: "solarenergy:regular_battery"
+		}]
+	}]
+}

@@ -1,0 +1,67 @@
+{
+	title: "Heater",
+	icon: "modularmachinery:blockcontroller",
+	x: 4.0d,
+	y: -5.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3ef846f1"
+	],
+	tasks: [{
+		uid: "fdeeb8dd",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "6654a50a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch"
+		}]
+	},
+	{
+		uid: "12e86205",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	},
+	{
+		uid: "3378d9b5",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch"
+		}]
+	},
+	{
+		uid: "f223e529",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "2989b5df",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidoutputhatch"
+		}]
+	},
+	{
+		uid: "57b1792b",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedcobblestone 1 1"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "b43e2ebf",
+		type: "item",
+		item: "enderio:block_tank"
+	}]
+}

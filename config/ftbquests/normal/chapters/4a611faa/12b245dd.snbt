@@ -1,0 +1,14 @@
+{
+	x: -2.0d,
+	y: -9.0d,
+	dependencies: [
+		"537271ba"
+	],
+	tasks: [{
+		uid: "b66bcbbb",
+		type: "item",
+		items: [{
+			item: "minecraft:snowball"
+		}]
+	}]
+}

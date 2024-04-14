@@ -1,0 +1,12 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "forge:fluid",
+    "custom": {
+      "fluid": "titanium6_al-4_v"
+    }
+  },
+  "variants": {
+    "normal": [{}]
+  }
+}

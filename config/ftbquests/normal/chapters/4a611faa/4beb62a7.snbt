@@ -1,0 +1,54 @@
+{
+	icon: "environmentaltech:void_ore_miner_cont_1",
+	x: 4.0d,
+	y: -8.5d,
+	shape: "square",
+	dependencies: [
+		"4ad61c20",
+		"b794fae3"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "7602edf3",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_1"
+		}]
+	},
+	{
+		uid: "32bca1ad",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_1"
+		}],
+		count: 24L
+	},
+	{
+		uid: "b2b5bf14",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_panel"
+		}],
+		count: 20L
+	},
+	{
+		uid: "39229749",
+		type: "item",
+		items: [{
+			item: "environmentaltech:laser_core"
+		}],
+		count: 2L
+	},
+	{
+		uid: "d9710192",
+		type: "item",
+		items: [{
+			item: "environmentaltech:laser_lens"
+		}]
+	}],
+	rewards: [{
+		uid: "272c208e",
+		type: "item",
+		item: "environmentaltech:tool_multiblock_assembler"
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	title: "Quests",
+	x: -2.0d,
+	y: 0.0d,
+	text: [
+		"Squared quests unlock another quest on a different page.",
+		"Gear quests are especially important."
+	],
+	tasks: [{
+		uid: "ede346cd",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: -9.0d,
+	dependencies: [
+		"8690e47e"
+	],
+	tasks: [{
+		uid: "17f4a2ba",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedsand"
+		}]
+	}]
+}

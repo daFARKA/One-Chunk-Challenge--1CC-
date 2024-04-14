@@ -1,0 +1,42 @@
+{
+	title: "Monster Chamber",
+	icon: "modularmachinery:blockcontroller",
+	x: 2.0d,
+	y: -3.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"0c7affed"
+	],
+	tasks: [{
+		uid: "58b433e2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "e4c1fc11",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 1"
+		}]
+	},
+	{
+		uid: "33abd31f",
+		type: "item",
+		items: [{
+			item: "minecraft:stonebrick"
+		}],
+		count: 7L
+	},
+	{
+		uid: "5525e635",
+		type: "item",
+		items: [{
+			item: "minecraft:stonebrick 1 2"
+		}],
+		count: 8L
+	}]
+}

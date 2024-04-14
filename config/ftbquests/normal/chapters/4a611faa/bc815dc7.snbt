@@ -1,0 +1,29 @@
+{
+	title: "Creative Flight",
+	x: -2.0d,
+	y: 1.5d,
+	shape: "square",
+	text: [
+		"To get an angel ring just visit the coordinates (8, 1, 8) which is located down at bedrock in the center of your \"island\"."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "13f40811",
+		type: "location",
+		icon: "minecraft:compass",
+		location: [I;
+			0,
+			8,
+			1,
+			8,
+			1,
+			1,
+			1
+		]
+	}],
+	rewards: [{
+		uid: "2333fe7a",
+		type: "item",
+		item: "extrautils2:angelring 1 1"
+	}]
+}

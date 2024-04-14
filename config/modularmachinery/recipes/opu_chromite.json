@@ -1,0 +1,47 @@
+{
+    "machine": "ore_processing_unit",
+    "registryName": "opu_chromite",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 2048
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "contenttweaker:material_part@201",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@0",
+            "amount": 1,
+            "chance": 0.5
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:material_part@65",
+            "amount": 1,
+            "chance": 0.1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:material_part@129",
+            "amount": 1,
+            "chance": 0.9
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "output",
+            "nbt": { "FluidName": "oxygen"},
+            "fluid": "oxygen",
+            "amount": 200,
+            "chance": 0.5
+        }
+    ]
+}

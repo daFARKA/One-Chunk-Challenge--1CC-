@@ -1,0 +1,24 @@
+{
+  "name": "enderio:block_infinity",
+  "target-block": "enderio:block_infinity",
+  "target-count": 1,
+
+  "duration": 200,
+
+  "catalyst": "minecraft:ender_pearl",
+
+  "input-types": {
+    "m": { "id": "tp:flint_block" },
+    "r": { "id": "minecraft:redstone_block" }
+  },
+
+  "symmetrical": true,
+  "shape": [
+    [
+      ["r"]
+    ],
+    [
+      ["m"]
+    ]
+  ]
+}

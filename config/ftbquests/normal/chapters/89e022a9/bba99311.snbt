@@ -1,0 +1,27 @@
+{
+	title: "Miner Automation",
+	x: 1.0d,
+	y: 0.0d,
+	text: [
+		"The Environmental Tech Miners need bedrock under the laser to function. Using this pickaxe you can mine some or craft your own with cobblestone."
+	],
+	dependencies: [
+		"1136c57a"
+	],
+	tasks: [{
+		uid: "4fb68dfb",
+		type: "item",
+		items: [{
+			item: "bedrockminer:bedrock_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ccb15ad3",
+		type: "item",
+		items: [{
+			item: "minecraft:bedrock"
+		}]
+	}]
+}

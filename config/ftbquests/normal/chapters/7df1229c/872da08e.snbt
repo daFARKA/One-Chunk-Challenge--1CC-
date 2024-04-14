@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: -1.0d,
+	dependencies: [
+		"23bb7836"
+	],
+	tasks: [{
+		uid: "08a8ea14",
+		type: "item",
+		items: [{
+			item: "solarenergy:intermediate_battery"
+		}]
+	}]
+}

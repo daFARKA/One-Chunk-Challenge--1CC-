@@ -1,0 +1,86 @@
+{
+	title: "Workbench Tier 5",
+	icon: "modularmachinery:blockcontroller",
+	x: 2.0d,
+	y: -12.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"f1396d2d"
+	],
+	tasks: [{
+		uid: "42c04148",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "e5fa0cfe",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 4"
+		}],
+		count: 16L
+	},
+	{
+		uid: "c800e410",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}],
+		count: 8L
+	},
+	{
+		uid: "7c532fe9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:workbench5_block"
+		}],
+		count: 11L
+	},
+	{
+		uid: "a9d740a8",
+		type: "item",
+		items: [{
+			item: "enderio:block_fused_quartz"
+		}],
+		count: 2L
+	},
+	{
+		uid: "e4b6149b",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_5"
+		}]
+	},
+	{
+		uid: "309b8c9d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 5"
+		}]
+	},
+	{
+		uid: "dcfc8afd",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 5"
+		}]
+	},
+	{
+		uid: "bfcf77f2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch 1 5"
+		}]
+	},
+	{
+		uid: "935c505d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 5"
+		}]
+	}]
+}

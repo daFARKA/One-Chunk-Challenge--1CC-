@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"This is a BIG turning point. Follow the quests on this page and automate anything you want.",
+		"Nearly everything after this point can and probably should be automated."
+	],
+	dependencies: [
+		"9686efb6"
+	],
+	tasks: [{
+		uid: "44c20c04",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:energy_acceptor"
+		}]
+	}]
+}

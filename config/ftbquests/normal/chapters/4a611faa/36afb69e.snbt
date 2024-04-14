@@ -1,0 +1,23 @@
+{
+	title: "Cactus?",
+	x: -4.0d,
+	y: 0.0d,
+	shape: "gear",
+	text: [
+		"This is probably the most important plant to farm in the early game. You can find one somewhere in this world."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "3e054a1d",
+		type: "item",
+		items: [{
+			item: "minecraft:cactus"
+		}]
+	}],
+	rewards: [{
+		uid: "8cad5545",
+		type: "item",
+		item: "minecraft:cactus",
+		count: 64
+	}]
+}

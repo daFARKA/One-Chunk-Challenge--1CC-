@@ -1,0 +1,28 @@
+{
+  "name": "contenttweaker:modularium_block",
+  "target-block": "contenttweaker:modularium_block",
+  "target-count": 4,
+
+  "duration": 440,
+
+  "catalyst": "minecraft:ender_pearl",
+
+  "input-types": {
+    "s": { "id": "thermalfoundation:storage_alloy", "meta": 0},
+    "r": { "id": "enderio:block_alloy", "meta": 3 },
+    "e": { "id": "enderio:block_alloy", "meta": 0 }
+  },
+
+  "symmetrical": true,
+  "shape": [
+    [
+      ["r"]
+    ],
+    [
+      ["s"]
+    ],
+    [
+      ["e"]
+    ]
+  ]
+}

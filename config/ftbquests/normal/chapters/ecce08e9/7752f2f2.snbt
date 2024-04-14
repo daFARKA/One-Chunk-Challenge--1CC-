@@ -1,0 +1,19 @@
+{
+	title: "Expansion",
+	x: 0.0d,
+	y: -11.0d,
+	text: [
+		"Make use of P2P-Tunnels to expand your AE2-System.",
+		"This is quite unique (in my opinion), because your base is unvoluntarily going to be very vertical."
+	],
+	dependencies: [
+		"bf4934be"
+	],
+	tasks: [{
+		uid: "3eb4728d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 460"
+		}]
+	}]
+}

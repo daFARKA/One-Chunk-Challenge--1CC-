@@ -1,0 +1,21 @@
+{
+	x: 4.0d,
+	y: -10.5d,
+	dependencies: [
+		"4beb62a7"
+	],
+	tasks: [{
+		uid: "15e1b183",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore_fluid 1 4"
+		}]
+	},
+	{
+		uid: "5d811cea",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 895"
+		}]
+	}]
+}

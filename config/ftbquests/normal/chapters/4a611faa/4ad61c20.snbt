@@ -1,0 +1,51 @@
+{
+	title: "Rock Crusher 1x Sand Output",
+	x: 2.0d,
+	y: -9.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"0517314d"
+	],
+	tasks: [{
+		uid: "d0c4478a",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}]
+	},
+	{
+		uid: "008919fc",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 66"
+		}]
+	},
+	{
+		uid: "5925f4b0",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 67"
+		}]
+	},
+	{
+		uid: "f0ba742b",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 68"
+		}]
+	}],
+	rewards: [{
+		uid: "eedc5150",
+		type: "item",
+		item: "thermalfoundation:material 1 66",
+		count: 16
+	},
+	{
+		uid: "43771996",
+		type: "item",
+		item: "thermalfoundation:material 1 68",
+		count: 16
+	}]
+}

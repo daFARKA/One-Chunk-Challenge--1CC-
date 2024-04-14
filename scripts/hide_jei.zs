@@ -1,0 +1,26 @@
+import mods.jei.JEI;
+
+JEI.removeAndHide(<morecompressedblocks:unknown>);
+JEI.removeAndHide(<valkyrielib:modifier_component>);
+JEI.removeAndHide(<extrautils2:passivegenerator:2>);
+JEI.removeAndHide(<extrautils2:passivegenerator:4>);
+JEI.removeAndHide(<extrautils2:passivegenerator:5>);
+JEI.removeAndHide(<extrautils2:teleporter:1>);
+JEI.removeAndHide(<bedrockminer:bedrock_chunk>);
+JEI.removeAndHide(<aeadditions:terminal.universal.wireless>);
+JEI.removeAndHide(<aeadditions:terminal.fluid.wireless>);
+JEI.removeAndHide(<environmentaltech:structure_panel_clear>);
+JEI.removeAndHide(<solarenergy:ingotlead>);
+JEI.removeAndHide(<solarenergy:basic_solar_cell>);
+JEI.removeAndHide(<solarenergy:basic_solar_generator>);
+JEI.removeAndHide(<solarenergy:regular_solar_cell>);
+JEI.removeAndHide(<solarenergy:regular_solar_generator>);
+JEI.removeAndHide(<solarenergy:intermediate_solar_cell>);
+JEI.removeAndHide(<solarenergy:intermediate_solar_generator>);
+JEI.removeAndHide(<solarenergy:advanced_solar_cell>);
+JEI.removeAndHide(<solarenergy:advanced_solar_generator>);
+JEI.removeAndHide(<solarenergy:elite_solar_cell>);
+JEI.removeAndHide(<solarenergy:elite_solar_generator>);
+JEI.removeAndHide(<solarenergy:ultimate_solar_cell>);
+JEI.removeAndHide(<solarenergy:ultimate_solar_generator>);
+JEI.removeAndHide(<minecraft:wooden_axe>);

@@ -1,0 +1,7 @@
+{
+	title: "The journey continues...",
+	icon: "compactmachines3:psd",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

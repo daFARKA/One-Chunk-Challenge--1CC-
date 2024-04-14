@@ -1,0 +1,15 @@
+{
+	title: "Nerd Knowledge",
+	x: 2.0d,
+	y: 1.5d,
+	text: [
+		"If you want to know the composition of the island you are on.",
+		"",
+		"//set 60%minecraft:stone,0.5%minecraft:diamond_ore,9.5%minecraft:redstone_ore,10%minecraft:iron_ore,10%thermalfoundation:ore:0,10%minecraft:coal_ore"
+	],
+	optional: true,
+	tasks: [{
+		uid: "113731a3",
+		type: "checkmark"
+	}]
+}

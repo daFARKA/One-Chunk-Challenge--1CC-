@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: -12.5d,
+	shape: "square",
+	dependencies: [
+		"7752f2f2"
+	],
+	tasks: [{
+		uid: "0a08fd64",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_unit"
+		}]
+	},
+	{
+		uid: "c86b4f3a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_accelerator"
+		}]
+	},
+	{
+		uid: "ff25fcc6",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:molecular_assembler"
+		}]
+	}]
+}

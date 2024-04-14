@@ -1,0 +1,20 @@
+{
+	title: "Compact Machines Automation",
+	x: 1.0d,
+	y: -6.0d,
+	text: [
+		"You can set your entry point to a Compact Machine by sneak right clicking while being in said compact machine with the \"Personal Shrinking Device\".",
+		"",
+		"Make use of the mods \"Flux Networks\" and \"EnderStorage\" to transfer power, items and fluids wirelessly.",
+		"",
+		"You can also use Tunnels from Compact Machines."
+	],
+	dependencies: [
+		"26e8d574",
+		"3246dfbc"
+	],
+	tasks: [{
+		uid: "497a84ab",
+		type: "checkmark"
+	}]
+}

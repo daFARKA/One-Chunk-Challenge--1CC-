@@ -1,0 +1,62 @@
+{
+	title: "Workbench Tier 2",
+	icon: "modularmachinery:blockcontroller",
+	x: 7.0d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"06d1f688"
+	],
+	tasks: [{
+		uid: "f6631862",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "1b322837",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}],
+		count: 2L
+	},
+	{
+		uid: "a3f05cf8",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 1"
+		}]
+	},
+	{
+		uid: "92d11962",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 1"
+		}]
+	},
+	{
+		uid: "5acb1bc3",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 1"
+		}]
+	},
+	{
+		uid: "93583da6",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_1"
+		}]
+	},
+	{
+		uid: "7749bbc5",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_2"
+		}]
+	}]
+}

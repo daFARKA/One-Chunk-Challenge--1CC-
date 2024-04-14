@@ -1,0 +1,13 @@
+{
+	title: "Inaccuracies",
+	x: 2.0d,
+	y: 3.0d,
+	text: [
+		"I excuse myself for inaccuracies to the real world, when it comes to the materials.",
+		"Whether it is their color, shape, composition, etc. I'm no expert on the matter and tried to make a fun and interesting modpack."
+	],
+	tasks: [{
+		uid: "7a04241e",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	title: "Rock Crusher 1x Cobble Output",
+	x: 2.0d,
+	y: -5.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"d84df1ac"
+	],
+	tasks: [{
+		uid: "81c057bf",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material"
+		}]
+	},
+	{
+		uid: "0c406a7a",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 64"
+		}]
+	},
+	{
+		uid: "fa2689da",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 65"
+		}]
+	},
+	{
+		uid: "08d0eb44",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "3fbedb12",
+		type: "item",
+		item: "minecraft:glass",
+		count: 32
+	}]
+}

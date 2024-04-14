@@ -1,0 +1,18 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	dependencies: [
+		"0c7affed"
+	],
+	dependency_requirement: "all_started",
+	optional: true,
+	tasks: [{
+		uid: "20214bda",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:tool.hammer_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

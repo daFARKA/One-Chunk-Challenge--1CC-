@@ -1,0 +1,15 @@
+{
+	x: 4.0d,
+	y: -4.0d,
+	dependencies: [
+		"bd6614ec",
+		"717cb23e"
+	],
+	tasks: [{
+		uid: "ce4a4d27",
+		type: "item",
+		items: [{
+			item: "contenttweaker:amalgamation_block"
+		}]
+	}]
+}

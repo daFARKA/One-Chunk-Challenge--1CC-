@@ -1,0 +1,33 @@
+{
+	title: "Early Game Item/Energy Transfer",
+	x: 2.0d,
+	y: -7.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"154576eb"
+	],
+	optional: true,
+	tasks: [{
+		uid: "fec43c8b",
+		type: "item",
+		items: [{
+			item: "extrautils2:grocket"
+		}]
+	},
+	{
+		uid: "f0461bef",
+		type: "item",
+		items: [{
+			item: "extrautils2:pipe"
+		}]
+	},
+	{
+		uid: "e73f2fd6",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_0"
+		}]
+	}]
+}

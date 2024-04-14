@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: -8.0d,
+	dependencies: [
+		"154576eb"
+	],
+	tasks: [{
+		uid: "d8d109f6",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedgravel"
+		}]
+	}]
+}

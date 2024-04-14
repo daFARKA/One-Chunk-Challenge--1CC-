@@ -1,0 +1,33 @@
+{
+	title: "Conduits",
+	x: 3.0d,
+	y: -6.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"30173124"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a426358a",
+		type: "item",
+		items: [{
+			item: "enderio:item_item_conduit"
+		}]
+	},
+	{
+		uid: "1984144e",
+		type: "item",
+		items: [{
+			item: "enderio:item_power_conduit 1 2"
+		}]
+	},
+	{
+		uid: "7d310682",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit 1 2"
+		}]
+	}]
+}

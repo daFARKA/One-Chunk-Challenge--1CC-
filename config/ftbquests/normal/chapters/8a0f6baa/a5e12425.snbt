@@ -1,0 +1,65 @@
+{
+	title: "Electrolyzer",
+	icon: "modularmachinery:blockcontroller",
+	x: 2.0d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"734b7500"
+	],
+	tasks: [{
+		uid: "bd8b1eb2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "9251ee64",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidoutputhatch"
+		}],
+		count: 5L
+	},
+	{
+		uid: "d1a1c1f9",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch"
+		}]
+	},
+	{
+		uid: "7a6d2832",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch"
+		}]
+	},
+	{
+		uid: "18b455cd",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}],
+		count: 8L
+	},
+	{
+		uid: "c83a718b",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:storage 1 6"
+		}],
+		count: 2L
+	},
+	{
+		uid: "c3298b23",
+		type: "item",
+		items: [{
+			item: "enderio:block_fused_quartz"
+		}],
+		count: 2L
+	}]
+}

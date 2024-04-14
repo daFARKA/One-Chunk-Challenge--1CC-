@@ -1,0 +1,17 @@
+{
+	title: "Solar Power",
+	x: -1.5d,
+	y: 0.5d,
+	text: [
+		"In this chunk you can build exactly one Tier 6 Solar Panel. ",
+		"Additionally Solar Panels don't work in Compact Machines so this is truly the only one you are going to build."
+	],
+	dependencies: [
+		"c86b4fca"
+	],
+	tasks: [{
+		uid: "0c91ff65",
+		type: "checkmark",
+		icon: "environmentaltech:solar_cont_1"
+	}]
+}

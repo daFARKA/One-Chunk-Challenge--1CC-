@@ -1,0 +1,25 @@
+{
+	title: "SAG Mill / Alloy Smelter",
+	x: 5.0d,
+	y: -4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"d32b5081"
+	],
+	tasks: [{
+		uid: "4fb72853",
+		type: "item",
+		items: [{
+			item: "enderio:block_sag_mill"
+		}]
+	},
+	{
+		uid: "60086fa2",
+		type: "item",
+		items: [{
+			item: "enderio:block_alloy_smelter"
+		}]
+	}]
+}

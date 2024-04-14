@@ -1,0 +1,17 @@
+{
+	x: 8.010204081632637d,
+	y: -16.469047619047632d,
+	shape: "square",
+	dependencies: [
+		"3e1d3b3d",
+		"6f515192"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "30c36d7f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:factorycore_block"
+		}]
+	}]
+}

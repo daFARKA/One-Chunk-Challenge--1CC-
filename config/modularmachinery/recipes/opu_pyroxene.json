@@ -1,0 +1,124 @@
+{
+    "machine": "ore_processing_unit",
+    "registryName": "opu_pyroxene",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 4096
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "contenttweaker:material_part@55",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@0",
+            "amount": 1,
+            "chance": 0.1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:material_part@105",
+            "amount": 1,
+            "chance": 0.5
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:material_part@97",
+            "amount": 1,
+            "chance": 0.5
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:material_part@65",
+            "amount": 1,
+            "chance": 0.3
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:material_part@137",
+            "amount": 1,
+            "chance": 0.1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:material_part@73",
+            "amount": 1,
+            "chance": 0.15
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:material_part@89",
+            "amount": 1,
+            "chance": 0.1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:material_part@129",
+            "amount": 1,
+            "chance": 0.05
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@68",
+            "amount": 1,
+            "chance": 0.05
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:material_part@145",
+            "amount": 1,
+            "chance": 0.05
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:material_part@81",
+            "amount": 1,
+            "chance": 0.05
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:material_part@31",
+            "amount": 1,
+            "chance": 0.05
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:material_part@39",
+            "amount": 1,
+            "chance": 0.05
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "appliedenergistics2:material@5",
+            "amount": 1,
+            "chance": 1
+        },
+        {
+            "type": "modularmachinery:fluid",
+            "io-type": "output",
+            "nbt": { "FluidName": "oxygen"},
+            "fluid": "oxygen",
+            "amount": 200,
+            "chance": 0.5
+        }
+    ]
+}

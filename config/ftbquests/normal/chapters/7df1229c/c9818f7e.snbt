@@ -1,0 +1,22 @@
+{
+	x: 0.5d,
+	y: 2.0d,
+	shape: "square",
+	dependencies: [
+		"c86b4fca"
+	],
+	tasks: [{
+		uid: "2e9357d7",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxplug"
+		}]
+	},
+	{
+		uid: "57c82bf3",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxpoint"
+		}]
+	}]
+}

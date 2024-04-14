@@ -1,0 +1,40 @@
+{
+	title: "Tier 5 Ores",
+	x: 2.0d,
+	y: -8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"1e454dc8",
+		"dac7b6e9"
+	],
+	tasks: [{
+		uid: "80f64166",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 173"
+		}]
+	},
+	{
+		uid: "713a9790",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 175"
+		}]
+	},
+	{
+		uid: "bee2ea67",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 55"
+		}]
+	},
+	{
+		uid: "4c5e2fbb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 201"
+		}]
+	}]
+}

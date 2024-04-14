@@ -1,0 +1,15 @@
+{
+	x: 0.5d,
+	y: -2.0d,
+	shape: "square",
+	dependencies: [
+		"376d7156"
+	],
+	tasks: [{
+		uid: "02ea7720",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_4"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 6.0d,
+	y: -10.5d,
+	shape: "gear",
+	dependencies: [
+		"489f8433",
+		"7c3d67eb"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "bb7b30a8",
+		type: "item",
+		items: [{
+			item: "compactmachines3:machine 1 5"
+		}]
+	}]
+}

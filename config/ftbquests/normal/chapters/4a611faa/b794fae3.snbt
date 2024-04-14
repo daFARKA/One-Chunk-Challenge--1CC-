@@ -1,0 +1,45 @@
+{
+	title: "Rock Crusher 1x Gravel Output",
+	x: 2.0d,
+	y: -8.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"8690e47e"
+	],
+	tasks: [{
+		uid: "d76274d5",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 4"
+		}]
+	},
+	{
+		uid: "b9cf409f",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	},
+	{
+		uid: "e26e47f3",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}]
+	},
+	{
+		uid: "2f8eda5d",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		}]
+	}],
+	rewards: [{
+		uid: "c70ee976",
+		type: "item",
+		item: "minecraft:coal",
+		count: 64
+	}]
+}

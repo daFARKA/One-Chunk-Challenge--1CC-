@@ -412,12 +412,6 @@ cobblegenCobble6xRecipe.addItemInput(<extrautils2:compressedcobblestone:3>);
 cobblegenCobble6xRecipe.addItemOutput(<extrautils2:compressedcobblestone:5>);
 cobblegenCobble6xRecipe.build();
 
-var cobblegenCobble7xRecipe = RecipeBuilder.newBuilder("cobblegenCobble7xRecipe", "cobble_gen", 20);
-cobblegenCobble7xRecipe.addEnergyPerTickInput(144000);
-cobblegenCobble7xRecipe.addItemInput(<extrautils2:compressedcobblestone:4>);
-cobblegenCobble7xRecipe.addItemOutput(<extrautils2:compressedcobblestone:6>);
-cobblegenCobble7xRecipe.build();
-
 var cobblegenNetherrack1xRecipe = RecipeBuilder.newBuilder("cobblegenNetherrack1xRecipe", "cobble_gen", 20);
 cobblegenNetherrack1xRecipe.addEnergyPerTickInput(1024);
 cobblegenNetherrack1xRecipe.addItemInput(<minecraft:redstone>);

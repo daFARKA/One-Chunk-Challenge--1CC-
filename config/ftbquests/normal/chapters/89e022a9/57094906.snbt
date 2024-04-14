@@ -1,0 +1,16 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	dependencies: [
+		"f75c9acd"
+	],
+	tasks: [{
+		uid: "f2e1019c",
+		type: "item",
+		items: [{
+			item: "compactmachines3:psd"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

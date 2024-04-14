@@ -1,0 +1,30 @@
+{
+    "machine": "compactmachines_crafter",
+    "registryName": "compactmachines_crafter_wall",
+    "recipeTime": 1600,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 100
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "contenttweaker:modularium_block",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:redstone_block",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "compactmachines3:wallbreakable",
+            "amount": 8
+        }
+    ]
+}

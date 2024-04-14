@@ -1,0 +1,46 @@
+{
+    "machine": "rock_crusher",
+    "registryName": "rock_crusher_1xsand",
+    "recipeTime": 1500,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 5
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "extrautils2:compressedsand@0",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:redstone",
+            "amount": 4,
+            "chance": 0.75
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@66",
+            "amount": 1,
+            "chance": 0.25
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@67",
+            "amount": 1,
+            "chance": 0.25
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "thermalfoundation:material@68",
+            "amount": 1,
+            "chance": 0.25
+        }
+    ]
+}

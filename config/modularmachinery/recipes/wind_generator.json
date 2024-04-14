@@ -1,0 +1,12 @@
+{
+    "machine": "wind_generator",
+    "registryName": "wind_generator",
+    "recipeTime": 1200,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "output",
+            "energyPerTick": 512
+        }
+    ]
+}

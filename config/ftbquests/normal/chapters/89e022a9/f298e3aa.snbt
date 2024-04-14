@@ -1,0 +1,15 @@
+{
+	x: 5.0d,
+	y: -6.0d,
+	dependencies: [
+		"30173124"
+	],
+	tasks: [{
+		uid: "cebe6270",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:flux"
+		}],
+		count: 64L
+	}]
+}

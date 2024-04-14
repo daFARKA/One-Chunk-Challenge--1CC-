@@ -1,0 +1,72 @@
+{
+	title: "Workbench Tier 3",
+	icon: "modularmachinery:blockcontroller",
+	x: 7.0d,
+	y: -2.0d,
+	shape: "square",
+	text: [
+		""
+	],
+	dependencies: [
+		"ffceee4e",
+		"30173124"
+	],
+	tasks: [{
+		uid: "546b7f61",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "98de099c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}],
+		count: 19L
+	},
+	{
+		uid: "e63f4512",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 1"
+		}]
+	},
+	{
+		uid: "91cace0f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 1"
+		}]
+	},
+	{
+		uid: "5d744cfa",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 1"
+		}]
+	},
+	{
+		uid: "fac73eda",
+		type: "item",
+		items: [{
+			item: "enderio:block_alloy_smelter"
+		}]
+	},
+	{
+		uid: "2769df0e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 4"
+		}],
+		count: 2L
+	},
+	{
+		uid: "75893490",
+		type: "item",
+		items: [{
+			item: "enderio:block_fused_quartz"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -4.5d,
+	y: -3.0d,
+	dependencies: [
+		"bb382a0d"
+	],
+	tasks: [{
+		uid: "cc017bbb",
+		type: "item",
+		items: [{
+			id: "wct:wct",
+			tag: {
+				InfinityEnergy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

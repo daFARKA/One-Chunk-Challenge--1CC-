@@ -1,0 +1,42 @@
+{
+    "machine": "workbench2",
+    "registryName": "workbench2_structureframe4",
+    "recipeTime": 480,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 256
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "environmentaltech:structure_frame_3",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:quartz",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "minecraft:emerald",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "environmentaltech:pladium_crystal",
+            "amount": 2
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "environmentaltech:structure_frame_4",
+            "amount": 1
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+	title: "First Nuclear Reactor",
+	icon: "modularmachinery:blockcontroller",
+	x: 2.5d,
+	y: -2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"08994250",
+		"d935b6db"
+	],
+	tasks: [{
+		uid: "c9406af5",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "bfa353c3",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}],
+		count: 124L
+	},
+	{
+		uid: "89f3b7e8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:reactorcasing_block"
+		}],
+		count: 64L
+	},
+	{
+		uid: "ff1b4c6c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:reactorfuelrod_block"
+		}],
+		count: 30L
+	},
+	{
+		uid: "348d961d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 5"
+		}]
+	},
+	{
+		uid: "4a8ed34a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 5"
+		}]
+	},
+	{
+		uid: "481f82ad",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch 1 5"
+		}]
+	},
+	{
+		uid: "5a88b1df",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidoutputhatch 1 5"
+		}]
+	},
+	{
+		uid: "b83a3c00",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyoutputhatch 1 5"
+		}]
+	}]
+}

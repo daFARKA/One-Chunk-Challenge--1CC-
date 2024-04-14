@@ -1,0 +1,16 @@
+{
+	x: 2.0d,
+	y: -4.5d,
+	dependencies: [
+		"7d5f2ceb",
+		"50c5e157",
+		"82b6466d"
+	],
+	tasks: [{
+		uid: "45cc761d",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_5"
+		}]
+	}]
+}

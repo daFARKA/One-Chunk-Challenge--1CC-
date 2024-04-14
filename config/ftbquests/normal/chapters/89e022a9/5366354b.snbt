@@ -1,0 +1,26 @@
+{
+	title: "Miniaturization Field Projector Crafts",
+	x: -1.0d,
+	y: -4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"c1cf53fb"
+	],
+	tasks: [{
+		uid: "b30cab21",
+		type: "item",
+		items: [{
+			item: "compactmachines3:wallbreakable"
+		}],
+		count: 4L
+	},
+	{
+		uid: "70349b0d",
+		type: "item",
+		items: [{
+			item: "enderio:block_infinity"
+		}]
+	}]
+}

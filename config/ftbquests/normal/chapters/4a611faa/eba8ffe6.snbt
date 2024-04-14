@@ -1,0 +1,15 @@
+{
+	title: "So it begins.",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"In this pack you are trapped in the overworld in one chunk (technically 15x15).",
+		"The nether should be disabled, entering it is not intended, same goes for the end.",
+		"Additionally it is always sunny here and this pack can be played entirely in Peaceful."
+	],
+	tasks: [{
+		uid: "42a139ab",
+		type: "checkmark",
+		title: "Introduction"
+	}]
+}

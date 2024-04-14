@@ -1,0 +1,54 @@
+{
+	title: "Dye Factory",
+	icon: "modularmachinery:blockcontroller",
+	x: 5.0d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ffceee4e"
+	],
+	tasks: [{
+		uid: "10ae3595",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "cb1c9bb0",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}],
+		count: 4L
+	},
+	{
+		uid: "af2ceb3e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	},
+	{
+		uid: "3039511a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "01537665",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch"
+		}]
+	}],
+	rewards: [{
+		uid: "44b685e3",
+		type: "item",
+		item: "minecraft:dye 1 3",
+		count: 16
+	}]
+}

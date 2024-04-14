@@ -1,0 +1,17 @@
+{
+	x: -3.0d,
+	y: -3.0d,
+	dependencies: [
+		"f9b2995b"
+	],
+	tasks: [{
+		uid: "ce9b6a63",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_terminal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

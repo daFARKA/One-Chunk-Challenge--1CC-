@@ -1,0 +1,16 @@
+{
+	x: 2.0d,
+	y: -10.5d,
+	shape: "square",
+	dependencies: [
+		"98c1e76d",
+		"24432605"
+	],
+	tasks: [{
+		uid: "bf33371d",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_pearl"
+		}]
+	}]
+}

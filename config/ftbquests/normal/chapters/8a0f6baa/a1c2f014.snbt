@@ -1,0 +1,64 @@
+{
+	title: "Alloy Smelter",
+	icon: "modularmachinery:blockcontroller",
+	x: 4.0d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"734b7500"
+	],
+	tasks: [{
+		uid: "9a459b68",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "9fa6574a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 4"
+		}],
+		count: 16L
+	},
+	{
+		uid: "61da6d23",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}],
+		count: 2L
+	},
+	{
+		uid: "5453e4aa",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch"
+		}]
+	},
+	{
+		uid: "bb233f97",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch"
+		}]
+	},
+	{
+		uid: "f774ab50",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "3b634d31",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:storage_alloy"
+		}],
+		count: 4L
+	}]
+}

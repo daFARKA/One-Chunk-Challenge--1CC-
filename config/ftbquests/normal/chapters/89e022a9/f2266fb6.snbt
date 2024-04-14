@@ -1,0 +1,63 @@
+{
+	title: "Green House",
+	icon: "modularmachinery:blockcontroller",
+	x: 5.0d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ffceee4e"
+	],
+	tasks: [{
+		uid: "307bdefd",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "3153b53c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}],
+		count: 5L
+	},
+	{
+		uid: "67eb02af",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	},
+	{
+		uid: "945d3804",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "70a44cda",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch"
+		}]
+	},
+	{
+		uid: "652a4a23",
+		type: "item",
+		items: [{
+			item: "minecraft:stained_glass 1 5"
+		}],
+		count: 4L
+	},
+	{
+		uid: "1ebc31dc",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}]
+	}]
+}

@@ -1,0 +1,67 @@
+{
+    "machine": "ore_processing_unit",
+    "registryName": "opu_rareearth",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "modularmachinery:energy",
+            "io-type": "input",
+            "energyPerTick": 8192
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "input",
+            "item": "contenttweaker:material_part@25",
+            "amount": 1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:material_part@227",
+            "amount": 1,
+            "chance": 0.1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:material_part@246",
+            "amount": 1,
+            "chance": 0.1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:material_part@234",
+            "amount": 1,
+            "chance": 0.1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:material_part@242",
+            "amount": 1,
+            "chance": 0.1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:material_part@13",
+            "amount": 1,
+            "chance": 0.1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:material_part@5",
+            "amount": 1,
+            "chance": 0.1
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "contenttweaker:material_part@249",
+            "amount": 1,
+            "chance": 0.01
+        }
+    ]
+}
