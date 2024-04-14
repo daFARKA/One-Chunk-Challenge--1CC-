@@ -124,6 +124,12 @@
 - [x] Add coal as quest reward.
 - [x] Add silver/aluminum as quest reward.
 
+#### 0.1.3.1
+
+- [x] Void ore miner t1 and t2 have decreased rf/t requirements.
+- [x] Added the mod "Fast Leaf Decay".
+- [x] Added the mod "FastFlyBlockBreaking".
+
 ###
 
 - [ ] 
