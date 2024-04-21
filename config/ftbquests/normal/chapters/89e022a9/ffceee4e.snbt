@@ -35,7 +35,7 @@
 		uid: "92d11962",
 		type: "item",
 		items: [{
-			item: "modularmachinery:blockoutputbus 1 1"
+			item: "modularmachinery:blockoutputbus"
 		}]
 	},
 	{

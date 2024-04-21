@@ -1,0 +1,47 @@
+{
+	title: "How to get clay?",
+	x: -3.0d,
+	y: -7.0d,
+	text: [
+		"You can mix sand+cobblestone in the Induction Smelter to get 100% slag.",
+		"With this slag you can craft clay balls with a water bucket and some dirt."
+	],
+	dependencies: [
+		"a675a649"
+	],
+	tasks: [{
+		uid: "72140895",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 864"
+		}]
+	},
+	{
+		uid: "d445f0c5",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball"
+		}]
+	},
+	{
+		uid: "92f09a6e",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}]
+	},
+	{
+		uid: "668e45d0",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}]
+	},
+	{
+		uid: "0ca5ca90",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:sink"
+		}]
+	}]
+}

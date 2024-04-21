@@ -35,14 +35,14 @@
 		uid: "945d3804",
 		type: "item",
 		items: [{
-			item: "modularmachinery:blockoutputbus"
+			item: "modularmachinery:blockoutputbus 1 1"
 		}]
 	},
 	{
 		uid: "70a44cda",
 		type: "item",
 		items: [{
-			item: "modularmachinery:blockfluidinputhatch"
+			item: "modularmachinery:blockfluidinputhatch 1 2"
 		}]
 	},
 	{

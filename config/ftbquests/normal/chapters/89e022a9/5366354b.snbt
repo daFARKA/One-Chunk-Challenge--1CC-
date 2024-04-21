@@ -22,5 +22,16 @@
 		items: [{
 			item: "enderio:block_infinity"
 		}]
+	}],
+	rewards: [{
+		uid: "12669fc6",
+		type: "item",
+		item: "compactmachines3:wallbreakable",
+		count: 4
+	},
+	{
+		uid: "82aa612c",
+		type: "item",
+		item: "enderio:block_infinity"
 	}]
 }

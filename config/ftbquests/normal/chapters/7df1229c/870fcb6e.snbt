@@ -2,14 +2,14 @@
 	title: "Wind Mill",
 	icon: "modularmachinery:blockcontroller",
 	x: 0.5d,
-	y: -2.5d,
+	y: -1.0d,
 	text: [
 		"This is a very poweful multiblock. The wind mill consumes nothing and produces completely passive 512 RF/t.",
 		"Additionally, it can be placed within a Compact Machine."
 	],
 	dependencies: [
 		"32b158dc",
-		"540379f5"
+		"c86b4fca"
 	],
 	tasks: [{
 		uid: "a26bc3e8",

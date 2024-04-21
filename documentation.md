@@ -130,7 +130,18 @@
 - [x] Added the mod "Fast Leaf Decay".
 - [x] Added the mod "FastFlyBlockBreaking".
 
-###
+### 0.1.4
+
+- [x] Add hint to quest on how to get clay before void resource miner.
+- [x] Remove the custom coal generator.
+- [x] Add quest reward for crafting compact machine wall and infinity dust block.
+- [x] Add quest dependency to the flux plug/point quest for flux.
+- [x] Quest requirements for simple machine chassis changed.
+- [x] Add recipe to EnderIO sag mill: 1 Compressed Sand -> 5 Silicon
+- [x] Workbench Tier 2 Quest swap small to tiny output
+- [x] Green House Quest swapped tiny to small output and tiny to normal input fluid hatch.
+
+### 
 
 - [ ] 
 
@@ -139,3 +150,4 @@
 ## Unsure Adjustments
 
 - [ ] Adjust the composition of the island.
+- [ ] Replace coal block in the recipe for structure frame tier 1 with a custom block made out of coal and copper.
