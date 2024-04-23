@@ -37,7 +37,7 @@
 		uid: "91cace0f",
 		type: "item",
 		items: [{
-			item: "modularmachinery:blockoutputbus 1 1"
+			item: "modularmachinery:blockoutputbus"
 		}]
 	},
 	{

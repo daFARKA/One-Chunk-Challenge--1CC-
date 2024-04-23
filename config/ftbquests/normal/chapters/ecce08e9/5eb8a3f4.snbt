@@ -11,13 +11,6 @@
 		"e448e0a9"
 	],
 	tasks: [{
-		uid: "9cb8d508",
-		type: "item",
-		items: [{
-			item: "appliedenergistics2:material 1 23"
-		}]
-	},
-	{
 		uid: "613ba537",
 		type: "item",
 		items: [{

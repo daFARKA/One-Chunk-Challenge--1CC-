@@ -138,16 +138,29 @@
 - [x] Add quest dependency to the flux plug/point quest for flux.
 - [x] Quest requirements for simple machine chassis changed.
 - [x] Add recipe to EnderIO sag mill: 1 Compressed Sand -> 5 Silicon
-- [x] Workbench Tier 2 Quest swap small to tiny output
+- [x] Workbench Tier 2 Quest swap small to tiny output.
 - [x] Green House Quest swapped tiny to small output and tiny to normal input fluid hatch.
+
+### 0.1.5
+
+- [x] Removed Quartz Dust to Silicon furnace recipe.
+- [x] Reinforced Machine Casing can now be crafted in the Workbench Tier 3.
+- [x] Removed the Stone Hammer from Tiny Progression.
+- [x] Workbench Tier 3 Quest swap small to tiny output.
+- [x] Add Infinity Booster Card recipe.
+- [x] Added the mod "Extra CPUs".
+- [x] Removed Calculation Press and Processor from quests, so they don't lock you out anymore.
+- [x] Replace coal block in the recipe for interconnects with a custom block (Interconnect Structure Casing) made out of coal and copper. (Crafted in the Workbench Tier 1) (thus coal output from Rock Crusher has been nerfed)
+- [x] Workbench Tier 1 can now only be constructed with a small input and tiny output bus.
 
 ### 
 
-- [ ] 
+- [ ]
 
 <div style="page-break-after: always;"></div>
 
 ## Unsure Adjustments
 
 - [ ] Adjust the composition of the island.
-- [ ] Replace coal block in the recipe for structure frame tier 1 with a custom block made out of coal and copper.
+- [ ] Remove the easy dark steel recipe in the alloy smelter.
+- [ ] Add recipe for erodium.

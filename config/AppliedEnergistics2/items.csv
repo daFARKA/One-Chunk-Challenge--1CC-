@@ -4212,6 +4212,10 @@ cookingforblockheads:heating_unit, Heating Unit
 cookingforblockheads:ice_unit, Ice Unit
 cookingforblockheads:preservation_chamber, Preservation Chamber
 craftingstation:crafting_station, Crafting Station
+extracpus:crafting_storage_256k, 256k Crafting Storage
+extracpus:crafting_storage_1024k, 1024k Crafting Storage
+extracpus:crafting_storage_4096k, 4096k Crafting Storage
+extracpus:crafting_storage_16384k, 16384k Crafting Storage
 fluxnetworks:flux, Flux
 fluxnetworks:fluxcore, Flux Core
 fluxnetworks:fluxconfigurator, Flux Configurator

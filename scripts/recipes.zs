@@ -1,6 +1,9 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+furnace.remove(<appliedenergistics2:material:5>, <enderio:item_material:33>);
+furnace.remove(<appliedenergistics2:material:5>, <appliedenergistics2:material:2>);
+furnace.remove(<appliedenergistics2:material:5>, <appliedenergistics2:material:3>);
 recipes.remove(<solarenergy:energy_cable>);
 recipes.remove(<solarenergy:energy_assembler>);
 recipes.remove(<solarenergy:basic_energy_core>);
@@ -106,7 +109,7 @@ recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator"})
 recipes.addShaped(<environmentaltech:structure_panel>, [[<thermalfoundation:material:130>, <minecraft:iron_bars>, <thermalfoundation:material:130>],[<minecraft:iron_bars>, <environmentaltech:connector>, <minecraft:iron_bars>], [<thermalfoundation:material:132>, <minecraft:iron_bars>, <thermalfoundation:material:132>]]);
 recipes.addShaped(<environmentaltech:laser_core>, [[<thermalfoundation:material:131>, <minecraft:glass>, <thermalfoundation:material:131>],[<environmentaltech:connector>, <minecraft:glass>, <environmentaltech:connector>], [<thermalfoundation:material:131>, <minecraft:glass>, <thermalfoundation:material:131>]]);
 recipes.addShaped(<thermalexpansion:machine:6>, [[null, <thermalfoundation:glass:3>, null],[<minecraft:coal_block>, <thermalexpansion:frame>, <minecraft:coal_block>], [<thermalfoundation:material:256>, <thermalfoundation:material:513>, <thermalfoundation:material:256>]]);
-recipes.addShaped(<environmentaltech:interconnect>, [[null, <environmentaltech:connector>, null],[<environmentaltech:connector>, <minecraft:coal_block>, <environmentaltech:connector>], [null, <environmentaltech:connector>, null]]);
+recipes.addShaped(<environmentaltech:interconnect>, [[null, <environmentaltech:connector>, null],[<environmentaltech:connector>, <contenttweaker:interconnectstructure_block>, <environmentaltech:connector>], [null, <environmentaltech:connector>, null]]);
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch>, [[null, <minecraft:bucket>, null],[<tp:redstone_ingot>, <minecraft:iron_block>, <tp:redstone_ingot>], [null, <minecraft:hopper>, null]]);
 recipes.addShaped(<modularmachinery:blockfluidinputhatch>, [[null, <minecraft:hopper>, null],[<tp:redstone_ingot>, <minecraft:iron_block>, <tp:redstone_ingot>], [null, <minecraft:bucket>, null]]);
 recipes.addShaped(<modularmachinery:blockoutputbus:1>, [[<minecraft:chest>, <tp:redstone_ingot>, <minecraft:chest>],[<tp:redstone_ingot>, <modularmachinery:blockoutputbus>, <tp:redstone_ingot>], [null, <minecraft:hopper>, null]]);

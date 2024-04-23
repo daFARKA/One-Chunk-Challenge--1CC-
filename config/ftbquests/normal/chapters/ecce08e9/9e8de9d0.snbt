@@ -21,5 +21,12 @@
 		items: [{
 			item: "appliedenergistics2:material 1 12"
 		}]
+	},
+	{
+		uid: "a5848c76",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 23"
+		}]
 	}]
 }

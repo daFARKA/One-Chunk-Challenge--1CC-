@@ -1,6 +1,10 @@
 {
 	x: -6.0d,
 	y: -3.0d,
+	description: "You only need to craft 1 of these, because they have infinite durability.",
+	text: [
+		""
+	],
 	dependencies: [
 		"594396d6"
 	],

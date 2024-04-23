@@ -24,3 +24,5 @@ JEI.removeAndHide(<solarenergy:elite_solar_generator>);
 JEI.removeAndHide(<solarenergy:ultimate_solar_cell>);
 JEI.removeAndHide(<solarenergy:ultimate_solar_generator>);
 JEI.removeAndHide(<minecraft:wooden_axe>);
+JEI.removeAndHide(<tp:stone_hammer>);
+JEI.removeAndHide(<appliedenergistics2:material:42>);

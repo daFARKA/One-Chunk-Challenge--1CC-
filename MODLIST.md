@@ -48,6 +48,7 @@
 * CB Multipart (by covers1624)
 * WorldEdit (by sk89q)
 * Modular Machinery (by HellFirePvP)
+* Extra CPUs (by Relentless)
 * MTLib (by Jaredlll08)
 * Inventory Sorter (by cpw)
 * Storage Drawers (by Texelsaur)

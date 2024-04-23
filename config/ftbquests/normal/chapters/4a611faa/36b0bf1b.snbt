@@ -14,5 +14,10 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "11e114e2",
+		type: "item",
+		item: "thermalfoundation:tool.hammer_diamond"
 	}]
 }

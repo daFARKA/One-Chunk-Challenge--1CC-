@@ -25,7 +25,7 @@
             "type": "modularmachinery:item",
             "io-type": "output",
             "item": "minecraft:coal",
-            "amount": 12,
+            "amount": 9,
             "chance": 0.75
         },
         {

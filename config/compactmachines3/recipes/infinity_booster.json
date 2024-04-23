@@ -1,0 +1,34 @@
+{
+  "name": "infinity_booster",
+  "disabled": false,
+  "target-item": "ae2wtlib:infinity_booster_card",
+  "target-count": 1,
+
+  "duration": 480,
+
+  "catalyst": "minecraft:ender_pearl",
+
+  "input-types": {
+    "i": { "id": "enderio:block_infinity", "meta": 2 },
+    "f": { "id": "appliedenergistics2:fluix_block"}
+  },
+
+  "symmetrical": true,
+  "shape": [
+    [
+      ["i","i","i"],
+      ["i","i","i"],
+      ["i","i","i"]
+    ],
+    [
+      ["f","f","f"],
+      ["f","f","f"],
+      ["f","f","f"]
+    ],
+    [
+      ["i","i","i"],
+      ["i","i","i"],
+      ["i","i","i"]
+    ]
+  ]
+}

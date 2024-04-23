@@ -14,6 +14,13 @@
 		type: "item",
 		items: [{
 			item: "appliedenergistics2:part 1 460"
-		}]
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "2134f46c",
+		type: "item",
+		item: "appliedenergistics2:part 1 460",
+		count: 8
 	}]
 }

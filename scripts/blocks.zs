@@ -38,3 +38,6 @@ factoryCoreBlock.register();
 
 var commonDustsBlock = VanillaFactory.createBlock("commondusts_block", <blockmaterial:iron>);
 commonDustsBlock.register();
+
+var interconnectStructureBlock = VanillaFactory.createBlock("interconnectstructure_block", <blockmaterial:iron>);
+interconnectStructureBlock.register();

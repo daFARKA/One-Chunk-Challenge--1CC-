@@ -1,7 +1,7 @@
 {
 	icon: "environmentaltech:void_ore_miner_cont_1",
 	x: 4.0d,
-	y: -8.5d,
+	y: -8.535714285714285d,
 	shape: "square",
 	dependencies: [
 		"4ad61c20",

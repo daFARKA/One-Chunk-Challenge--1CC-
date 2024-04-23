@@ -116,7 +116,15 @@ alloysmelterMagnesiumLithiumRecipe.addItemOutput(<contenttweaker:material_part:2
 alloysmelterMagnesiumLithiumRecipe.build();
 
 
-//Workbench Tier 3
+// Workbench Tier 1
+var workbench1InterconnectStructureRecipe = RecipeBuilder.newBuilder("workbench1InterconnectStructureRecipe", "workbench1", 300);
+workbench1InterconnectStructureRecipe.addItemInput(<minecraft:coal> * 4);
+workbench1InterconnectStructureRecipe.addItemInput(<thermalfoundation:material:128> * 4);
+workbench1InterconnectStructureRecipe.addItemOutput(<contenttweaker:interconnectstructure_block>);
+workbench1InterconnectStructureRecipe.build();
+
+
+// Workbench Tier 3
 var workbench3Workbench4CasingRecipe = RecipeBuilder.newBuilder("workbench3Workbench4CasingRecipe", "workbench3", 320);
 workbench3Workbench4CasingRecipe.addEnergyPerTickInput(248);
 workbench3Workbench4CasingRecipe.addItemInput(<contenttweaker:material_part:149> * 8);
@@ -140,8 +148,15 @@ workbench3GrainsRecipe.addItemInput(<enderio:item_alloy_ingot:3>);
 workbench3GrainsRecipe.addItemOutput(<enderio:item_material:20> * 16);
 workbench3GrainsRecipe.build();
 
+var workbench3ReinforcedCasingRecipe = RecipeBuilder.newBuilder("workbench3ReinforcedCasingRecipe", "workbench3", 200);
+workbench3ReinforcedCasingRecipe.addEnergyPerTickInput(512);
+workbench3ReinforcedCasingRecipe.addItemInput(<modularmachinery:blockcasing:0> * 4);
+workbench3ReinforcedCasingRecipe.addItemInput(<enderio:item_alloy_ingot:6> * 4);
+workbench3ReinforcedCasingRecipe.addItemOutput(<modularmachinery:blockcasing:4> * 2);
+workbench3ReinforcedCasingRecipe.build();
 
-//Workbench Tier 4
+
+// Workbench Tier 4
 var workbench4ModulariumRecipe = RecipeBuilder.newBuilder("workbench4ModulariumRecipe", "workbench4", 480);
 workbench4ModulariumRecipe.addEnergyPerTickInput(1024);
 workbench4ModulariumRecipe.addItemInput(<contenttweaker:material_part:151> * 9);
@@ -188,7 +203,7 @@ workbench4CommonDustsRecipe.addItemOutput(<contenttweaker:commondusts_block>);
 workbench4CommonDustsRecipe.build();
 
 
-// Workbench 5
+// Workbench Tier 5
 var workbench5LudItemInput = RecipeBuilder.newBuilder("workbench5LudItemInput", "workbench5", 2400);
 workbench5LudItemInput.addEnergyPerTickInput(8192);
 workbench5LudItemInput.addFluidInput(<liquid:hydrogen> * 1000);
@@ -279,7 +294,7 @@ workbench5ModulariumRecipe.addItemOutput(<modularmachinery:itemmodularium> * 128
 workbench5ModulariumRecipe.build();
 
 
-// Workbench 6
+// Workbench Tier 6
 var workbench6FactoryCoreRecipe = RecipeBuilder.newBuilder("workbench6FactoryCoreRecipe", "workbench6", 6000);
 workbench6FactoryCoreRecipe.addEnergyPerTickInput(65536);
 workbench6FactoryCoreRecipe.addItemInput(<contenttweaker:commondusts_block> * 64);
