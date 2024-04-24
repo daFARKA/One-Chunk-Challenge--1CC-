@@ -41,7 +41,7 @@
 ## Mid Game
 
 - [x] EnderIO: Machine Chassis
-- [x] Grains of Ininity
+- [x] Grains of Infinity
 - [x] Presses
 - [x] Compact Machine Crafter add recipes
 - [x] Dye Maker
@@ -155,7 +155,7 @@
 
 ### 
 
-- [ ]
+- [ ] 
 
 <div style="page-break-after: always;"></div>
 
