@@ -296,7 +296,7 @@ workbench5ModulariumRecipe.build();
 
 // Workbench Tier 6
 var workbench6FactoryCoreRecipe = RecipeBuilder.newBuilder("workbench6FactoryCoreRecipe", "workbench6", 6000);
-workbench6FactoryCoreRecipe.addEnergyPerTickInput(65536);
+workbench6FactoryCoreRecipe.addEnergyPerTickInput(131072);
 workbench6FactoryCoreRecipe.addItemInput(<contenttweaker:commondusts_block> * 64);
 workbench6FactoryCoreRecipe.addItemInput(<contenttweaker:material_part:17> * 64);
 workbench6FactoryCoreRecipe.addItemInput(<contenttweaker:material_part:16> * 4);
@@ -312,11 +312,51 @@ workbench6ModulariumRecipe.addItemInput(<contenttweaker:commondusts_block> * 64)
 workbench6ModulariumRecipe.addItemOutput(<modularmachinery:itemmodularium> * 256);
 workbench6ModulariumRecipe.build();
 
+var workbench6VacFluidInput = RecipeBuilder.newBuilder("workbench6VacFluidInput", "workbench6", 2400);
+workbench6VacFluidInput.addEnergyPerTickInput(32768);
+workbench6VacFluidInput.addFluidInput(<liquid:chlorine> * 1000);
+workbench6VacFluidInput.addItemInput(<modularmachinery:blockfluidinputhatch:6>);
+workbench6VacFluidInput.addItemInput(<contenttweaker:modularium_block> * 16);
+workbench6VacFluidInput.addItemInput(<modularmachinery:blockcasing:4> * 16);
+workbench6VacFluidInput.addItemInput(<contenttweaker:material_part:17> * 16);
+workbench6VacFluidInput.addItemOutput(<modularmachinery:blockfluidinputhatch:7>);
+workbench6VacFluidInput.build();
+
+var workbench6VacFluidOutput = RecipeBuilder.newBuilder("workbench6VacFluidOutput", "workbench6", 2400);
+workbench6VacFluidOutput.addEnergyPerTickInput(32768);
+workbench6VacFluidOutput.addFluidInput(<liquid:chlorine> * 1000);
+workbench6VacFluidOutput.addItemInput(<modularmachinery:blockfluidoutputhatch:6>);
+workbench6VacFluidOutput.addItemInput(<contenttweaker:modularium_block> * 16);
+workbench6VacFluidOutput.addItemInput(<modularmachinery:blockcasing:4> * 16);
+workbench6VacFluidOutput.addItemInput(<contenttweaker:material_part:17> * 16);
+workbench6VacFluidOutput.addItemOutput(<modularmachinery:blockfluidoutputhatch:7>);
+workbench6VacFluidOutput.build();
+
+var workbench6UltEnergyInput = RecipeBuilder.newBuilder("workbench6UltEnergyInput", "workbench6", 2400);
+workbench6UltEnergyInput.addEnergyPerTickInput(32768);
+workbench6UltEnergyInput.addFluidInput(<liquid:chlorine> * 1000);
+workbench6UltEnergyInput.addItemInput(<modularmachinery:blockenergyinputhatch:6>);
+workbench6UltEnergyInput.addItemInput(<contenttweaker:modularium_block> * 16);
+workbench6UltEnergyInput.addItemInput(<modularmachinery:blockcasing:4> * 16);
+workbench6UltEnergyInput.addItemInput(<contenttweaker:material_part:17> * 16);
+workbench6UltEnergyInput.addItemOutput(<modularmachinery:blockenergyinputhatch:7>);
+workbench6UltEnergyInput.build();
+
+var workbench6UltEnergyOutput = RecipeBuilder.newBuilder("workbench6UltEnergyOutput", "workbench6", 2400);
+workbench6UltEnergyOutput.addEnergyPerTickInput(32768);
+workbench6UltEnergyOutput.addFluidInput(<liquid:chlorine> * 1000);
+workbench6UltEnergyOutput.addItemInput(<modularmachinery:blockenergyoutputhatch:6>);
+workbench6UltEnergyOutput.addItemInput(<contenttweaker:modularium_block> * 16);
+workbench6UltEnergyOutput.addItemInput(<modularmachinery:blockcasing:4> * 16);
+workbench6UltEnergyOutput.addItemInput(<contenttweaker:material_part:17> * 16);
+workbench6UltEnergyOutput.addItemOutput(<modularmachinery:blockenergyoutputhatch:7>);
+workbench6UltEnergyOutput.build();
+
 
 // Compact Machines Crafter
 var cmrEnhancedWallRecipe = RecipeBuilder.newBuilder("cmrEnhancedWallRecipe", "compactmachines_crafter", 400);
 cmrEnhancedWallRecipe.addEnergyPerTickInput(1024);
-cmrEnhancedWallRecipe.addItemInput(<contenttweaker:modularium_block> * 4);
+cmrEnhancedWallRecipe.addItemInput(<contenttweaker:modularium_block> * 8);
 cmrEnhancedWallRecipe.addItemInput(<enderio:block_alloy:3> * 2);
 cmrEnhancedWallRecipe.addItemInput(<contenttweaker:material_part:27> * 64);
 cmrEnhancedWallRecipe.addItemOutput(<compactmachines3:wallbreakable> * 64);
@@ -405,25 +445,25 @@ cobblegenCobble2xRecipe.build();
 
 var cobblegenCobble3xRecipe = RecipeBuilder.newBuilder("cobblegenCobble3xRecipe", "cobble_gen", 20);
 cobblegenCobble3xRecipe.addEnergyPerTickInput(9000);
-cobblegenCobble3xRecipe.addItemInput(<extrautils2:compressedcobblestone:0>);
+cobblegenCobble3xRecipe.addItemInput(<extrautils2:compressedcobblestone:1>);
 cobblegenCobble3xRecipe.addItemOutput(<extrautils2:compressedcobblestone:2>);
 cobblegenCobble3xRecipe.build();
 
 var cobblegenCobble4xRecipe = RecipeBuilder.newBuilder("cobblegenCobble4xRecipe", "cobble_gen", 20);
 cobblegenCobble4xRecipe.addEnergyPerTickInput(18000);
-cobblegenCobble4xRecipe.addItemInput(<extrautils2:compressedcobblestone:1>);
+cobblegenCobble4xRecipe.addItemInput(<extrautils2:compressedcobblestone:2>);
 cobblegenCobble4xRecipe.addItemOutput(<extrautils2:compressedcobblestone:3>);
 cobblegenCobble4xRecipe.build();
 
 var cobblegenCobble5xRecipe = RecipeBuilder.newBuilder("cobblegenCobble5xRecipe", "cobble_gen", 20);
 cobblegenCobble5xRecipe.addEnergyPerTickInput(36000);
-cobblegenCobble5xRecipe.addItemInput(<extrautils2:compressedcobblestone:2>);
+cobblegenCobble5xRecipe.addItemInput(<extrautils2:compressedcobblestone:3>);
 cobblegenCobble5xRecipe.addItemOutput(<extrautils2:compressedcobblestone:4>);
 cobblegenCobble5xRecipe.build();
 
 var cobblegenCobble6xRecipe = RecipeBuilder.newBuilder("cobblegenCobble6xRecipe", "cobble_gen", 20);
 cobblegenCobble6xRecipe.addEnergyPerTickInput(72000);
-cobblegenCobble6xRecipe.addItemInput(<extrautils2:compressedcobblestone:3>);
+cobblegenCobble6xRecipe.addItemInput(<extrautils2:compressedcobblestone:4>);
 cobblegenCobble6xRecipe.addItemOutput(<extrautils2:compressedcobblestone:5>);
 cobblegenCobble6xRecipe.build();
 
@@ -438,3 +478,49 @@ cobblegenObsidianRecipe.addEnergyPerTickInput(1024);
 cobblegenObsidianRecipe.addItemInput(<minecraft:obsidian>);
 cobblegenObsidianRecipe.addItemOutput(<minecraft:obsidian> * 32);
 cobblegenObsidianRecipe.build();
+
+
+// Miner
+var minerIronOreRecipe = RecipeBuilder.newBuilder("minerIronOreRecipe", "miner", 1200);
+minerIronOreRecipe.addEnergyPerTickInput(32768);
+minerIronOreRecipe.addItemInput(<thermalfoundation:material:0>);
+minerIronOreRecipe.addItemOutput(<minecraft:iron_ore> * 64);
+minerIronOreRecipe.build();
+
+
+// Compactor
+var compactorIronSingularity = RecipeBuilder.newBuilder("compactorIronSingularity", "compactor", 6000);
+compactorIronSingularity.addEnergyPerTickInput(131072);
+compactorIronSingularity.addItemInput(<morecompressedblocks:octuplecompressedironblock> * 64);
+compactorIronSingularity.addItemOutput(<contenttweaker:iron_singularity_item>);
+compactorIronSingularity.build();
+
+var compactorDiamondSingularity = RecipeBuilder.newBuilder("compactorDiamondSingularity", "compactor", 6000);
+compactorDiamondSingularity.addEnergyPerTickInput(131072);
+compactorDiamondSingularity.addItemInput(<morecompressedblocks:octuplecompresseddiamondblock> * 64);
+compactorDiamondSingularity.addItemOutput(<contenttweaker:diamond_singularity_item>);
+compactorDiamondSingularity.build();
+
+var compactorEmeraldSingularity = RecipeBuilder.newBuilder("compactorEmeraldSingularity", "compactor", 6000);
+compactorEmeraldSingularity.addEnergyPerTickInput(131072);
+compactorEmeraldSingularity.addItemInput(<morecompressedblocks:octuplecompressedemeraldblock> * 64);
+compactorEmeraldSingularity.addItemOutput(<contenttweaker:emerald_singularity_item>);
+compactorEmeraldSingularity.build();
+
+var compactorRedstoneSingularity = RecipeBuilder.newBuilder("compactorRedstoneSingularity", "compactor", 6000);
+compactorRedstoneSingularity.addEnergyPerTickInput(131072);
+compactorRedstoneSingularity.addItemInput(<morecompressedblocks:octuplecompressedredstoneblock> * 64);
+compactorRedstoneSingularity.addItemOutput(<contenttweaker:redstone_singularity_item>);
+compactorRedstoneSingularity.build();
+
+var compactorLapisSingularity = RecipeBuilder.newBuilder("compactorLapisSingularity", "compactor", 6000);
+compactorLapisSingularity.addEnergyPerTickInput(131072);
+compactorLapisSingularity.addItemInput(<morecompressedblocks:octuplecompressedlapisblock> * 64);
+compactorLapisSingularity.addItemOutput(<contenttweaker:lapis_singularity_item>);
+compactorLapisSingularity.build();
+
+var compactorGoldSingularity = RecipeBuilder.newBuilder("compactorGoldSingularity", "compactor", 6000);
+compactorGoldSingularity.addEnergyPerTickInput(131072);
+compactorGoldSingularity.addItemInput(<morecompressedblocks:octuplecompressedgoldblock> * 64);
+compactorGoldSingularity.addItemOutput(<contenttweaker:gold_singularity_item>);
+compactorGoldSingularity.build();

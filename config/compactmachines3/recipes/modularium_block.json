@@ -1,5 +1,6 @@
 {
   "name": "contenttweaker:modularium_block",
+  "disabled": true,
   "target-block": "contenttweaker:modularium_block",
   "target-count": 4,
 

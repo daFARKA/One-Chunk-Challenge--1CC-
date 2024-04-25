@@ -1,0 +1,70 @@
+{
+	title: "Compactor",
+	icon: "modularmachinery:blockcontroller",
+	x: 4.0d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"645055e3"
+	],
+	tasks: [{
+		uid: "8d157151",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "0a835e7c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 4"
+		}],
+		count: 14L
+	},
+	{
+		uid: "31d51e64",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}],
+		count: 7L
+	},
+	{
+		uid: "fe82d935",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 7"
+		}]
+	},
+	{
+		uid: "bddc379f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	},
+	{
+		uid: "25a7f79b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "1bdbdf18",
+		type: "item",
+		items: [{
+			item: "enderio:block_fused_quartz"
+		}]
+	},
+	{
+		uid: "c7d035e0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:factorycore_block"
+		}]
+	}]
+}

@@ -136,11 +136,6 @@
       "id": "OD:orePlatinum"
     },
     {
-      "target": "light_blue",
-      "weight": 169,
-      "id": "OD:oreMithril"
-    },
-    {
       "target": "black",
       "weight": 128,
       "id": "OD:oreClathrateOilSand"

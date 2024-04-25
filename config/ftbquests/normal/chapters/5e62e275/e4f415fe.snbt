@@ -1,0 +1,54 @@
+{
+	title: "Singularities",
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"d1c22146",
+		"f641c820"
+	],
+	tasks: [{
+		uid: "6735fc50",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iron_singularity_item"
+		}]
+	},
+	{
+		uid: "8308ea7f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:lapis_singularity_item"
+		}]
+	},
+	{
+		uid: "0b36eae5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:redstone_singularity_item"
+		}]
+	},
+	{
+		uid: "18691457",
+		type: "item",
+		items: [{
+			item: "contenttweaker:gold_singularity_item"
+		}]
+	},
+	{
+		uid: "bd18e5fa",
+		type: "item",
+		items: [{
+			item: "contenttweaker:diamond_singularity_item"
+		}]
+	},
+	{
+		uid: "4c0e0bab",
+		type: "item",
+		items: [{
+			item: "contenttweaker:emerald_singularity_item"
+		}]
+	}]
+}

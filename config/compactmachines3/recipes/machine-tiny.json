@@ -1,6 +1,6 @@
 {
   "name": "compactmachines3:machine-tiny",
-  "disabled": false,
+  "disabled": true,
   "target-item": "compactmachines3:machine",
   "target-meta": 0,
   "target-count": 1,

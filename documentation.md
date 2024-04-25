@@ -59,7 +59,7 @@
 #### Materials
 
 - Ores: Uranium - 1, Rutile - 4, Ilmenite - 4, Vadinite - 4, Wulfenite - 4, Pyroxene - 5, Scheelite - 5, Wolframite - 5, Chromite - 5, Rare Earth - 6
-- Materials: Cobalt, Zinc, Chromium, Tantalum, Niobium, Sodium, Lithium, Scandium, Manganese, Magnesium, Pyroxene, Molybdenum, Vanadium, Titanium, Titanium Steel, Molybdenum Copper Alloy, Titanium 6Al-4V, Tungsten, Tungsten Steel, Stainless Steel, Magnesium Alloy, Cobalt-Chrome, Uranium-235 / depleted, Thorium, Samarium, Zirconium, Berkelium, Technetium, Zamak, Samarium Scandium Alloy, Magnesium Lithium Alloy, 
+- Materials: Cobalt, Zinc, Chromium, Tantalum, Niobium, Sodium, Lithium, Scandium, Manganese, Magnesium, Pyroxene, Molybdenum, Vanadium, Titanium, Titanium Steel, Molybdenum Copper Alloy, Titanium 6Al-4V, Tungsten, Tungsten Steel, Stainless Steel, Magnesium Alloy, Cobalt-Chrome, Uranium-235 / depleted, Thorium, Samarium, Zirconium, Berkelium, Technetium, Zamak, Samarium Scandium Alloy, Magnesium Lithium Alloy, Platinum Iridium Alloy, 
 
 ### Goals for Mid Game
 - [x] AE2-System
@@ -71,8 +71,7 @@
 ## Late Game
 
 - [ ] Different Nuclear Reactors
-- [ ] Space Explorers
-- [ ] Vacuum MM Recipes
+- [x] Vacuum/Ultimate MM Recipes
 
 ### Goals for Late Game
 
@@ -153,6 +152,15 @@
 - [x] Replace coal block in the recipe for interconnects with a custom block (Interconnect Structure Casing) made out of coal and copper. (Crafted in the Workbench Tier 1) (thus coal output from Rock Crusher has been nerfed)
 - [x] Workbench Tier 1 can now only be constructed with a small input and tiny output bus.
 
+### 0.1.6
+
+- [x] Buff Cactus in the Green House.
+- [x] Add recipe for Erodium.
+- [x] Removed Mana Infused Ingot from Void Ore Miners, it is now unobtainable and (still) useless.
+- [x] Disable some Projection Crafts.
+- [x] Added the mod "FTB Backups".
+- [x] Added base Singularities and their crafting recipes using the new (lategame) custom Compactor.
+
 ### 
 
 - [ ] 
@@ -163,4 +171,3 @@
 
 - [ ] Adjust the composition of the island.
 - [ ] Remove the easy dark steel recipe in the alloy smelter.
-- [ ] Add recipe for erodium.

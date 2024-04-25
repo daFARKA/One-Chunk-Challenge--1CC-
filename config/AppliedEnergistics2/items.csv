@@ -1340,6 +1340,7 @@ aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Zirconium
 aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Zamak
 aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Samarium Scandium Alloy
 aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Magnesium Lithium Alloy
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Platinum Iridium Alloy
 aeadditions:pattern.fluid:0, ME Fluid Pattern: Wub Wub Juice
 aeadditions:pattern.fluid:0, ME Fluid Pattern: Nutrient Distillation
 aeadditions:pattern.fluid:0, ME Fluid Pattern: Dew of the Void
@@ -2639,7 +2640,7 @@ appliedenergistics2:facade:0, Cable Facade - Workbench Tier 5 Casing
 appliedenergistics2:facade:0, Cable Facade - Workbench Tier 6 Casing
 appliedenergistics2:facade:0, Cable Facade - Factory Core
 appliedenergistics2:facade:0, Cable Facade - Rest Elements
-appliedenergistics2:facade:0, Cable Facade - Missing
+appliedenergistics2:facade:0, Cable Facade - Interconnect Structure Casing
 appliedenergistics2:facade:0, Cable Facade - Missing
 appliedenergistics2:facade:0, Cable Facade - Missing
 appliedenergistics2:facade:0, Cable Facade - Missing
@@ -4227,6 +4228,27 @@ fluxnetworks:fluxcontroller, Flux Controller
 fluxnetworks:fluxstorage, Basic Flux Storage
 fluxnetworks:herculeanfluxstorage, Herculean Flux Storage
 fluxnetworks:gargantuanfluxstorage, Gargantuan Flux Storage
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -4277,27 +4299,6 @@ storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
 storagedrawers:framingtable, Framing Table
-storagedrawers:upgrade_template, Upgrade Template
-storagedrawers:upgrade_storage:0, Storage Upgrade (I)
-storagedrawers:upgrade_storage:1, Storage Upgrade (II)
-storagedrawers:upgrade_storage:2, Storage Upgrade (III)
-storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
-storagedrawers:upgrade_storage:4, Storage Upgrade (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Status Upgrade (I)
-storagedrawers:upgrade_status:1, Status Upgrade (II)
-storagedrawers:upgrade_void, Void Upgrade
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Creative Storage Upgrade
-storagedrawers:upgrade_creative:1, Creative Vending Upgrade
-storagedrawers:upgrade_redstone:0, Redstone Upgrade
-storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
-storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
-storagedrawers:drawer_key, Drawer Key
-storagedrawers:shroud_key, Concealment Key
-storagedrawers:personal_key, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
 framedcompactdrawers:framed_compact_drawer, Framed Compacting Drawer
 framedcompactdrawers:framed_drawer_controller:0, Framed Drawer Controller
 framedcompactdrawers:framed_slave:0, Framed Controller Slave
@@ -4524,6 +4525,7 @@ contenttweaker:workbench5_block:0, Workbench Tier 5 Casing
 contenttweaker:workbench6_block:0, Workbench Tier 6 Casing
 contenttweaker:factorycore_block:0, Factory Core
 contenttweaker:commondusts_block:0, Rest Elements
+contenttweaker:interconnectstructure_block:0, Interconnect Structure Casing
 contenttweaker:material_part:0, Terbium Gear
 contenttweaker:material_part:1, Terbium Plate
 contenttweaker:material_part:2, Terbium Nugget
@@ -4729,6 +4731,12 @@ contenttweaker:material_part:269, Magnesium Lithium Alloy Nugget
 contenttweaker:material_part:270, Magnesium Lithium Alloy Ingot
 contenttweaker:material_part:271, Magnesium Lithium Alloy Rod
 contenttweaker:material_part:272, Magnesium Lithium Alloy Dust
+contenttweaker:material_part:275, Platinum Iridium Alloy Gear
+contenttweaker:material_part:276, Platinum Iridium Alloy Plate
+contenttweaker:material_part:277, Platinum Iridium Alloy Nugget
+contenttweaker:material_part:278, Platinum Iridium Alloy Ingot
+contenttweaker:material_part:279, Platinum Iridium Alloy Rod
+contenttweaker:material_part:280, Platinum Iridium Alloy Dust
 valkyrielib:guide, Digital Guide
 valkyrielib:modifier_component, Modifier Component
 valkyrielib:modifier_speed, Speed Modifier

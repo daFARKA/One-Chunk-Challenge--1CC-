@@ -2,7 +2,8 @@
 	x: -1.0d,
 	y: -6.0d,
 	dependencies: [
-		"5366354b"
+		"5366354b",
+		"289fc630"
 	],
 	tasks: [{
 		uid: "deb1048a",

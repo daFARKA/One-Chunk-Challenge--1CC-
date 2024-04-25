@@ -10,6 +10,14 @@ tile.contenttweaker.commondusts_block.name=Rest Elements
 tile.contenttweaker.interconnectstructure_block.name=Interconnect Structure Casing
 
 
+item.contenttweaker.iron_singularity_item.name=Iron Singularity
+item.contenttweaker.diamond_singularity_item.name=Diamond Singularity
+item.contenttweaker.emerald_singularity_item.name=Emerald Singularity
+item.contenttweaker.redstone_singularity_item.name=Redstone Singularity
+item.contenttweaker.gold_singularity_item.name=Gold Singularity
+item.contenttweaker.lapis_singularity_item.name=Lapis Lazuli Singularity
+
+
 fluid.test_fluid=Test Fluid
 fluid.oxygen=Oxygen
 fluid.hydrogen=Hydrogen

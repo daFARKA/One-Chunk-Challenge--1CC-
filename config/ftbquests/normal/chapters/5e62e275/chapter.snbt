@@ -1,5 +1,6 @@
 {
 	title: "Endgame",
+	icon: "contenttweaker:factorycore_block",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

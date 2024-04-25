@@ -15,6 +15,7 @@ crash-reports/*
 template/*
 profileImage/*
 downloads/*
+backups/*
 
 
 options.txt
@@ -23,6 +24,7 @@ usernamecache.json
 crafttweaker.log
 .curseclient
 minecraftinstance.json
+backups.json
 
 config/splash.properties
 config/jei/worldSettings.cfg
@@ -30,3 +32,4 @@ config/jei/worldSettings.cfg
 
 **/*.code-workspace
 **/*.pdf
+**/*.xcf

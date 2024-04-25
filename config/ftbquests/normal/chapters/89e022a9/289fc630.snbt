@@ -1,8 +1,8 @@
 {
 	title: "Compact Machines Crafter",
 	icon: "modularmachinery:blockcontroller",
-	x: -3.0d,
-	y: -4.0d,
+	x: -2.0d,
+	y: -5.0d,
 	text: [
 		""
 	],

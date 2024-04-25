@@ -1,0 +1,87 @@
+{
+	title: "Miner",
+	icon: "modularmachinery:blockcontroller",
+	x: 0.0d,
+	y: 0.0d,
+	description: "You put in a sort of catalyst item so the miner \"mines\" that type of ore.",
+	text: [
+		""
+	],
+	dependencies: [
+		"645055e3"
+	],
+	tasks: [{
+		uid: "6921030c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "5715b6c1",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 6"
+		}]
+	},
+	{
+		uid: "aa6aac79",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 6"
+		}]
+	},
+	{
+		uid: "2cc01d5f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 6"
+		}]
+	},
+	{
+		uid: "b536a2bb",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 4"
+		}],
+		count: 16L
+	},
+	{
+		uid: "fb7f73b1",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}],
+		count: 9L
+	},
+	{
+		uid: "61dc8643",
+		type: "item",
+		items: [{
+			item: "enderio:block_fused_quartz"
+		}],
+		count: 5L
+	},
+	{
+		uid: "387af4b8",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_6"
+		}],
+		count: 8L
+	},
+	{
+		uid: "f409cd1b",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_6"
+		}]
+	},
+	{
+		uid: "66643be8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:factorycore_block"
+		}]
+	}]
+}

@@ -21,7 +21,7 @@ var gadolinium = MaterialSystem.getMaterialBuilder().setName("Gadolinium").setCo
 gadolinium.registerParts(["gear", "plate", "nugget", "ingot", "rod", "dust", "block", "molten"] as string[]);
 
 
-// victorium - Factory Core
+// victorium - Factory Core, Vacuum/Ultimate Hatches
 var victorium_color = Color.fromHex("12110f") as Color;
 
 var victorium = MaterialSystem.getMaterialBuilder().setName("Victorium").setColor(victorium_color).build();
@@ -356,9 +356,18 @@ var samariumScandiumAlloy = MaterialSystem.getMaterialBuilder().setName("Samariu
 
 samariumScandiumAlloy.registerParts(["gear", "plate", "nugget", "ingot", "rod", "dust", "block", "molten"] as string[]);
 
+
 // magnesiumLithiumAlloy - Maximum Compact Machine
 var magnesiumLithiumAlloy_color = Color.fromHex("632d4a") as Color;
 
 var magnesiumLithiumAlloy = MaterialSystem.getMaterialBuilder().setName("Magnesium Lithium Alloy").setColor(magnesiumLithiumAlloy_color).build();
 
 magnesiumLithiumAlloy.registerParts(["gear", "plate", "nugget", "ingot", "rod", "dust", "block", "molten"] as string[]);
+
+
+// platinumIridiumAlloy - Erodium
+var platinumIridiumAlloy_color = Color.fromHex("00c3ff") as Color;
+
+var platinumIridiumAlloy = MaterialSystem.getMaterialBuilder().setName("Platinum Iridium Alloy").setColor(platinumIridiumAlloy_color).build();
+
+platinumIridiumAlloy.registerParts(["gear", "plate", "nugget", "ingot", "rod", "dust", "block", "molten"] as string[]);

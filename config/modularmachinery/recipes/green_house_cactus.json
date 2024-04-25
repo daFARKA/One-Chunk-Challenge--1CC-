@@ -19,14 +19,14 @@
             "type": "modularmachinery:item",
             "io-type": "output",
             "item": "minecraft:cactus",
-            "amount": 2
+            "amount": 3
         },
         {
             "type": "modularmachinery:item",
             "io-type": "output",
             "item": "minecraft:cactus",
             "amount": 1,
-            "chance": 0.25
+            "chance": 0.5
         }
     ]
 }
