@@ -1,10 +1,11 @@
 {
 	title: "Food",
 	x: 0.0d,
-	y: 1.5d,
+	y: 3.0d,
 	text: [
 		"If you play this pack in another difficulty than Peaceful this might be useful.",
-		"Your food for this entire playthrough probably will be potatoes and carrots ^^"
+		"Your food for this entire playthrough probably will be potatoes and carrots ^^",
+		"I strongly recommend playing in Peaceful, though."
 	],
 	optional: true,
 	tasks: [{

@@ -1,7 +1,7 @@
 {
     "machine": "compactmachines_crafter",
     "registryName": "compactmachines_crafter_wall",
-    "recipeTime": 1600,
+    "recipeTime": 1200,
     "requirements": [
         {
             "type": "modularmachinery:energy",

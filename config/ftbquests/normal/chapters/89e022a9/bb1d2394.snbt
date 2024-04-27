@@ -9,7 +9,6 @@
 	dependencies: [
 		"1136c57a"
 	],
-	optional: true,
 	tasks: [{
 		uid: "2b01c461",
 		type: "item",
@@ -23,7 +22,7 @@
 		items: [{
 			item: "modularmachinery:blockcasing"
 		}],
-		count: 29L
+		count: 28L
 	},
 	{
 		uid: "41f11389",
@@ -70,6 +69,13 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "a50b1f47",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
 		}]
 	}]
 }

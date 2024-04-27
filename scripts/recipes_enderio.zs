@@ -7,4 +7,4 @@ mods.enderio.AlloySmelter.addRecipe(<contenttweaker:material_part:278> * 10, [<t
 
 //mods.enderio.SagMill.addRecipe(IItemStack[] output, float[] chances, IIngredient input, @Optional String bonusType, @Optional int energyCost, @Optional float[] xp);
 mods.enderio.SagMill.addRecipe([<appliedenergistics2:material:5> * 5], <extrautils2:compressedsand:0>);
-mods.enderio.SagMill.addRecipe([<environmentaltech:erodium_crystal>], <contenttweaker:material_part:280> * 5);
+mods.enderio.SagMill.addRecipe([<environmentaltech:erodium_crystal>], <contenttweaker:material_part:280> * 3);

@@ -124,6 +124,32 @@ workbench1InterconnectStructureRecipe.addItemOutput(<contenttweaker:interconnect
 workbench1InterconnectStructureRecipe.build();
 
 
+// Workbench Tier 2
+var workbench2EndermanHeadRecipe = RecipeBuilder.newBuilder("workbench2EndermanHeadRecipe", "workbench2", 300);
+workbench2EndermanHeadRecipe.addEnergyPerTickInput(128);
+workbench2EndermanHeadRecipe.addItemInput(<minecraft:ender_pearl> * 16);
+workbench2EndermanHeadRecipe.addItemOutput(<enderio:block_enderman_skull:0>);
+workbench2EndermanHeadRecipe.build();
+
+var workbench2ZombieHeadRecipe = RecipeBuilder.newBuilder("workbench2ZombieHeadRecipe", "workbench2", 300);
+workbench2ZombieHeadRecipe.addEnergyPerTickInput(128);
+workbench2ZombieHeadRecipe.addItemInput(<minecraft:rotten_flesh> * 16);
+workbench2ZombieHeadRecipe.addItemOutput(<minecraft:skull:2>);
+workbench2ZombieHeadRecipe.build();
+
+var workbench2CreeperHeadRecipe = RecipeBuilder.newBuilder("workbench2CreeperHeadRecipe", "workbench2", 300);
+workbench2CreeperHeadRecipe.addEnergyPerTickInput(128);
+workbench2CreeperHeadRecipe.addItemInput(<minecraft:gunpowder> * 16);
+workbench2CreeperHeadRecipe.addItemOutput(<minecraft:skull:4>);
+workbench2CreeperHeadRecipe.build();
+
+var workbench2SkeletonSkullRecipe = RecipeBuilder.newBuilder("workbench2SkeletonSkullRecipe", "workbench2", 300);
+workbench2SkeletonSkullRecipe.addEnergyPerTickInput(128);
+workbench2SkeletonSkullRecipe.addItemInput(<minecraft:bone> * 16);
+workbench2SkeletonSkullRecipe.addItemOutput(<minecraft:skull:0>);
+workbench2SkeletonSkullRecipe.build();
+
+
 // Workbench Tier 3
 var workbench3Workbench4CasingRecipe = RecipeBuilder.newBuilder("workbench3Workbench4CasingRecipe", "workbench3", 320);
 workbench3Workbench4CasingRecipe.addEnergyPerTickInput(248);

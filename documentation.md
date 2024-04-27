@@ -161,6 +161,11 @@
 - [x] Added the mod "FTB Backups".
 - [x] Added base Singularities and their crafting recipes using the new (lategame) custom Compactor.
 
+#### 0.1.6.1
+
+- [x] Add skull and head recipes (except wither).
+- [x] Miscellaneous things and tweaks.
+
 ### 
 
 - [ ] 
@@ -171,3 +176,4 @@
 
 - [ ] Adjust the composition of the island.
 - [ ] Remove the easy dark steel recipe in the alloy smelter.
+- [ ] Add a better way of getting lava mid game.

@@ -1,0 +1,22 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"bb1d2394"
+	],
+	optional: true,
+	tasks: [{
+		uid: "decdeb11",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 1024L
+	}],
+	rewards: [{
+		uid: "53621b20",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 6",
+		count: 16
+	}]
+}

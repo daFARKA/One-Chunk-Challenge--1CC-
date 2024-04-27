@@ -44,6 +44,7 @@ recipes.remove(<modularmachinery:blockcasing:4>);
 recipes.remove(<modularmachinery:itemmodularium>);
 //Don't touch me!
 //#Add
+recipes.addShapeless(<modularmachinery:itemmodularium> * 9, [<contenttweaker:modularium_block>]);
 recipes.addShaped(<solarenergy:basic_energy_core>, [[null, <minecraft:glass>, null],[<minecraft:glass>, <fluxnetworks:flux>, <minecraft:glass>], [null, <minecraft:glass>, null]]);
 recipes.addShaped(<solarenergy:energy_assembler>, [[<fluxnetworks:flux>, <fluxnetworks:fluxblock>, <fluxnetworks:flux>],[<fluxnetworks:flux>, <fluxnetworks:fluxcore>, <fluxnetworks:flux>], [<fluxnetworks:flux>, <fluxnetworks:fluxblock>, <fluxnetworks:flux>]]);
 furnace.addRecipe(<contenttweaker:material_part:3>, <contenttweaker:material_part:5>, 0.0);

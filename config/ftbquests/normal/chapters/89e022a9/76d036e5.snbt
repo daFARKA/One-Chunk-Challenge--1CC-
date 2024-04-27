@@ -1,0 +1,14 @@
+{
+	x: 5.0d,
+	y: -8.0d,
+	dependencies: [
+		"f298e3aa"
+	],
+	tasks: [{
+		uid: "1fa467a1",
+		type: "item",
+		items: [{
+			item: "solarenergy:energy_assembler"
+		}]
+	}]
+}

@@ -2,6 +2,10 @@
 	x: 6.0d,
 	y: -4.5d,
 	shape: "square",
+	description: "The most used material in this pack.",
+	text: [
+		""
+	],
 	dependencies: [
 		"4beb62a7",
 		"bd6614ec"
