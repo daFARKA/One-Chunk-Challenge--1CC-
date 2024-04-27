@@ -45,7 +45,8 @@
       "5": "zirconium_block",
       "6": "tantalum_block",
       "7": "magnesium_block",
-      "8": "zinc_block"
+      "8": "zinc_block",
+      "9": "super_alloy_block"
     }
   }
 }

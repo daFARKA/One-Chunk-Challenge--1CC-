@@ -59,7 +59,7 @@
 #### Materials
 
 - Ores: Uranium - 1, Rutile - 4, Ilmenite - 4, Vadinite - 4, Wulfenite - 4, Pyroxene - 5, Scheelite - 5, Wolframite - 5, Chromite - 5, Rare Earth - 6
-- Materials: Cobalt, Zinc, Chromium, Tantalum, Niobium, Sodium, Lithium, Scandium, Manganese, Magnesium, Pyroxene, Molybdenum, Vanadium, Titanium, Titanium Steel, Molybdenum Copper Alloy, Titanium 6Al-4V, Tungsten, Tungsten Steel, Stainless Steel, Magnesium Alloy, Cobalt-Chrome, Uranium-235 / depleted, Thorium, Samarium, Zirconium, Berkelium, Technetium, Zamak, Samarium Scandium Alloy, Magnesium Lithium Alloy, Platinum Iridium Alloy, 
+- Materials: Cobalt, Zinc, Chromium, Tantalum, Niobium, Sodium, Lithium, Scandium, Manganese, Magnesium, Pyroxene, Molybdenum, Vanadium, Titanium, Titanium Steel, Molybdenum Copper Alloy, Titanium 6Al-4V, Tungsten, Tungsten Steel, Stainless Steel, Magnesium Alloy, Cobalt-Chrome, Uranium-235, Thorium, Samarium, Zirconium, Berkelium, Technetium, Zamak, Samarium Scandium Alloy, Magnesium Lithium Alloy, Platinum Iridium Alloy, Super Alloy, Plutonium-242, Neptunium-236, Americium-242, Curium-243/245/247, Californium-244/246, 
 
 ### Goals for Mid Game
 - [x] AE2-System
@@ -166,6 +166,13 @@
 - [x] Add skull and head recipes (except wither).
 - [x] Miscellaneous things and tweaks.
 
+#### 0.1.6.2 (Reactor Update 1)
+
+- [x] Add materials for the fission fuel chains.
+- [x] Add higher tiers of Reactor Casing and Fuel Rod.
+- [x] Add quests for the fission fuel chains. (No recipes have been added yet.)
+- No new materials should be added from this point onwards. (hopefully ^^)
+
 ### 
 
 - [ ] 
@@ -176,4 +183,5 @@
 
 - [ ] Adjust the composition of the island.
 - [ ] Remove the easy dark steel recipe in the alloy smelter.
+- [ ] Remove the easy electrical steel recipe in the alloy smelter.
 - [ ] Add a better way of getting lava mid game.

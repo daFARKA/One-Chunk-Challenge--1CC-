@@ -1,0 +1,19 @@
+{
+	title: "Third Nuclear Reactor",
+	icon: "modularmachinery:blockcontroller",
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"56ca339c"
+	],
+	tasks: [{
+		uid: "fefcb913",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	}]
+}

@@ -41,3 +41,15 @@ commonDustsBlock.register();
 
 var interconnectStructureBlock = VanillaFactory.createBlock("interconnectstructure_block", <blockmaterial:iron>);
 interconnectStructureBlock.register();
+
+var reactorCasing2 = VanillaFactory.createBlock("reactorcasing2_block", <blockmaterial:iron>);
+reactorCasing2.register();
+
+var reactorCasing3 = VanillaFactory.createBlock("reactorcasing3_block", <blockmaterial:iron>);
+reactorCasing3.register();
+
+var reactorFuelRod2 = VanillaFactory.createBlock("reactorfuelrod2_block", <blockmaterial:iron>);
+reactorFuelRod2.register();
+
+var reactorFuelRod3 = VanillaFactory.createBlock("reactorfuelrod3_block", <blockmaterial:iron>);
+reactorFuelRod3.register();

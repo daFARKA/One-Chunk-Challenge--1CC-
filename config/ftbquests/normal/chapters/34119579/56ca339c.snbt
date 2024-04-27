@@ -1,0 +1,19 @@
+{
+	title: "Second Nuclear Reactor",
+	icon: "modularmachinery:blockcontroller",
+	x: -1.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"70ca72bf"
+	],
+	tasks: [{
+		uid: "238a85bb",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	}]
+}

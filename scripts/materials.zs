@@ -371,3 +371,139 @@ var platinumIridiumAlloy_color = Color.fromHex("00c3ff") as Color;
 var platinumIridiumAlloy = MaterialSystem.getMaterialBuilder().setName("Platinum Iridium Alloy").setColor(platinumIridiumAlloy_color).build();
 
 platinumIridiumAlloy.registerParts(["gear", "plate", "nugget", "ingot", "rod", "dust", "block", "molten"] as string[]);
+
+
+// superAlloy - Creative items
+var superAlloy_color = Color.fromHex("fc009c") as Color;
+
+var superAlloy = MaterialSystem.getMaterialBuilder().setName("Super Alloy").setColor(superAlloy_color).build();
+
+superAlloy.registerParts(["gear", "plate", "nugget", "ingot", "rod", "dust", "block", "molten"] as string[]);
+
+
+// plutonium_241
+var plutonium_241_color = Color.fromHex("333547") as Color;
+
+var plutonium_241 = MaterialSystem.getMaterialBuilder().setName("Plutonium-241").setColor(plutonium_241_color).build();
+
+plutonium_241.registerParts(["ingot", "dust", "nugget"] as string[]);
+
+
+// plutonium_241_depleted
+var plutonium_241_depleted_color = Color.fromHex("1a2230") as Color;
+
+var plutonium_241_depleted = MaterialSystem.getMaterialBuilder().setName("Plutonium-241 (Depleted)").setColor(plutonium_241_depleted_color).build();
+
+plutonium_241_depleted.registerParts(["ingot", "dust", "nugget"] as string[]);
+
+
+// neptunium_236
+var neptunium_236_color = Color.fromHex("080e40") as Color;
+
+var neptunium_236 = MaterialSystem.getMaterialBuilder().setName("Neptunium-236").setColor(neptunium_236_color).build();
+
+neptunium_236.registerParts(["ingot", "dust", "nugget"] as string[]);
+
+
+// neptunium_236_depleted
+var neptunium_236_depleted_color = Color.fromHex("06193b") as Color;
+
+var neptunium_236_depleted = MaterialSystem.getMaterialBuilder().setName("Neptunium-236 (Depleted)").setColor(neptunium_236_depleted_color).build();
+
+neptunium_236_depleted.registerParts(["ingot", "dust", "nugget"] as string[]);
+
+
+// americium_242
+var americium_242_color = Color.fromHex("9c9ca1") as Color;
+
+var americium_242 = MaterialSystem.getMaterialBuilder().setName("Americium-242").setColor(americium_242_color).build();
+
+americium_242.registerParts(["ingot", "dust", "nugget"] as string[]);
+
+
+// americium_242_depleted
+var americium_242_depleted_color = Color.fromHex("515254") as Color;
+
+var americium_242_depleted = MaterialSystem.getMaterialBuilder().setName("Americium-242 (Depleted)").setColor(americium_242_depleted_color).build();
+
+americium_242_depleted.registerParts(["ingot", "dust", "nugget"] as string[]);
+
+
+// curium_243
+var curium_243_color = Color.fromHex("3b392a") as Color;
+
+var curium_243 = MaterialSystem.getMaterialBuilder().setName("Curium-243").setColor(curium_243_color).build();
+
+curium_243.registerParts(["ingot", "dust", "nugget"] as string[]);
+
+
+// curium_243_depleted
+var curium_243_depleted_color = Color.fromHex("303313") as Color;
+
+var curium_243_depleted = MaterialSystem.getMaterialBuilder().setName("Curium-243 (Depleted)").setColor(curium_243_depleted_color).build();
+
+curium_243_depleted.registerParts(["ingot", "dust", "nugget"] as string[]);
+
+
+// curium_245
+var curium_245_color = Color.fromHex("878155") as Color;
+
+var curium_245 = MaterialSystem.getMaterialBuilder().setName("Curium-245").setColor(curium_245_color).build();
+
+curium_245.registerParts(["ingot", "dust", "nugget"] as string[]);
+
+
+// curium_245_depleted
+var curium_245_depleted_color = Color.fromHex("24260a") as Color;
+
+var curium_245_depleted = MaterialSystem.getMaterialBuilder().setName("Curium-245 (Depleted)").setColor(curium_245_depleted_color).build();
+
+curium_245_depleted.registerParts(["ingot", "dust", "nugget"] as string[]);
+
+
+// curium_247
+var curium_247_color = Color.fromHex("dbcb56") as Color;
+
+var curium_247 = MaterialSystem.getMaterialBuilder().setName("Curium-247").setColor(curium_247_color).build();
+
+curium_247.registerParts(["ingot", "dust", "nugget"] as string[]);
+
+
+// curium_247_depleted
+var curium_247_depleted_color = Color.fromHex("181a04") as Color;
+
+var curium_247_depleted = MaterialSystem.getMaterialBuilder().setName("Curium-247 (Depleted)").setColor(curium_247_depleted_color).build();
+
+curium_247_depleted.registerParts(["ingot", "dust", "nugget"] as string[]);
+
+
+// californium_244
+var californium_244_color = Color.fromHex("2e0209") as Color;
+
+var californium_244 = MaterialSystem.getMaterialBuilder().setName("Californium-244").setColor(californium_244_color).build();
+
+californium_244.registerParts(["ingot", "dust", "nugget"] as string[]);
+
+
+// californium_244_depleted
+var californium_244_depleted_color = Color.fromHex("5c3233") as Color;
+
+var californium_244_depleted = MaterialSystem.getMaterialBuilder().setName("Californium-244 (Depleted)").setColor(californium_244_depleted_color).build();
+
+californium_244_depleted.registerParts(["ingot", "dust", "nugget"] as string[]);
+
+
+// californium_246
+var californium_246_color = Color.fromHex("660514") as Color;
+
+var californium_246 = MaterialSystem.getMaterialBuilder().setName("Californium-246").setColor(californium_246_color).build();
+
+californium_246.registerParts(["ingot", "dust", "nugget"] as string[]);
+
+
+// californium_246_depleted
+var californium_246_depleted_color = Color.fromHex("120202") as Color;
+
+var californium_246_depleted = MaterialSystem.getMaterialBuilder().setName("Californium-246 (Depleted)").setColor(californium_246_depleted_color).build();
+
+californium_246_depleted.registerParts(["ingot", "dust", "nugget"] as string[]);

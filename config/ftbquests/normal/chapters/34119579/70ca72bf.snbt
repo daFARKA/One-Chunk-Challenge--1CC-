@@ -1,0 +1,17 @@
+{
+	title: "Fission Fuel Chains",
+	icon: "contenttweaker:material_part 1 221",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"The chains are more or less the same thing everytime. You put something into a nuclear reactor, get a depleted nugget from that fuel. ",
+		"After making an ingot and pulverizing/crushing it you throw it in the Fission Fuel Enricher (sometimes with some other material) to get the next fuel, rinse and repeat until you reach the end."
+	],
+	dependencies: [
+		"09225a7d"
+	],
+	tasks: [{
+		uid: "d16194e8",
+		type: "checkmark"
+	}]
+}

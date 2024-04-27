@@ -1,0 +1,16 @@
+{
+	x: 0.01564625850338075d,
+	y: -3.436394557823121d,
+	shape: "gear",
+	dependencies: [
+		"eb3d434d"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "0ef56087",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 336"
+		}]
+	}]
+}
