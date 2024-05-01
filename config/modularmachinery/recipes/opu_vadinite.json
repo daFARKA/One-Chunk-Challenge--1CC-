@@ -31,7 +31,6 @@
         {
             "type": "modularmachinery:fluid",
             "io-type": "output",
-            "nbt": { "FluidName": "chlorine"},
             "fluid": "chlorine",
             "amount": 100,
             "chance": 0.9

@@ -19,7 +19,7 @@ heaterBetterLavaRecipe.build();
 
 
 // Alloy Smelter
-var alloysmelterSteelRecipe = RecipeBuilder.newBuilder("alloysmelterSteelRecipe", "alloy_smelter", 50);
+var alloysmelterSteelRecipe = RecipeBuilder.newBuilder("alloysmelterSteelRecipe", "alloy_smelter", 20);
 alloysmelterSteelRecipe.addEnergyPerTickInput(512);
 alloysmelterSteelRecipe.addItemInput(<minecraft:coal> * 2);
 alloysmelterSteelRecipe.addItemInput(<thermalfoundation:material:768> * 2);
@@ -27,7 +27,7 @@ alloysmelterSteelRecipe.addItemInput(<minecraft:iron_ingot>);
 alloysmelterSteelRecipe.addItemOutput(<thermalfoundation:material:160>);
 alloysmelterSteelRecipe.build();
 
-var alloysmelterDarkSteelRecipe = RecipeBuilder.newBuilder("alloysmelterDarkSteelRecipe", "alloy_smelter", 100);
+var alloysmelterDarkSteelRecipe = RecipeBuilder.newBuilder("alloysmelterDarkSteelRecipe", "alloy_smelter", 50);
 alloysmelterDarkSteelRecipe.addEnergyPerTickInput(1024);
 alloysmelterDarkSteelRecipe.addItemInput(<thermalfoundation:material:160>);
 alloysmelterDarkSteelRecipe.addItemInput(<minecraft:obsidian>);
@@ -200,10 +200,10 @@ workbench3ReinforcedCasingRecipe.build();
 // Workbench Tier 4
 var workbench4ModulariumRecipe = RecipeBuilder.newBuilder("workbench4ModulariumRecipe", "workbench4", 480);
 workbench4ModulariumRecipe.addEnergyPerTickInput(1024);
+workbench4ModulariumRecipe.addFluidInput(<liquid:oxygen> * 1000);
 workbench4ModulariumRecipe.addItemInput(<contenttweaker:material_part:151> * 9);
 workbench4ModulariumRecipe.addItemInput(<contenttweaker:material_part:159> * 9);
 workbench4ModulariumRecipe.addItemInput(<contenttweaker:material_part:167> * 9);
-workbench4ModulariumRecipe.addFluidInput(<liquid:oxygen> * 1000);
 workbench4ModulariumRecipe.addItemOutput(<modularmachinery:itemmodularium> * 64);
 workbench4ModulariumRecipe.build();
 

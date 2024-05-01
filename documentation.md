@@ -184,6 +184,7 @@
 
 ### 
 
+- [ ] Add Electrical Steel to the custom Alloy Smelter.
 - [ ] 
 
 <div style="page-break-after: always;"></div>

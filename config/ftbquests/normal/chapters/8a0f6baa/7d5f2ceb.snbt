@@ -75,5 +75,12 @@
 			item: "contenttweaker:workbench4_block"
 		}],
 		count: 7L
+	},
+	{
+		uid: "9028a2f5",
+		type: "item",
+		items: [{
+			item: "enderio:block_fused_quartz"
+		}]
 	}]
 }

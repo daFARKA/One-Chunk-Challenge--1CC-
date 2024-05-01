@@ -31,7 +31,6 @@
         {
             "type": "modularmachinery:fluid",
             "io-type": "output",
-            "nbt": { "FluidName": "oxygen"},
             "fluid": "oxygen",
             "amount": 100,
             "chance": 1
