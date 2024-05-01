@@ -46,7 +46,7 @@
 		items: [{
 			item: "contenttweaker:commondusts_block"
 		}],
-		count: 9L
+		count: 8L
 	},
 	{
 		uid: "48b94e4d",
@@ -82,6 +82,13 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:blockenergyinputhatch 1 5"
+		}]
+	},
+	{
+		uid: "7dadef67",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_6"
 		}]
 	}]
 }

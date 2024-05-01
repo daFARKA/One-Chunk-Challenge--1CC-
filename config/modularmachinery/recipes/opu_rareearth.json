@@ -19,7 +19,7 @@
             "io-type": "output",
             "item": "contenttweaker:material_part@227",
             "amount": 1,
-            "chance": 0.1
+            "chance": 0.2
         },
         {
             "type": "modularmachinery:item",

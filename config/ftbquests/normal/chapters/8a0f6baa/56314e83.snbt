@@ -7,6 +7,7 @@
 		"You need to empty the fluid buffer of the Ore Processing unit as fast as possible or else the recipe won't work anymore."
 	],
 	dependencies: [
+		"47d6989a",
 		"734b7500"
 	],
 	tasks: [{

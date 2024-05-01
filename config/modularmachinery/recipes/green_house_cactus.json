@@ -7,7 +7,7 @@
             "type": "modularmachinery:fluid",
             "io-type": "input",
             "fluid": "water",
-            "amount": 100
+            "amount": 1000
         },
         {
             "type": "modularmachinery:item",

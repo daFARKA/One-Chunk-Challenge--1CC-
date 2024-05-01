@@ -9,8 +9,17 @@ electrolyzerWaterRecipe.addFluidOutput(<liquid:oxygen> * 100);
 electrolyzerWaterRecipe.build();
 
 
+// Heater
+var heaterBetterLavaRecipe = RecipeBuilder.newBuilder("heaterBetterLavaRecipe", "heater", 1000);
+heaterBetterLavaRecipe.addEnergyPerTickInput(512);
+heaterBetterLavaRecipe.addFluidInput(<liquid:lava> * 250);
+heaterBetterLavaRecipe.addFluidOutput(<liquid:lava> * 1000);
+heaterBetterLavaRecipe.addItemOutput(<thermalfoundation:material:770>);
+heaterBetterLavaRecipe.build();
+
+
 // Alloy Smelter
-var alloysmelterSteelRecipe = RecipeBuilder.newBuilder("alloysmelterSteelRecipe", "alloy_smelter", 100);
+var alloysmelterSteelRecipe = RecipeBuilder.newBuilder("alloysmelterSteelRecipe", "alloy_smelter", 50);
 alloysmelterSteelRecipe.addEnergyPerTickInput(512);
 alloysmelterSteelRecipe.addItemInput(<minecraft:coal> * 2);
 alloysmelterSteelRecipe.addItemInput(<thermalfoundation:material:768> * 2);
@@ -148,6 +157,12 @@ workbench2SkeletonSkullRecipe.addEnergyPerTickInput(128);
 workbench2SkeletonSkullRecipe.addItemInput(<minecraft:bone> * 16);
 workbench2SkeletonSkullRecipe.addItemOutput(<minecraft:skull:0>);
 workbench2SkeletonSkullRecipe.build();
+
+var workbench2FlaxSeedRecipe = RecipeBuilder.newBuilder("workbench2FlaxSeedRecipe", "workbench2", 6000);
+workbench2FlaxSeedRecipe.addEnergyPerTickInput(128);
+workbench2FlaxSeedRecipe.addItemInput(<minecraft:string> * 128);
+workbench2FlaxSeedRecipe.addItemOutput(<contenttweaker:flax_seed_item>);
+workbench2FlaxSeedRecipe.build();
 
 
 // Workbench Tier 3
@@ -319,6 +334,22 @@ workbench5ModulariumRecipe.addItemInput(<contenttweaker:material_part:111> * 8);
 workbench5ModulariumRecipe.addItemOutput(<modularmachinery:itemmodularium> * 128);
 workbench5ModulariumRecipe.build();
 
+var workbench5FuelRod2Recipe = RecipeBuilder.newBuilder("workbench5FuelRod2Recipe", "workbench5", 300);
+workbench5FuelRod2Recipe.addEnergyPerTickInput(8192);
+workbench5FuelRod2Recipe.addItemInput(<contenttweaker:reactorfuelrod_block>);
+workbench5FuelRod2Recipe.addItemInput(<contenttweaker:material_part:108> * 4);
+workbench5FuelRod2Recipe.addItemInput(<contenttweaker:material_part:226> * 9);
+workbench5FuelRod2Recipe.addItemOutput(<contenttweaker:reactorfuelrod2_block>);
+workbench5FuelRod2Recipe.build();
+
+var workbench5ReactorCasing2Recipe = RecipeBuilder.newBuilder("workbench5ReactorCasing2Recipe", "workbench5", 300);
+workbench5ReactorCasing2Recipe.addEnergyPerTickInput(8192);
+workbench5ReactorCasing2Recipe.addItemInput(<contenttweaker:reactorcasing_block>);
+workbench5ReactorCasing2Recipe.addItemInput(<contenttweaker:material_part:116> * 4);
+workbench5ReactorCasing2Recipe.addItemInput(<contenttweaker:material_part:226> * 9);
+workbench5ReactorCasing2Recipe.addItemOutput(<contenttweaker:reactorcasing2_block>);
+workbench5ReactorCasing2Recipe.build();
+
 
 // Workbench Tier 6
 var workbench6FactoryCoreRecipe = RecipeBuilder.newBuilder("workbench6FactoryCoreRecipe", "workbench6", 6000);
@@ -377,6 +408,22 @@ workbench6UltEnergyOutput.addItemInput(<modularmachinery:blockcasing:4> * 16);
 workbench6UltEnergyOutput.addItemInput(<contenttweaker:material_part:17> * 16);
 workbench6UltEnergyOutput.addItemOutput(<modularmachinery:blockenergyoutputhatch:7>);
 workbench6UltEnergyOutput.build();
+
+var workbench6FuelRod3Recipe = RecipeBuilder.newBuilder("workbench6FuelRod3Recipe", "workbench6", 480);
+workbench6FuelRod3Recipe.addEnergyPerTickInput(32768);
+workbench6FuelRod3Recipe.addItemInput(<contenttweaker:reactorfuelrod2_block>);
+workbench6FuelRod3Recipe.addItemInput(<contenttweaker:material_part:108> * 4);
+workbench6FuelRod3Recipe.addItemInput(<contenttweaker:material_part:238> * 8);
+workbench6FuelRod3Recipe.addItemOutput(<contenttweaker:reactorfuelrod3_block>);
+workbench6FuelRod3Recipe.build();
+
+var workbench6ReactorCasing3Recipe = RecipeBuilder.newBuilder("workbench6ReactorCasing3Recipe", "workbench6", 480);
+workbench6ReactorCasing3Recipe.addEnergyPerTickInput(32768);
+workbench6ReactorCasing3Recipe.addItemInput(<contenttweaker:reactorcasing2_block>);
+workbench6ReactorCasing3Recipe.addItemInput(<contenttweaker:material_part:116> * 4);
+workbench6ReactorCasing3Recipe.addItemInput(<contenttweaker:material_part:238> * 8);
+workbench6ReactorCasing3Recipe.addItemOutput(<contenttweaker:reactorcasing3_block>);
+workbench6ReactorCasing3Recipe.build();
 
 
 // Compact Machines Crafter
@@ -445,11 +492,65 @@ dyefactoryYellowRecipe.build();
 
 
 // Uranium Enricher
-var uraniumenricherUraniumRecipe = RecipeBuilder.newBuilder("uraniumenricherUraniumRecipe", "uranium_enricher", 100);
-uraniumenricherUraniumRecipe.addEnergyPerTickInput(256);
-uraniumenricherUraniumRecipe.addItemInput(<contenttweaker:material_part:211> * 2);
-uraniumenricherUraniumRecipe.addItemOutput(<contenttweaker:material_part:220>);
-uraniumenricherUraniumRecipe.build();
+var uraniumenricherUranium235Recipe = RecipeBuilder.newBuilder("uraniumenricherUranium235Recipe", "uranium_enricher", 100);
+uraniumenricherUranium235Recipe.addEnergyPerTickInput(1024);
+uraniumenricherUranium235Recipe.addItemInput(<contenttweaker:material_part:211> * 2);
+uraniumenricherUranium235Recipe.addItemOutput(<contenttweaker:material_part:221>);
+uraniumenricherUranium235Recipe.build();
+
+var uraniumenricherPlutonium241Recipe = RecipeBuilder.newBuilder("uraniumenricherPlutonium241Recipe", "uranium_enricher", 100);
+uraniumenricherPlutonium241Recipe.addEnergyPerTickInput(1024);
+uraniumenricherPlutonium241Recipe.addItemInput(<contenttweaker:material_part:224> * 2);
+uraniumenricherPlutonium241Recipe.addItemOutput(<contenttweaker:material_part:292>);
+uraniumenricherPlutonium241Recipe.build();
+
+var uraniumenricherNeptunium236Recipe = RecipeBuilder.newBuilder("uraniumenricherNeptunium236Recipe", "uranium_enricher", 100);
+uraniumenricherNeptunium236Recipe.addEnergyPerTickInput(1024);
+uraniumenricherNeptunium236Recipe.addItemInput(<contenttweaker:material_part:295> * 2);
+uraniumenricherNeptunium236Recipe.addItemOutput(<contenttweaker:material_part:298>);
+uraniumenricherNeptunium236Recipe.build();
+
+var uraniumenricherAmericium242Recipe = RecipeBuilder.newBuilder("uraniumenricherAmericium242Recipe", "uranium_enricher", 100);
+uraniumenricherAmericium242Recipe.addEnergyPerTickInput(2048);
+uraniumenricherAmericium242Recipe.addItemInput(<contenttweaker:material_part:301> * 2);
+uraniumenricherAmericium242Recipe.addItemInput(<contenttweaker:material_part:227> * 2);
+uraniumenricherAmericium242Recipe.addItemOutput(<contenttweaker:material_part:304>);
+uraniumenricherAmericium242Recipe.build();
+
+var uraniumenricherCurium243Recipe = RecipeBuilder.newBuilder("uraniumenricherCurium243Recipe", "uranium_enricher", 100);
+uraniumenricherCurium243Recipe.addEnergyPerTickInput(2048);
+uraniumenricherCurium243Recipe.addItemInput(<contenttweaker:material_part:307> * 2);
+uraniumenricherCurium243Recipe.addItemInput(<contenttweaker:material_part:227> * 2);
+uraniumenricherCurium243Recipe.addItemOutput(<contenttweaker:material_part:310>);
+uraniumenricherCurium243Recipe.build();
+
+var uraniumenricherCurium245Recipe = RecipeBuilder.newBuilder("uraniumenricherCurium245Recipe", "uranium_enricher", 100);
+uraniumenricherCurium245Recipe.addEnergyPerTickInput(2048);
+uraniumenricherCurium245Recipe.addItemInput(<contenttweaker:material_part:313> * 2);
+uraniumenricherCurium245Recipe.addItemInput(<contenttweaker:material_part:227> * 2);
+uraniumenricherCurium245Recipe.addItemOutput(<contenttweaker:material_part:316>);
+uraniumenricherCurium245Recipe.build();
+
+var uraniumenricherCurium247Recipe = RecipeBuilder.newBuilder("uraniumenricherCurium247Recipe", "uranium_enricher", 100);
+uraniumenricherCurium247Recipe.addEnergyPerTickInput(4096);
+uraniumenricherCurium247Recipe.addItemInput(<contenttweaker:material_part:319> * 2);
+uraniumenricherCurium247Recipe.addItemInput(<contenttweaker:material_part:246> * 2);
+uraniumenricherCurium247Recipe.addItemOutput(<contenttweaker:material_part:322>);
+uraniumenricherCurium247Recipe.build();
+
+var uraniumenricherCalifornium244Recipe = RecipeBuilder.newBuilder("uraniumenricherCalifornium244Recipe", "uranium_enricher", 100);
+uraniumenricherCalifornium244Recipe.addEnergyPerTickInput(8192);
+uraniumenricherCalifornium244Recipe.addItemInput(<contenttweaker:material_part:325> * 2);
+uraniumenricherCalifornium244Recipe.addItemInput(<contenttweaker:material_part:246> * 2);
+uraniumenricherCalifornium244Recipe.addItemOutput(<contenttweaker:material_part:328>);
+uraniumenricherCalifornium244Recipe.build();
+
+var uraniumenricherCalifornium246Recipe = RecipeBuilder.newBuilder("uraniumenricherCalifornium246Recipe", "uranium_enricher", 100);
+uraniumenricherCalifornium246Recipe.addEnergyPerTickInput(16384);
+uraniumenricherCalifornium246Recipe.addItemInput(<contenttweaker:material_part:331> * 2);
+uraniumenricherCalifornium246Recipe.addItemInput(<contenttweaker:material_part:249> * 2);
+uraniumenricherCalifornium246Recipe.addItemOutput(<contenttweaker:material_part:334>);
+uraniumenricherCalifornium246Recipe.build();
 
 
 // Reactor Tier 1
@@ -458,8 +559,76 @@ reactor1Uranium235Recipe.addFluidInput(<liquid:water> * 8000);
 reactor1Uranium235Recipe.addFluidOutput(<liquid:steam> * 8000);
 reactor1Uranium235Recipe.addItemInput(<contenttweaker:material_part:220>);
 reactor1Uranium235Recipe.addItemOutput(<contenttweaker:material_part:225>);
-reactor1Uranium235Recipe.addEnergyPerTickOutput(2048);
+reactor1Uranium235Recipe.addEnergyPerTickOutput(8192);
 reactor1Uranium235Recipe.build();
+
+var reactor1Plutonium241Recipe = RecipeBuilder.newBuilder("reactor1Plutonium241Recipe", "reactor1", 1200);
+reactor1Plutonium241Recipe.addFluidInput(<liquid:water> * 8000);
+reactor1Plutonium241Recipe.addFluidOutput(<liquid:steam> * 8000);
+reactor1Plutonium241Recipe.addItemInput(<contenttweaker:material_part:291>);
+reactor1Plutonium241Recipe.addItemOutput(<contenttweaker:material_part:296>);
+reactor1Plutonium241Recipe.addEnergyPerTickOutput(16384);
+reactor1Plutonium241Recipe.build();
+
+var reactor1Neptunium236Recipe = RecipeBuilder.newBuilder("reactor1Neptunium236Recipe", "reactor1", 1200);
+reactor1Neptunium236Recipe.addFluidInput(<liquid:water> * 8000);
+reactor1Neptunium236Recipe.addFluidOutput(<liquid:steam> * 8000);
+reactor1Neptunium236Recipe.addItemInput(<contenttweaker:material_part:297>);
+reactor1Neptunium236Recipe.addItemOutput(<contenttweaker:material_part:302>);
+reactor1Neptunium236Recipe.addEnergyPerTickOutput(32768);
+reactor1Neptunium236Recipe.build();
+
+
+// Reactor Tier 2
+var reactor2Amermicium242Recipe = RecipeBuilder.newBuilder("reactor2Amermicium242Recipe", "reactor2", 1200);
+reactor2Amermicium242Recipe.addFluidInput(<liquid:water> * 16000);
+reactor2Amermicium242Recipe.addFluidOutput(<liquid:steam> * 16000);
+reactor2Amermicium242Recipe.addItemInput(<contenttweaker:material_part:303>);
+reactor2Amermicium242Recipe.addItemOutput(<contenttweaker:material_part:308>);
+reactor2Amermicium242Recipe.addEnergyPerTickOutput(65536);
+reactor2Amermicium242Recipe.build();
+
+var reactor2Curium243Recipe = RecipeBuilder.newBuilder("reactor2Curium243Recipe", "reactor2", 1200);
+reactor2Curium243Recipe.addFluidInput(<liquid:water> * 16000);
+reactor2Curium243Recipe.addFluidOutput(<liquid:steam> * 16000);
+reactor2Curium243Recipe.addItemInput(<contenttweaker:material_part:309>);
+reactor2Curium243Recipe.addItemOutput(<contenttweaker:material_part:314>);
+reactor2Curium243Recipe.addEnergyPerTickOutput(131072);
+reactor2Curium243Recipe.build();
+
+var reactor2Curium245Recipe = RecipeBuilder.newBuilder("reactor2Curium245Recipe", "reactor2", 1200);
+reactor2Curium245Recipe.addFluidInput(<liquid:water> * 16000);
+reactor2Curium245Recipe.addFluidOutput(<liquid:steam> * 16000);
+reactor2Curium245Recipe.addItemInput(<contenttweaker:material_part:315>);
+reactor2Curium245Recipe.addItemOutput(<contenttweaker:material_part:320>);
+reactor2Curium245Recipe.addEnergyPerTickOutput(262144);
+reactor2Curium245Recipe.build();
+
+
+// Reactor Tier 3
+var reactor3Curium247Recipe = RecipeBuilder.newBuilder("reactor3Curium247Recipe", "reactor3", 1200);
+reactor3Curium247Recipe.addFluidInput(<liquid:water> * 32000);
+reactor3Curium247Recipe.addFluidOutput(<liquid:steam> * 32000);
+reactor3Curium247Recipe.addItemInput(<contenttweaker:material_part:321>);
+reactor3Curium247Recipe.addItemOutput(<contenttweaker:material_part:326>);
+reactor3Curium247Recipe.addEnergyPerTickOutput(524288);
+reactor3Curium247Recipe.build();
+
+var reactor3Californium244Recipe = RecipeBuilder.newBuilder("reactor3Californium244Recipe", "reactor3", 1200);
+reactor3Californium244Recipe.addFluidInput(<liquid:water> * 32000);
+reactor3Californium244Recipe.addFluidOutput(<liquid:steam> * 32000);
+reactor3Californium244Recipe.addItemInput(<contenttweaker:material_part:327>);
+reactor3Californium244Recipe.addItemOutput(<contenttweaker:material_part:332>);
+reactor3Californium244Recipe.addEnergyPerTickOutput(1048576);
+reactor3Californium244Recipe.build();
+
+var reactor3Californium246Recipe = RecipeBuilder.newBuilder("reactor3Californium246Recipe", "reactor3", 1200);
+reactor3Californium246Recipe.addFluidInput(<liquid:water> * 32000);
+reactor3Californium246Recipe.addFluidOutput(<liquid:steam> * 32000);
+reactor3Californium246Recipe.addItemInput(<contenttweaker:material_part:333>);
+reactor3Californium246Recipe.addItemOutput(<contenttweaker:material_part:338>);
+reactor3Californium246Recipe.addEnergyPerTickOutput(2097152);
+reactor3Californium246Recipe.build();
 
 
 // Cobble Generator
@@ -508,7 +677,7 @@ cobblegenObsidianRecipe.build();
 
 // Miner
 var minerIronOreRecipe = RecipeBuilder.newBuilder("minerIronOreRecipe", "miner", 1200);
-minerIronOreRecipe.addEnergyPerTickInput(32768);
+minerIronOreRecipe.addEnergyPerTickInput(65536);
 minerIronOreRecipe.addItemInput(<thermalfoundation:material:0>);
 minerIronOreRecipe.addItemOutput(<minecraft:iron_ore> * 64);
 minerIronOreRecipe.build();
@@ -516,37 +685,37 @@ minerIronOreRecipe.build();
 
 // Compactor
 var compactorIronSingularity = RecipeBuilder.newBuilder("compactorIronSingularity", "compactor", 6000);
-compactorIronSingularity.addEnergyPerTickInput(131072);
-compactorIronSingularity.addItemInput(<morecompressedblocks:octuplecompressedironblock> * 64);
+compactorIronSingularity.addEnergyPerTickInput(524288);
+compactorIronSingularity.addItemInput(<morecompressedblocks:octuplecompressedironblock> * 16);
 compactorIronSingularity.addItemOutput(<contenttweaker:iron_singularity_item>);
 compactorIronSingularity.build();
 
 var compactorDiamondSingularity = RecipeBuilder.newBuilder("compactorDiamondSingularity", "compactor", 6000);
-compactorDiamondSingularity.addEnergyPerTickInput(131072);
-compactorDiamondSingularity.addItemInput(<morecompressedblocks:octuplecompresseddiamondblock> * 64);
+compactorDiamondSingularity.addEnergyPerTickInput(524288);
+compactorDiamondSingularity.addItemInput(<morecompressedblocks:octuplecompresseddiamondblock> * 16);
 compactorDiamondSingularity.addItemOutput(<contenttweaker:diamond_singularity_item>);
 compactorDiamondSingularity.build();
 
 var compactorEmeraldSingularity = RecipeBuilder.newBuilder("compactorEmeraldSingularity", "compactor", 6000);
-compactorEmeraldSingularity.addEnergyPerTickInput(131072);
-compactorEmeraldSingularity.addItemInput(<morecompressedblocks:octuplecompressedemeraldblock> * 64);
+compactorEmeraldSingularity.addEnergyPerTickInput(524288);
+compactorEmeraldSingularity.addItemInput(<morecompressedblocks:octuplecompressedemeraldblock> * 16);
 compactorEmeraldSingularity.addItemOutput(<contenttweaker:emerald_singularity_item>);
 compactorEmeraldSingularity.build();
 
 var compactorRedstoneSingularity = RecipeBuilder.newBuilder("compactorRedstoneSingularity", "compactor", 6000);
-compactorRedstoneSingularity.addEnergyPerTickInput(131072);
-compactorRedstoneSingularity.addItemInput(<morecompressedblocks:octuplecompressedredstoneblock> * 64);
+compactorRedstoneSingularity.addEnergyPerTickInput(524288);
+compactorRedstoneSingularity.addItemInput(<morecompressedblocks:octuplecompressedredstoneblock> * 16);
 compactorRedstoneSingularity.addItemOutput(<contenttweaker:redstone_singularity_item>);
 compactorRedstoneSingularity.build();
 
 var compactorLapisSingularity = RecipeBuilder.newBuilder("compactorLapisSingularity", "compactor", 6000);
-compactorLapisSingularity.addEnergyPerTickInput(131072);
-compactorLapisSingularity.addItemInput(<morecompressedblocks:octuplecompressedlapisblock> * 64);
+compactorLapisSingularity.addEnergyPerTickInput(524288);
+compactorLapisSingularity.addItemInput(<morecompressedblocks:octuplecompressedlapisblock> * 16);
 compactorLapisSingularity.addItemOutput(<contenttweaker:lapis_singularity_item>);
 compactorLapisSingularity.build();
 
 var compactorGoldSingularity = RecipeBuilder.newBuilder("compactorGoldSingularity", "compactor", 6000);
 compactorGoldSingularity.addEnergyPerTickInput(131072);
-compactorGoldSingularity.addItemInput(<morecompressedblocks:octuplecompressedgoldblock> * 64);
+compactorGoldSingularity.addItemInput(<morecompressedblocks:octuplecompressedgoldblock> * 16);
 compactorGoldSingularity.addItemOutput(<contenttweaker:gold_singularity_item>);
 compactorGoldSingularity.build();

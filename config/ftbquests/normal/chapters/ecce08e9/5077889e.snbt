@@ -1,0 +1,18 @@
+{
+	title: "Extra CPUs Limitation",
+	x: 4.0d,
+	y: -12.5d,
+	description: "Please read before using CPUs from Extra CPUs.",
+	text: [
+		"Straight from the curseforge mod page:",
+		"There is a small limitation which I can not bypass though!",
+		"Basically, you have to include at least one real Crafting Storage from the mod Applied Energistics in the multiblock so the ME system recognizes it as a valid Crafting CPU."
+	],
+	dependencies: [
+		"b20310f6"
+	],
+	tasks: [{
+		uid: "1b947619",
+		type: "checkmark"
+	}]
+}

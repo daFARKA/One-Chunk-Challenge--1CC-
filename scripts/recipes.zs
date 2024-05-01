@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.removeShaped(<aeadditions:storage.casing:1>, [[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:8>, <appliedenergistics2:quartz_glass>],[<appliedenergistics2:material:8>, null, <appliedenergistics2:material:8>], [<aeadditions:certustank>, <aeadditions:certustank>, <aeadditions:certustank>]]);
 furnace.remove(<appliedenergistics2:material:5>, <enderio:item_material:33>);
 furnace.remove(<appliedenergistics2:material:5>, <appliedenergistics2:material:2>);
 furnace.remove(<appliedenergistics2:material:5>, <appliedenergistics2:material:3>);
@@ -73,6 +74,15 @@ furnace.addRecipe(<contenttweaker:material_part:248>, <contenttweaker:material_p
 furnace.addRecipe(<contenttweaker:material_part:254>, <contenttweaker:material_part:256>, 0.0);
 furnace.addRecipe(<contenttweaker:material_part:262>, <contenttweaker:material_part:264>, 0.0);
 furnace.addRecipe(<contenttweaker:material_part:270>, <contenttweaker:material_part:272>, 0.0);
+furnace.addRecipe(<contenttweaker:material_part:286>, <contenttweaker:material_part:288>, 0.0);
+furnace.addRecipe(<contenttweaker:material_part:291>, <contenttweaker:material_part:292>, 0.0);
+furnace.addRecipe(<contenttweaker:material_part:297>, <contenttweaker:material_part:298>, 0.0);
+furnace.addRecipe(<contenttweaker:material_part:303>, <contenttweaker:material_part:304>, 0.0);
+furnace.addRecipe(<contenttweaker:material_part:309>, <contenttweaker:material_part:310>, 0.0);
+furnace.addRecipe(<contenttweaker:material_part:315>, <contenttweaker:material_part:316>, 0.0);
+furnace.addRecipe(<contenttweaker:material_part:321>, <contenttweaker:material_part:322>, 0.0);
+furnace.addRecipe(<contenttweaker:material_part:327>, <contenttweaker:material_part:328>, 0.0);
+furnace.addRecipe(<contenttweaker:material_part:333>, <contenttweaker:material_part:334>, 0.0);
 recipes.addShaped(<contenttweaker:material_part:112>, [[null, <contenttweaker:material_part:111>, null],[<contenttweaker:material_part:111>, null, null], [null, null, null]]);
 recipes.addShaped(<contenttweaker:material_part:120>, [[null, <contenttweaker:material_part:119>, null],[<contenttweaker:material_part:119>, null, null], [null, null, null]]);
 recipes.addShaped(<contenttweaker:reactorfuelrod_block>, [[<contenttweaker:material_part:109>, <contenttweaker:material_part:111>, <contenttweaker:material_part:109>],[<contenttweaker:material_part:111>, <contenttweaker:material_part:112>, <contenttweaker:material_part:111>], [<contenttweaker:material_part:109>, <contenttweaker:material_part:111>, <contenttweaker:material_part:109>]]);

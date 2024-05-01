@@ -7,13 +7,74 @@
 		""
 	],
 	dependencies: [
-		"56ca339c"
+		"56ca339c",
+		"7261460b"
 	],
 	tasks: [{
 		uid: "fefcb913",
 		type: "item",
 		items: [{
 			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "9ba4bc1c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 4"
+		}],
+		count: 354L
+	},
+	{
+		uid: "126bb01a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:reactorcasing3_block"
+		}],
+		count: 199L
+	},
+	{
+		uid: "a04a9c64",
+		type: "item",
+		items: [{
+			item: "contenttweaker:reactorfuelrod3_block"
+		}],
+		count: 126L
+	},
+	{
+		uid: "543977c4",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyoutputhatch 1 7"
+		}],
+		count: 4L
+	},
+	{
+		uid: "4a61c350",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 6"
+		}]
+	},
+	{
+		uid: "f28b0030",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 6"
+		}]
+	},
+	{
+		uid: "4ca5984a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch 1 7"
+		}]
+	},
+	{
+		uid: "40bad433",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidoutputhatch 1 7"
 		}]
 	}]
 }

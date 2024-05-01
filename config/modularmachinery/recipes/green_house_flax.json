@@ -1,6 +1,6 @@
 {
     "machine": "green_house",
-    "registryName": "green_house_cocoa",
+    "registryName": "green_house_flax",
     "recipeTime": 1200,
     "requirements": [
         {
@@ -12,21 +12,34 @@
         {
             "type": "modularmachinery:item",
             "io-type": "input",
-            "item": "minecraft:dye@3",
+            "item": "contenttweaker:flax_seed_item",
             "amount": 1
         },
         {
             "type": "modularmachinery:item",
             "io-type": "output",
-            "item": "minecraft:dye@3",
-            "amount": 2
+            "item": "contenttweaker:flax_seed_item",
+            "amount": 1
         },
         {
             "type": "modularmachinery:item",
             "io-type": "output",
-            "item": "minecraft:dye@3",
+            "item": "contenttweaker:flax_seed_item",
             "amount": 1,
             "chance": 0.25
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:string",
+            "amount": 8
+        },
+        {
+            "type": "modularmachinery:item",
+            "io-type": "output",
+            "item": "minecraft:string",
+            "amount": 2,
+            "chance": 0.5
         }
     ]
 }

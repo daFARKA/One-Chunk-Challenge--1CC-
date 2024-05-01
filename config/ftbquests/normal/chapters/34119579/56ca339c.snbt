@@ -7,6 +7,7 @@
 		""
 	],
 	dependencies: [
+		"3db09ef4",
 		"70ca72bf"
 	],
 	tasks: [{
@@ -15,5 +16,73 @@
 		items: [{
 			item: "modularmachinery:blockcontroller"
 		}]
+	},
+	{
+		uid: "3788453e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 6"
+		}]
+	},
+	{
+		uid: "debf778e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 6"
+		}]
+	},
+	{
+		uid: "dda4ae75",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch 1 6"
+		}]
+	},
+	{
+		uid: "cba66183",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidoutputhatch 1 6"
+		}]
+	},
+	{
+		uid: "f3795782",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyoutputhatch 1 6"
+		}],
+		count: 2L
+	},
+	{
+		uid: "ce85a0d7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 4"
+		}],
+		count: 131L
+	},
+	{
+		uid: "2aec808b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:reactorfuelrod2_block"
+		}],
+		count: 98L
+	},
+	{
+		uid: "030b592a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:reactorcasing2_block"
+		}],
+		count: 88L
+	},
+	{
+		uid: "df37e251",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}],
+		count: 128L
 	}]
 }

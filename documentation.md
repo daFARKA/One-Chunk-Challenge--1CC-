@@ -48,7 +48,7 @@
 - [x] Machine Casing recipe in Workbench 4
 - [x] Compact Machines Tunnels
 - [x] Custom Cobble Generator
-- [ ] Custom Uranium chains
+- [x] Custom Uranium chains
 - [ ] More ways of producing power
 - [x] Ludicrous MM Recipes
 
@@ -105,7 +105,7 @@
 
 <div style="page-break-after: always;"></div>
 
-## Playtest fixes
+## Changelogs
 
 ### 0.1.2
 
@@ -173,6 +173,15 @@
 - [x] Add quests for the fission fuel chains. (No recipes have been added yet.)
 - No new materials should be added from this point onwards. (hopefully ^^)
 
+#### 0.1.6.3 (Reactor Update 2)
+
+- [x] Add recipes for the full fission fuel chain.
+- [x] Add recipes for the reactor casing tier 2/3 and fuel rod tier 2/3.
+- [x] Add the multiblocks for second and third nuclear reactor.
+- [x] Adjusted the Workbench Tier 6.
+- [x] Add a better way of getting lava mid game using the Heater.
+- [x] Add a flax seed that produces strings in the Green House.
+
 ### 
 
 - [ ] 
@@ -184,4 +193,12 @@
 - [ ] Adjust the composition of the island.
 - [ ] Remove the easy dark steel recipe in the alloy smelter.
 - [ ] Remove the easy electrical steel recipe in the alloy smelter.
-- [ ] Add a better way of getting lava mid game.
+- [ ] Add a lategame reactor that lets you skip fission fuel chain entirely. (Supercharged Nuclear Reactor)
+
+<div style="page-break-after: always;"></div>
+
+## Start Arguments
+
+```
+-Xmx12G -Xms12G -XX:+UseG1GC -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+```

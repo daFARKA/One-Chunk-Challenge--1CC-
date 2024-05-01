@@ -301,7 +301,7 @@ var uranium_235_depleted = MaterialSystem.getMaterialBuilder().setName("Uranium-
 uranium_235_depleted.registerParts(["ingot", "dust", "nugget"] as string[]);
 
 
-// thorium
+// thorium - americium242, curium243, curium245, Reactor Casing 2, Reactor Fuel Rod 2
 var thorium_color = Color.fromHex("111410") as Color;
 
 var thorium = MaterialSystem.getMaterialBuilder().setName("Thorium").setColor(thorium_color).build();
@@ -317,7 +317,7 @@ var samarium = MaterialSystem.getMaterialBuilder().setName("Samarium").setColor(
 samarium.registerParts(["gear", "plate", "nugget", "ingot", "rod", "dust", "block", "molten"] as string[]);
 
 
-// zirconium
+// zirconium - Reactor Casing 3, Reactor Fuel Rod 3
 var zirconium_color = Color.fromHex("59574c") as Color;
 
 var zirconium = MaterialSystem.getMaterialBuilder().setName("Zirconium").setColor(zirconium_color).build();
@@ -325,7 +325,7 @@ var zirconium = MaterialSystem.getMaterialBuilder().setName("Zirconium").setColo
 zirconium.registerParts(["gear", "plate", "nugget", "ingot", "rod", "dust", "block", "molten"] as string[]);
 
 
-// berkelium
+// berkelium - curium247, californium244
 var berkelium_color = Color.fromHex("b5b5b5") as Color;
 
 var berkelium = MaterialSystem.getMaterialBuilder().setName("Berkelium").setColor(berkelium_color).build();
@@ -333,7 +333,7 @@ var berkelium = MaterialSystem.getMaterialBuilder().setName("Berkelium").setColo
 berkelium.registerParts(["ingot", "dust", "nugget"] as string[]);
 
 
-// technetium
+// technetium - californium246
 var technetium_color = Color.fromHex("3a3940") as Color;
 
 var technetium = MaterialSystem.getMaterialBuilder().setName("Technetium").setColor(technetium_color).build();

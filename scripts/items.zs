@@ -18,3 +18,6 @@ var goldSingularityItem = VanillaFactory.createItem("gold_singularity_item");
 goldSingularityItem.register();
 var lapisSingularityItem = VanillaFactory.createItem("lapis_singularity_item");
 lapisSingularityItem.register();
+
+var flaxSeedItem = VanillaFactory.createItem("flax_seed_item");
+flaxSeedItem.register();

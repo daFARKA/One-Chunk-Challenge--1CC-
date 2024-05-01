@@ -1,7 +1,7 @@
 {
     "machine": "workbench3",
     "registryName": "workbench3_structureframe4",
-    "recipeTime": 480,
+    "recipeTime": 320,
     "requirements": [
         {
             "type": "modularmachinery:energy",
