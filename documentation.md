@@ -182,9 +182,16 @@
 - [x] Add a better way of getting lava mid game using the Heater.
 - [x] Add a flax seed that produces strings in the Green House.
 
+### 0.1.7
+
+- [x] Add Electrical Steel to the custom Alloy Smelter.
+- [x] Buffed the Workbench Tier 4 Modular Machine Casing recipe. (It only takes 1 second now.)
+- [x] All Structure Frame recipes within a workbench are now 320 ticks (16 seconds).
+- [x] Raised all Workbench Tier 5 crafts energy input to 32768 RF/t.
+- [x] Raised all Workbench Tier 5 crafts energy input to at least 65536 RF/t.
+
 ### 
 
-- [ ] Add Electrical Steel to the custom Alloy Smelter.
 - [ ] 
 
 <div style="page-break-after: always;"></div>
@@ -192,8 +199,6 @@
 ## Unsure Adjustments
 
 - [ ] Adjust the composition of the island.
-- [ ] Remove the easy dark steel recipe in the alloy smelter.
-- [ ] Remove the easy electrical steel recipe in the alloy smelter.
 - [ ] Add a lategame reactor that lets you skip fission fuel chain entirely. (Supercharged Nuclear Reactor)
 
 <div style="page-break-after: always;"></div>
@@ -201,5 +206,5 @@
 ## Start Arguments
 
 ```
--Xmx12G -Xms12G -XX:+UseG1GC -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+-Xmx6G -Xms6G -XX:+UseG1GC -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
 ```

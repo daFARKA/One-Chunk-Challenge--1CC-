@@ -20,12 +20,19 @@ heaterBetterLavaRecipe.build();
 
 // Alloy Smelter
 var alloysmelterSteelRecipe = RecipeBuilder.newBuilder("alloysmelterSteelRecipe", "alloy_smelter", 20);
-alloysmelterSteelRecipe.addEnergyPerTickInput(512);
+alloysmelterSteelRecipe.addEnergyPerTickInput(1024);
 alloysmelterSteelRecipe.addItemInput(<minecraft:coal> * 2);
 alloysmelterSteelRecipe.addItemInput(<thermalfoundation:material:768> * 2);
 alloysmelterSteelRecipe.addItemInput(<minecraft:iron_ingot>);
 alloysmelterSteelRecipe.addItemOutput(<thermalfoundation:material:160>);
 alloysmelterSteelRecipe.build();
+
+var alloysmelterElectricalSteelRecipe = RecipeBuilder.newBuilder("alloysmelterElectricalSteelRecipe", "alloy_smelter", 50);
+alloysmelterElectricalSteelRecipe.addEnergyPerTickInput(1024);
+alloysmelterElectricalSteelRecipe.addItemInput(<thermalfoundation:material:160>);
+alloysmelterElectricalSteelRecipe.addItemInput(<appliedenergistics2:material:5>);
+alloysmelterElectricalSteelRecipe.addItemOutput(<enderio:item_alloy_ingot:0>);
+alloysmelterElectricalSteelRecipe.build();
 
 var alloysmelterDarkSteelRecipe = RecipeBuilder.newBuilder("alloysmelterDarkSteelRecipe", "alloy_smelter", 50);
 alloysmelterDarkSteelRecipe.addEnergyPerTickInput(1024);
@@ -65,8 +72,8 @@ alloysmelterTungstenSteelRecipe.addItemInput(<thermalfoundation:material:160>);
 alloysmelterTungstenSteelRecipe.addItemOutput(<contenttweaker:material_part:187>);
 alloysmelterTungstenSteelRecipe.build();
 
-var alloysmelterStainlessSteelRecipe = RecipeBuilder.newBuilder("alloysmelterStainlessSteelRecipe", "alloy_smelter", 4000);
-alloysmelterStainlessSteelRecipe.addEnergyPerTickInput(4096);
+var alloysmelterStainlessSteelRecipe = RecipeBuilder.newBuilder("alloysmelterStainlessSteelRecipe", "alloy_smelter", 2000);
+alloysmelterStainlessSteelRecipe.addEnergyPerTickInput(8192);
 alloysmelterStainlessSteelRecipe.addItemInput(<minecraft:iron_ingot> * 20);
 alloysmelterStainlessSteelRecipe.addItemInput(<thermalfoundation:material:768> * 10);
 alloysmelterStainlessSteelRecipe.addItemInput(<thermalfoundation:material:133> * 1);
@@ -182,7 +189,7 @@ workbench3TunnelRecipe.addItemInput(<enderio:block_alloy:6>);
 workbench3TunnelRecipe.addItemOutput(<compactmachines3:tunneltool> * 4);
 workbench3TunnelRecipe.build();
 
-var workbench3GrainsRecipe = RecipeBuilder.newBuilder("workbench3GrainsRecipe", "workbench3", 200);
+var workbench3GrainsRecipe = RecipeBuilder.newBuilder("workbench3GrainsRecipe", "workbench3", 50);
 workbench3GrainsRecipe.addEnergyPerTickInput(128);
 workbench3GrainsRecipe.addItemInput(<tp:flint_block>);
 workbench3GrainsRecipe.addItemInput(<enderio:item_alloy_ingot:3>);
@@ -207,7 +214,7 @@ workbench4ModulariumRecipe.addItemInput(<contenttweaker:material_part:167> * 9);
 workbench4ModulariumRecipe.addItemOutput(<modularmachinery:itemmodularium> * 64);
 workbench4ModulariumRecipe.build();
 
-var workbench4StructureFrame5Recipe = RecipeBuilder.newBuilder("workbench4StructureFrame5Recipe", "workbench4", 480);
+var workbench4StructureFrame5Recipe = RecipeBuilder.newBuilder("workbench4StructureFrame5Recipe", "workbench4", 320);
 workbench4StructureFrame5Recipe.addEnergyPerTickInput(2048);
 workbench4StructureFrame5Recipe.addItemInput(<environmentaltech:structure_frame_4>);
 workbench4StructureFrame5Recipe.addItemInput(<environmentaltech:ionite_crystal> * 2);
@@ -217,7 +224,7 @@ workbench4StructureFrame5Recipe.addFluidInput(<liquid:hydrogen> * 1000);
 workbench4StructureFrame5Recipe.addItemOutput(<environmentaltech:structure_frame_5>);
 workbench4StructureFrame5Recipe.build();
 
-var workbench4MMachineCasingRecipe = RecipeBuilder.newBuilder("workbench4MMachineCasingRecipe", "workbench4", 480);
+var workbench4MMachineCasingRecipe = RecipeBuilder.newBuilder("workbench4MMachineCasingRecipe", "workbench4", 20);
 workbench4MMachineCasingRecipe.addEnergyPerTickInput(512);
 workbench4MMachineCasingRecipe.addItemInput(<modularmachinery:itemmodularium> * 4);
 workbench4MMachineCasingRecipe.addItemInput(<contenttweaker:material_part:35> * 4);
@@ -246,7 +253,7 @@ workbench4CommonDustsRecipe.build();
 
 // Workbench Tier 5
 var workbench5LudItemInput = RecipeBuilder.newBuilder("workbench5LudItemInput", "workbench5", 2400);
-workbench5LudItemInput.addEnergyPerTickInput(8192);
+workbench5LudItemInput.addEnergyPerTickInput(32768);
 workbench5LudItemInput.addFluidInput(<liquid:hydrogen> * 1000);
 workbench5LudItemInput.addItemInput(<modularmachinery:blockinputbus:5>);
 workbench5LudItemInput.addItemInput(<contenttweaker:modularium_block> * 4);
@@ -256,7 +263,7 @@ workbench5LudItemInput.addItemOutput(<modularmachinery:blockinputbus:6>);
 workbench5LudItemInput.build();
 
 var workbench5LudItemOutput = RecipeBuilder.newBuilder("workbench5LudItemOutput", "workbench5", 2400);
-workbench5LudItemOutput.addEnergyPerTickInput(8192);
+workbench5LudItemOutput.addEnergyPerTickInput(32768);
 workbench5LudItemOutput.addFluidInput(<liquid:hydrogen> * 1000);
 workbench5LudItemOutput.addItemInput(<modularmachinery:blockoutputbus:5>);
 workbench5LudItemOutput.addItemInput(<contenttweaker:modularium_block> * 4);
@@ -266,7 +273,7 @@ workbench5LudItemOutput.addItemOutput(<modularmachinery:blockoutputbus:6>);
 workbench5LudItemOutput.build();
 
 var workbench5LudEnergyInput = RecipeBuilder.newBuilder("workbench5LudEnergyInput", "workbench5", 2400);
-workbench5LudEnergyInput.addEnergyPerTickInput(8192);
+workbench5LudEnergyInput.addEnergyPerTickInput(32768);
 workbench5LudEnergyInput.addFluidInput(<liquid:hydrogen> * 1000);
 workbench5LudEnergyInput.addItemInput(<modularmachinery:blockenergyinputhatch:5>);
 workbench5LudEnergyInput.addItemInput(<contenttweaker:modularium_block> * 4);
@@ -276,7 +283,7 @@ workbench5LudEnergyInput.addItemOutput(<modularmachinery:blockenergyinputhatch:6
 workbench5LudEnergyInput.build();
 
 var workbench5LudEnergyOutput = RecipeBuilder.newBuilder("workbench5LudEnergyOutput", "workbench5", 2400);
-workbench5LudEnergyOutput.addEnergyPerTickInput(8192);
+workbench5LudEnergyOutput.addEnergyPerTickInput(32768);
 workbench5LudEnergyOutput.addFluidInput(<liquid:hydrogen> * 1000);
 workbench5LudEnergyOutput.addItemInput(<modularmachinery:blockenergyoutputhatch:5>);
 workbench5LudEnergyOutput.addItemInput(<contenttweaker:modularium_block> * 4);
@@ -286,7 +293,7 @@ workbench5LudEnergyOutput.addItemOutput(<modularmachinery:blockenergyoutputhatch
 workbench5LudEnergyOutput.build();
 
 var workbench5LudFluidInput = RecipeBuilder.newBuilder("workbench5LudFluidInput", "workbench5", 2400);
-workbench5LudFluidInput.addEnergyPerTickInput(8192);
+workbench5LudFluidInput.addEnergyPerTickInput(32768);
 workbench5LudFluidInput.addFluidInput(<liquid:hydrogen> * 1000);
 workbench5LudFluidInput.addItemInput(<modularmachinery:blockfluidinputhatch:5>);
 workbench5LudFluidInput.addItemInput(<contenttweaker:modularium_block> * 4);
@@ -296,7 +303,7 @@ workbench5LudFluidInput.addItemOutput(<modularmachinery:blockfluidinputhatch:6>)
 workbench5LudFluidInput.build();
 
 var workbench5LudFluidOutput = RecipeBuilder.newBuilder("workbench5LudFluidOutput", "workbench5", 2400);
-workbench5LudFluidOutput.addEnergyPerTickInput(8192);
+workbench5LudFluidOutput.addEnergyPerTickInput(32768);
 workbench5LudFluidOutput.addFluidInput(<liquid:hydrogen> * 1000);
 workbench5LudFluidOutput.addItemInput(<modularmachinery:blockfluidoutputhatch:5>);
 workbench5LudFluidOutput.addItemInput(<contenttweaker:modularium_block> * 4);
@@ -305,8 +312,8 @@ workbench5LudFluidOutput.addItemInput(<contenttweaker:material_part:193> * 16);
 workbench5LudFluidOutput.addItemOutput(<modularmachinery:blockfluidoutputhatch:6>);
 workbench5LudFluidOutput.build();
 
-var workbench5StructureFrame6Recipe = RecipeBuilder.newBuilder("workbench5StructureFrame6Recipe", "workbench5", 480);
-workbench5StructureFrame6Recipe.addEnergyPerTickInput(4096);
+var workbench5StructureFrame6Recipe = RecipeBuilder.newBuilder("workbench5StructureFrame6Recipe", "workbench5", 320);
+workbench5StructureFrame6Recipe.addEnergyPerTickInput(32768);
 workbench5StructureFrame6Recipe.addFluidInput(<liquid:chlorine> * 1000);
 workbench5StructureFrame6Recipe.addItemInput(<environmentaltech:structure_frame_5>);
 workbench5StructureFrame6Recipe.addItemInput(<environmentaltech:aethium_crystal> * 2);
@@ -316,7 +323,7 @@ workbench5StructureFrame6Recipe.addItemOutput(<environmentaltech:structure_frame
 workbench5StructureFrame6Recipe.build();
 
 var workbench5Workbench6CasingRecipe = RecipeBuilder.newBuilder("workbench5Workbench6CasingRecipe", "workbench5", 320);
-workbench5Workbench6CasingRecipe.addEnergyPerTickInput(8192);
+workbench5Workbench6CasingRecipe.addEnergyPerTickInput(32768);
 workbench5Workbench6CasingRecipe.addFluidInput(<liquid:hydrogen> * 1000);
 workbench5Workbench6CasingRecipe.addItemInput(<contenttweaker:workbench5_block>);
 workbench5Workbench6CasingRecipe.addItemInput(<contenttweaker:material_part:260> * 8);
@@ -325,7 +332,7 @@ workbench5Workbench6CasingRecipe.addItemOutput(<contenttweaker:workbench6_block>
 workbench5Workbench6CasingRecipe.build();
 
 var workbench5ModulariumRecipe = RecipeBuilder.newBuilder("workbench5ModulariumRecipe", "workbench5", 480);
-workbench5ModulariumRecipe.addEnergyPerTickInput(8192);
+workbench5ModulariumRecipe.addEnergyPerTickInput(32768);
 workbench5ModulariumRecipe.addFluidInput(<liquid:hydrogen> * 1000);
 workbench5ModulariumRecipe.addItemInput(<contenttweaker:material_part:254> * 32);
 workbench5ModulariumRecipe.addItemInput(<contenttweaker:material_part:195> * 32);
@@ -335,7 +342,7 @@ workbench5ModulariumRecipe.addItemOutput(<modularmachinery:itemmodularium> * 128
 workbench5ModulariumRecipe.build();
 
 var workbench5FuelRod2Recipe = RecipeBuilder.newBuilder("workbench5FuelRod2Recipe", "workbench5", 300);
-workbench5FuelRod2Recipe.addEnergyPerTickInput(8192);
+workbench5FuelRod2Recipe.addEnergyPerTickInput(32768);
 workbench5FuelRod2Recipe.addItemInput(<contenttweaker:reactorfuelrod_block>);
 workbench5FuelRod2Recipe.addItemInput(<contenttweaker:material_part:108> * 4);
 workbench5FuelRod2Recipe.addItemInput(<contenttweaker:material_part:226> * 9);
@@ -343,7 +350,7 @@ workbench5FuelRod2Recipe.addItemOutput(<contenttweaker:reactorfuelrod2_block>);
 workbench5FuelRod2Recipe.build();
 
 var workbench5ReactorCasing2Recipe = RecipeBuilder.newBuilder("workbench5ReactorCasing2Recipe", "workbench5", 300);
-workbench5ReactorCasing2Recipe.addEnergyPerTickInput(8192);
+workbench5ReactorCasing2Recipe.addEnergyPerTickInput(32768);
 workbench5ReactorCasing2Recipe.addItemInput(<contenttweaker:reactorcasing_block>);
 workbench5ReactorCasing2Recipe.addItemInput(<contenttweaker:material_part:116> * 4);
 workbench5ReactorCasing2Recipe.addItemInput(<contenttweaker:material_part:226> * 9);
@@ -353,7 +360,7 @@ workbench5ReactorCasing2Recipe.build();
 
 // Workbench Tier 6
 var workbench6FactoryCoreRecipe = RecipeBuilder.newBuilder("workbench6FactoryCoreRecipe", "workbench6", 6000);
-workbench6FactoryCoreRecipe.addEnergyPerTickInput(131072);
+workbench6FactoryCoreRecipe.addEnergyPerTickInput(262144);
 workbench6FactoryCoreRecipe.addItemInput(<contenttweaker:commondusts_block> * 64);
 workbench6FactoryCoreRecipe.addItemInput(<contenttweaker:material_part:17> * 64);
 workbench6FactoryCoreRecipe.addItemInput(<contenttweaker:material_part:16> * 4);
@@ -370,7 +377,7 @@ workbench6ModulariumRecipe.addItemOutput(<modularmachinery:itemmodularium> * 256
 workbench6ModulariumRecipe.build();
 
 var workbench6VacFluidInput = RecipeBuilder.newBuilder("workbench6VacFluidInput", "workbench6", 2400);
-workbench6VacFluidInput.addEnergyPerTickInput(32768);
+workbench6VacFluidInput.addEnergyPerTickInput(65536);
 workbench6VacFluidInput.addFluidInput(<liquid:chlorine> * 1000);
 workbench6VacFluidInput.addItemInput(<modularmachinery:blockfluidinputhatch:6>);
 workbench6VacFluidInput.addItemInput(<contenttweaker:modularium_block> * 16);
@@ -380,7 +387,7 @@ workbench6VacFluidInput.addItemOutput(<modularmachinery:blockfluidinputhatch:7>)
 workbench6VacFluidInput.build();
 
 var workbench6VacFluidOutput = RecipeBuilder.newBuilder("workbench6VacFluidOutput", "workbench6", 2400);
-workbench6VacFluidOutput.addEnergyPerTickInput(32768);
+workbench6VacFluidOutput.addEnergyPerTickInput(65536);
 workbench6VacFluidOutput.addFluidInput(<liquid:chlorine> * 1000);
 workbench6VacFluidOutput.addItemInput(<modularmachinery:blockfluidoutputhatch:6>);
 workbench6VacFluidOutput.addItemInput(<contenttweaker:modularium_block> * 16);
@@ -390,7 +397,7 @@ workbench6VacFluidOutput.addItemOutput(<modularmachinery:blockfluidoutputhatch:7
 workbench6VacFluidOutput.build();
 
 var workbench6UltEnergyInput = RecipeBuilder.newBuilder("workbench6UltEnergyInput", "workbench6", 2400);
-workbench6UltEnergyInput.addEnergyPerTickInput(32768);
+workbench6UltEnergyInput.addEnergyPerTickInput(65536);
 workbench6UltEnergyInput.addFluidInput(<liquid:chlorine> * 1000);
 workbench6UltEnergyInput.addItemInput(<modularmachinery:blockenergyinputhatch:6>);
 workbench6UltEnergyInput.addItemInput(<contenttweaker:modularium_block> * 16);
@@ -400,7 +407,7 @@ workbench6UltEnergyInput.addItemOutput(<modularmachinery:blockenergyinputhatch:7
 workbench6UltEnergyInput.build();
 
 var workbench6UltEnergyOutput = RecipeBuilder.newBuilder("workbench6UltEnergyOutput", "workbench6", 2400);
-workbench6UltEnergyOutput.addEnergyPerTickInput(32768);
+workbench6UltEnergyOutput.addEnergyPerTickInput(65536);
 workbench6UltEnergyOutput.addFluidInput(<liquid:chlorine> * 1000);
 workbench6UltEnergyOutput.addItemInput(<modularmachinery:blockenergyoutputhatch:6>);
 workbench6UltEnergyOutput.addItemInput(<contenttweaker:modularium_block> * 16);
@@ -410,7 +417,7 @@ workbench6UltEnergyOutput.addItemOutput(<modularmachinery:blockenergyoutputhatch
 workbench6UltEnergyOutput.build();
 
 var workbench6FuelRod3Recipe = RecipeBuilder.newBuilder("workbench6FuelRod3Recipe", "workbench6", 480);
-workbench6FuelRod3Recipe.addEnergyPerTickInput(32768);
+workbench6FuelRod3Recipe.addEnergyPerTickInput(65536);
 workbench6FuelRod3Recipe.addItemInput(<contenttweaker:reactorfuelrod2_block>);
 workbench6FuelRod3Recipe.addItemInput(<contenttweaker:material_part:108> * 4);
 workbench6FuelRod3Recipe.addItemInput(<contenttweaker:material_part:238> * 8);
@@ -418,7 +425,7 @@ workbench6FuelRod3Recipe.addItemOutput(<contenttweaker:reactorfuelrod3_block>);
 workbench6FuelRod3Recipe.build();
 
 var workbench6ReactorCasing3Recipe = RecipeBuilder.newBuilder("workbench6ReactorCasing3Recipe", "workbench6", 480);
-workbench6ReactorCasing3Recipe.addEnergyPerTickInput(32768);
+workbench6ReactorCasing3Recipe.addEnergyPerTickInput(65536);
 workbench6ReactorCasing3Recipe.addItemInput(<contenttweaker:reactorcasing2_block>);
 workbench6ReactorCasing3Recipe.addItemInput(<contenttweaker:material_part:116> * 4);
 workbench6ReactorCasing3Recipe.addItemInput(<contenttweaker:material_part:238> * 8);
@@ -639,25 +646,25 @@ cobblegenCobble2xRecipe.addItemOutput(<extrautils2:compressedcobblestone:1>);
 cobblegenCobble2xRecipe.build();
 
 var cobblegenCobble3xRecipe = RecipeBuilder.newBuilder("cobblegenCobble3xRecipe", "cobble_gen", 20);
-cobblegenCobble3xRecipe.addEnergyPerTickInput(9000);
+cobblegenCobble3xRecipe.addEnergyPerTickInput(8000);
 cobblegenCobble3xRecipe.addItemInput(<extrautils2:compressedcobblestone:1>);
 cobblegenCobble3xRecipe.addItemOutput(<extrautils2:compressedcobblestone:2>);
 cobblegenCobble3xRecipe.build();
 
 var cobblegenCobble4xRecipe = RecipeBuilder.newBuilder("cobblegenCobble4xRecipe", "cobble_gen", 20);
-cobblegenCobble4xRecipe.addEnergyPerTickInput(18000);
+cobblegenCobble4xRecipe.addEnergyPerTickInput(16000);
 cobblegenCobble4xRecipe.addItemInput(<extrautils2:compressedcobblestone:2>);
 cobblegenCobble4xRecipe.addItemOutput(<extrautils2:compressedcobblestone:3>);
 cobblegenCobble4xRecipe.build();
 
 var cobblegenCobble5xRecipe = RecipeBuilder.newBuilder("cobblegenCobble5xRecipe", "cobble_gen", 20);
-cobblegenCobble5xRecipe.addEnergyPerTickInput(36000);
+cobblegenCobble5xRecipe.addEnergyPerTickInput(32000);
 cobblegenCobble5xRecipe.addItemInput(<extrautils2:compressedcobblestone:3>);
 cobblegenCobble5xRecipe.addItemOutput(<extrautils2:compressedcobblestone:4>);
 cobblegenCobble5xRecipe.build();
 
 var cobblegenCobble6xRecipe = RecipeBuilder.newBuilder("cobblegenCobble6xRecipe", "cobble_gen", 20);
-cobblegenCobble6xRecipe.addEnergyPerTickInput(72000);
+cobblegenCobble6xRecipe.addEnergyPerTickInput(64000);
 cobblegenCobble6xRecipe.addItemInput(<extrautils2:compressedcobblestone:4>);
 cobblegenCobble6xRecipe.addItemOutput(<extrautils2:compressedcobblestone:5>);
 cobblegenCobble6xRecipe.build();
