@@ -70,7 +70,7 @@
 
 ## Late Game
 
-- [ ] Different Nuclear Reactors
+- [x] Different Nuclear Reactors
 - [x] Vacuum/Ultimate MM Recipes
 
 ### Goals for Late Game
@@ -188,7 +188,13 @@
 - [x] Buffed the Workbench Tier 4 Modular Machine Casing recipe. (It only takes 1 second now.)
 - [x] All Structure Frame recipes within a workbench are now 320 ticks (16 seconds).
 - [x] Raised all Workbench Tier 5 crafts energy input to 32768 RF/t.
-- [x] Raised all Workbench Tier 5 crafts energy input to at least 65536 RF/t.
+- [x] Raised all Workbench Tier 6 crafts energy input to at least 65536 RF/t.
+
+### 0.1.8
+
+- [x] Add the Final Workbench.
+- [x] Add the Creative Core Item, which allows crafting of creative items.
+- [x] Add the creative page for the quests.
 
 ### 
 
@@ -200,6 +206,8 @@
 
 - [ ] Adjust the composition of the island.
 - [ ] Add a lategame reactor that lets you skip fission fuel chain entirely. (Supercharged Nuclear Reactor)
+- [ ] Add a custom plate machine.
+- [ ] Add more recipes to the Blast Furnace.
 
 <div style="page-break-after: always;"></div>
 

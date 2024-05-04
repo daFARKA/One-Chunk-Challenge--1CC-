@@ -1,7 +1,7 @@
 {
 	title: "Singularities",
-	x: 2.0d,
-	y: 0.0d,
+	x: 2.5d,
+	y: -2.0d,
 	text: [
 		""
 	],

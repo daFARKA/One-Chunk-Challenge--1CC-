@@ -1,0 +1,25 @@
+{
+	title: "You did it!",
+	x: -1.5d,
+	y: -8.5d,
+	description: "Thanks a lot for playing!",
+	text: [
+		"Thank you for playing this pack!",
+		"I hope you enjoyed this fun little challenge."
+	],
+	dependencies: [
+		"f053c2de"
+	],
+	tasks: [{
+		uid: "4b77c6d0",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_creative 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "88310612",
+		type: "command",
+		command: "/worldborder set 59999968"
+	}]
+}

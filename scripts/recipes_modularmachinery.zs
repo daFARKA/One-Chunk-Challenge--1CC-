@@ -432,6 +432,78 @@ workbench6ReactorCasing3Recipe.addItemInput(<contenttweaker:material_part:238> *
 workbench6ReactorCasing3Recipe.addItemOutput(<contenttweaker:reactorcasing3_block>);
 workbench6ReactorCasing3Recipe.build();
 
+var workbench6SuperAlloyCasingRecipe = RecipeBuilder.newBuilder("workbench6SuperAlloyCasingRecipe", "workbench6", 480);
+workbench6SuperAlloyCasingRecipe.addEnergyPerTickInput(262144);
+workbench6SuperAlloyCasingRecipe.addFluidInput(<liquid:chlorine> * 4000);
+workbench6SuperAlloyCasingRecipe.addItemInput(<contenttweaker:workbench6_block>);
+workbench6SuperAlloyCasingRecipe.addItemInput(<contenttweaker:material_part:284> * 8);
+workbench6SuperAlloyCasingRecipe.addItemInput(<contenttweaker:material_part:283>);
+workbench6SuperAlloyCasingRecipe.addItemOutput(<contenttweaker:superalloycasing_block>);
+workbench6SuperAlloyCasingRecipe.build();
+
+
+// Final Workbench
+var workbenchXCreativeCoreRecipe = RecipeBuilder.newBuilder("workbenchXCreativeCoreRecipe", "final_workbench", 480);
+workbenchXCreativeCoreRecipe.addEnergyPerTickInput(1048000);
+workbenchXCreativeCoreRecipe.addItemInput(<contenttweaker:iron_singularity_item>);
+workbenchXCreativeCoreRecipe.addItemInput(<contenttweaker:diamond_singularity_item>);
+workbenchXCreativeCoreRecipe.addItemInput(<contenttweaker:emerald_singularity_item>);
+workbenchXCreativeCoreRecipe.addItemInput(<contenttweaker:gold_singularity_item>);
+workbenchXCreativeCoreRecipe.addItemInput(<contenttweaker:lapis_singularity_item>);
+workbenchXCreativeCoreRecipe.addItemInput(<contenttweaker:redstone_singularity_item>);
+workbenchXCreativeCoreRecipe.addItemInput(<contenttweaker:material_part:286> * 64);
+workbenchXCreativeCoreRecipe.addItemOutput(<contenttweaker:creative_core_item>);
+workbenchXCreativeCoreRecipe.build();
+
+var workbenchXAECreativeEnergyCellRecipe = RecipeBuilder.newBuilder("workbenchXAECreativeEnergyCellRecipe", "final_workbench", 1200);
+workbenchXAECreativeEnergyCellRecipe.addEnergyPerTickInput(1048000);
+workbenchXAECreativeEnergyCellRecipe.addItemInput(<appliedenergistics2:dense_energy_cell> * 8);
+workbenchXAECreativeEnergyCellRecipe.addItemInput(<appliedenergistics2:material:47>);
+workbenchXAECreativeEnergyCellRecipe.addItemInput(<enderio:block_cap_bank:3> * 16);
+workbenchXAECreativeEnergyCellRecipe.addItemInput(<contenttweaker:creative_core_item>);
+workbenchXAECreativeEnergyCellRecipe.addItemOutput(<appliedenergistics2:creative_energy_cell>);
+workbenchXAECreativeEnergyCellRecipe.build();
+
+var workbenchXCreativeStorageRecipe = RecipeBuilder.newBuilder("workbenchXCreativeStorageRecipe", "final_workbench", 1200);
+workbenchXCreativeStorageRecipe.addEnergyPerTickInput(1048000);
+workbenchXCreativeStorageRecipe.addItemInput(<storagedrawers:upgrade_storage:4> * 64);
+workbenchXCreativeStorageRecipe.addItemInput(<aeadditions:storage.component:3>);
+workbenchXCreativeStorageRecipe.addItemInput(<contenttweaker:creative_core_item>);
+workbenchXCreativeStorageRecipe.addItemOutput(<storagedrawers:upgrade_creative:0>);
+workbenchXCreativeStorageRecipe.build();
+
+var workbenchXCreativeCapacitorRecipe = RecipeBuilder.newBuilder("workbenchXCreativeCapacitorRecipe", "final_workbench", 1200);
+workbenchXCreativeCapacitorRecipe.addEnergyPerTickInput(1048000);
+workbenchXCreativeCapacitorRecipe.addItemInput(<enderio:block_cap_bank:3> * 64);
+workbenchXCreativeCapacitorRecipe.addItemInput(<appliedenergistics2:creative_energy_cell>);
+workbenchXCreativeCapacitorRecipe.addItemInput(<contenttweaker:creative_core_item>);
+workbenchXCreativeCapacitorRecipe.addItemOutput(<enderio:block_cap_bank:0>);
+workbenchXCreativeCapacitorRecipe.build();
+
+var workbenchXCreativeDrumRecipe = RecipeBuilder.newBuilder("workbenchXCreativeDrumRecipe", "final_workbench", 1200);
+workbenchXCreativeDrumRecipe.addEnergyPerTickInput(1048000);
+workbenchXCreativeDrumRecipe.addItemInput(<storagedrawers:upgrade_creative:0>);
+workbenchXCreativeDrumRecipe.addItemInput(<extrautils2:drum:3>);
+workbenchXCreativeDrumRecipe.addItemInput(<contenttweaker:creative_core_item>);
+workbenchXCreativeDrumRecipe.addItemOutput(<extrautils2:drum:4>);
+workbenchXCreativeDrumRecipe.build();
+
+var workbenchXCreativeEnergyRecipe = RecipeBuilder.newBuilder("workbenchXCreativeEnergyRecipe", "final_workbench", 1200);
+workbenchXCreativeEnergyRecipe.addEnergyPerTickInput(1048000);
+workbenchXCreativeEnergyRecipe.addItemInput(<extrautils2:drum:4>);
+workbenchXCreativeEnergyRecipe.addItemInput(<enderio:block_cap_bank:0>);
+workbenchXCreativeEnergyRecipe.addItemInput(<contenttweaker:material_part:286> * 64);
+workbenchXCreativeEnergyRecipe.addItemInput(<contenttweaker:creative_core_item>);
+workbenchXCreativeEnergyRecipe.addItemOutput(<extrautils2:creativeenergy>);
+workbenchXCreativeEnergyRecipe.build();
+
+var workbenchXCreativeVendingRecipe = RecipeBuilder.newBuilder("workbenchXCreativeVendingRecipe", "final_workbench", 1200);
+workbenchXCreativeVendingRecipe.addEnergyPerTickInput(1048000);
+workbenchXCreativeVendingRecipe.addItemInput(<extrautils2:creativeenergy>);
+workbenchXCreativeVendingRecipe.addItemInput(<contenttweaker:creative_core_item>);
+workbenchXCreativeVendingRecipe.addItemOutput(<storagedrawers:upgrade_creative:1>);
+workbenchXCreativeVendingRecipe.build();
+
 
 // Compact Machines Crafter
 var cmrEnhancedWallRecipe = RecipeBuilder.newBuilder("cmrEnhancedWallRecipe", "compactmachines_crafter", 400);
@@ -689,6 +761,36 @@ minerIronOreRecipe.addItemInput(<thermalfoundation:material:0>);
 minerIronOreRecipe.addItemOutput(<minecraft:iron_ore> * 64);
 minerIronOreRecipe.build();
 
+var minerRedstoneOreRecipe = RecipeBuilder.newBuilder("minerRedstoneOreRecipe", "miner", 1200);
+minerRedstoneOreRecipe.addEnergyPerTickInput(65536);
+minerRedstoneOreRecipe.addItemInput(<minecraft:redstone>);
+minerRedstoneOreRecipe.addItemOutput(<minecraft:redstone_ore> * 64);
+minerRedstoneOreRecipe.build();
+
+var minerLapisOreRecipe = RecipeBuilder.newBuilder("minerLapisOreRecipe", "miner", 1200);
+minerLapisOreRecipe.addEnergyPerTickInput(65536);
+minerLapisOreRecipe.addItemInput(<minecraft:dye:4>);
+minerLapisOreRecipe.addItemOutput(<minecraft:lapis_ore> * 64);
+minerLapisOreRecipe.build();
+
+var minerGoldOreRecipe = RecipeBuilder.newBuilder("minerGoldOreRecipe", "miner", 1200);
+minerGoldOreRecipe.addEnergyPerTickInput(65536);
+minerGoldOreRecipe.addItemInput(<thermalfoundation:material:1>);
+minerGoldOreRecipe.addItemOutput(<minecraft:gold_ore> * 64);
+minerGoldOreRecipe.build();
+
+var minerDiamondOreRecipe = RecipeBuilder.newBuilder("minerDiamondOreRecipe", "miner", 1200);
+minerDiamondOreRecipe.addEnergyPerTickInput(65536);
+minerDiamondOreRecipe.addItemInput(<minecraft:diamond>);
+minerDiamondOreRecipe.addItemOutput(<minecraft:diamond_ore> * 64);
+minerDiamondOreRecipe.build();
+
+var minerEmeraldOreRecipe = RecipeBuilder.newBuilder("minerEmeraldOreRecipe", "miner", 1200);
+minerEmeraldOreRecipe.addEnergyPerTickInput(65536);
+minerEmeraldOreRecipe.addItemInput(<minecraft:emerald>);
+minerEmeraldOreRecipe.addItemOutput(<minecraft:emerald_ore> * 64);
+minerEmeraldOreRecipe.build();
+
 
 // Compactor
 var compactorIronSingularity = RecipeBuilder.newBuilder("compactorIronSingularity", "compactor", 6000);
@@ -726,3 +828,15 @@ compactorGoldSingularity.addEnergyPerTickInput(131072);
 compactorGoldSingularity.addItemInput(<morecompressedblocks:octuplecompressedgoldblock> * 16);
 compactorGoldSingularity.addItemOutput(<contenttweaker:gold_singularity_item>);
 compactorGoldSingularity.build();
+
+
+// Blast Furnace
+var blastfurnaceSuperAlloyRecipe = RecipeBuilder.newBuilder("blastfurnaceSuperAlloyRecipe", "blast_furnace", 100);
+blastfurnaceSuperAlloyRecipe.addEnergyPerTickInput(524288);
+blastfurnaceSuperAlloyRecipe.addItemInput(<contenttweaker:material_part:336>);
+blastfurnaceSuperAlloyRecipe.addItemInput(<contenttweaker:material_part:19> * 16);
+blastfurnaceSuperAlloyRecipe.addItemInput(<contenttweaker:material_part:262> * 32);
+blastfurnaceSuperAlloyRecipe.addItemInput(<contenttweaker:material_part:205> * 64);
+blastfurnaceSuperAlloyRecipe.addItemInput(<contenttweaker:commondusts_block> * 64);
+blastfurnaceSuperAlloyRecipe.addItemOutput(<contenttweaker:material_part:286>);
+blastfurnaceSuperAlloyRecipe.build();

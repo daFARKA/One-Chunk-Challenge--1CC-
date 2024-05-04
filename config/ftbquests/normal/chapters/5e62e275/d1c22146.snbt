@@ -1,9 +1,9 @@
 {
 	title: "Miner",
 	icon: "modularmachinery:blockcontroller",
-	x: 0.0d,
+	x: 0.5d,
 	y: 0.0d,
-	description: "You put in a sort of catalyst item so the miner \"mines\" that type of ore.",
+	description: "You put in a sort of catalyst item so the miner generates that type of ore.",
 	text: [
 		""
 	],

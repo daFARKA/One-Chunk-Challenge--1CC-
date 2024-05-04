@@ -1,0 +1,16 @@
+{
+	title: "Tip",
+	x: 2.5d,
+	y: -4.0d,
+	text: [
+		"If you put the creative items in a locked storage drawer and after crafting the creative vending you have unlimited of them without you making them again."
+	],
+	dependencies: [
+		"e4f415fe"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f24caf0d",
+		type: "checkmark"
+	}]
+}

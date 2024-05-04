@@ -1,0 +1,17 @@
+{
+	x: 0.5231292517006665d,
+	y: -4.653061224489811d,
+	shape: "gear",
+	dependencies: [
+		"e4f415fe",
+		"5dda1310"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "b5e8dd40",
+		type: "item",
+		items: [{
+			item: "contenttweaker:creative_core_item"
+		}]
+	}]
+}

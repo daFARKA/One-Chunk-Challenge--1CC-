@@ -1,7 +1,7 @@
 {
-	title: "Compactor",
+	title: "Blast Furnace",
 	icon: "modularmachinery:blockcontroller",
-	x: 2.5d,
+	x: -1.5d,
 	y: 0.0d,
 	text: [
 		""
@@ -10,58 +10,59 @@
 		"645055e3"
 	],
 	tasks: [{
-		uid: "8d157151",
+		uid: "84d0b5f2",
 		type: "item",
 		items: [{
 			item: "modularmachinery:blockcontroller"
 		}]
 	},
 	{
-		uid: "0a835e7c",
+		uid: "e3fd3646",
+		type: "item",
+		items: [{
+			item: "enderio:block_alloy 1 6"
+		}],
+		count: 4L
+	},
+	{
+		uid: "164e2b07",
 		type: "item",
 		items: [{
 			item: "modularmachinery:blockcasing 1 4"
 		}],
-		count: 14L
+		count: 16L
 	},
 	{
-		uid: "31d51e64",
-		type: "item",
-		items: [{
-			item: "modularmachinery:blockcasing"
-		}],
-		count: 7L
-	},
-	{
-		uid: "fe82d935",
+		uid: "7f27059e",
 		type: "item",
 		items: [{
 			item: "modularmachinery:blockenergyinputhatch 1 7"
 		}]
 	},
 	{
-		uid: "bddc379f",
-		type: "item",
-		items: [{
-			item: "modularmachinery:blockinputbus"
-		}]
-	},
-	{
-		uid: "25a7f79b",
+		uid: "4884ff42",
 		type: "item",
 		items: [{
 			item: "modularmachinery:blockoutputbus"
 		}]
 	},
 	{
-		uid: "1bdbdf18",
+		uid: "1e4976e2",
 		type: "item",
 		items: [{
-			item: "enderio:block_fused_quartz"
+			item: "modularmachinery:blockinputbus"
+		}],
+		count: 2L
+	},
+	{
+		uid: "ad865847",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch"
 		}]
 	},
 	{
-		uid: "c7d035e0",
+		uid: "f69bae86",
 		type: "item",
 		items: [{
 			item: "contenttweaker:factorycore_block"

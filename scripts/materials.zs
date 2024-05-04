@@ -21,7 +21,7 @@ var gadolinium = MaterialSystem.getMaterialBuilder().setName("Gadolinium").setCo
 gadolinium.registerParts(["gear", "plate", "nugget", "ingot", "rod", "dust", "block", "molten"] as string[]);
 
 
-// victorium - Factory Core, Vacuum/Ultimate Hatches
+// victorium - Factory Core, Vacuum/Ultimate Hatches, Super Alloy
 var victorium_color = Color.fromHex("12110f") as Color;
 
 var victorium = MaterialSystem.getMaterialBuilder().setName("Victorium").setColor(victorium_color).build();
@@ -261,7 +261,7 @@ var chromite = MaterialSystem.getMaterialBuilder().setName("Chromite").setColor(
 chromite.registerParts(["ore", "dust"] as string[]);
 
 
-// magnesiumAlloy - Maximum Compact Machine
+// magnesiumAlloy - Maximum Compact Machine, Super Alloy
 var magnesiumAlloy_color = Color.fromHex("676369") as Color;
 
 var magnesiumAlloy = MaterialSystem.getMaterialBuilder().setName("Magnesium Alloy").setColor(magnesiumAlloy_color).build();
@@ -501,7 +501,7 @@ var californium_246 = MaterialSystem.getMaterialBuilder().setName("Californium-2
 californium_246.registerParts(["ingot", "dust", "nugget"] as string[]);
 
 
-// californium_246_depleted
+// californium_246_depleted - Super Alloy
 var californium_246_depleted_color = Color.fromHex("120202") as Color;
 
 var californium_246_depleted = MaterialSystem.getMaterialBuilder().setName("Californium-246 (Depleted)").setColor(californium_246_depleted_color).build();

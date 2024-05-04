@@ -53,3 +53,6 @@ reactorFuelRod2.register();
 
 var reactorFuelRod3 = VanillaFactory.createBlock("reactorfuelrod3_block", <blockmaterial:iron>);
 reactorFuelRod3.register();
+
+var superAlloyCasing = VanillaFactory.createBlock("superalloycasing_block", <blockmaterial:iron>);
+superAlloyCasing.register();

@@ -12,6 +12,7 @@ tile.contenttweaker.reactorcasing2_block.name=Reactor Casing Tier 2
 tile.contenttweaker.reactorfuelrod2_block.name=Reactor Fuel Rod Tier 2
 tile.contenttweaker.reactorcasing3_block.name=Reactor Casing Tier 3
 tile.contenttweaker.reactorfuelrod3_block.name=Reactor Fuel Rod Tier 3
+tile.contenttweaker.superalloycasing_block.name=Super Alloy Casing
 
 
 item.contenttweaker.iron_singularity_item.name=Iron Singularity
@@ -21,6 +22,7 @@ item.contenttweaker.redstone_singularity_item.name=Redstone Singularity
 item.contenttweaker.gold_singularity_item.name=Gold Singularity
 item.contenttweaker.lapis_singularity_item.name=Lapis Lazuli Singularity
 item.contenttweaker.flax_seed_item.name=Flax Seed
+item.contenttweaker.creative_core_item.name=Creative Core
 
 
 fluid.test_fluid=Test Fluid

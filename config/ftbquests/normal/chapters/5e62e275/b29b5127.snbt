@@ -1,0 +1,14 @@
+{
+	x: -1.5d,
+	y: -4.0d,
+	dependencies: [
+		"343634ef"
+	],
+	tasks: [{
+		uid: "a2125fe3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:superalloycasing_block"
+		}]
+	}]
+}

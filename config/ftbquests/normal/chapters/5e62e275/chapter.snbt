@@ -1,6 +1,6 @@
 {
-	title: "Endgame",
-	icon: "contenttweaker:factorycore_block",
+	title: "Ending the Game?",
+	icon: "contenttweaker:creative_core_item",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

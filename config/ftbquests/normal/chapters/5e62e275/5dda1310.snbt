@@ -1,0 +1,75 @@
+{
+	title: "Final Workbench",
+	icon: "modularmachinery:blockcontroller",
+	x: 0.5544217687074706d,
+	y: -2.0149659863945573d,
+	shape: "gear",
+	text: [
+		""
+	],
+	dependencies: [
+		"b29b5127"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "2584a97a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "ad80088c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:factorycore_block"
+		}]
+	},
+	{
+		uid: "8e537390",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 6"
+		}]
+	},
+	{
+		uid: "3ca3c880",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 6"
+		}]
+	},
+	{
+		uid: "f596a9d6",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 7"
+		}],
+		count: 2L
+	},
+	{
+		uid: "aaec8a0c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:superalloycasing_block"
+		}],
+		count: 96L
+	},
+	{
+		uid: "7f4325e7",
+		type: "item",
+		items: [{
+			item: "minecraft:bedrock"
+		}],
+		count: 6L,
+		consume_items: false
+	},
+	{
+		uid: "f8e8fbcd",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 4"
+		}],
+		count: 117L
+	}]
+}

@@ -21,3 +21,6 @@ lapisSingularityItem.register();
 
 var flaxSeedItem = VanillaFactory.createItem("flax_seed_item");
 flaxSeedItem.register();
+
+var creativeCoreItem = VanillaFactory.createItem("creative_core_item");
+creativeCoreItem.register();
