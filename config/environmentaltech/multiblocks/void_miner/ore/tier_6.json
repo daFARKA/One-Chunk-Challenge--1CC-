@@ -514,6 +514,46 @@
       "target": "black",
       "weight": 25,
       "id": "OD:oreRareEarth"
+    },
+    {
+      "target": "green",
+      "weight": 50,
+      "id": "OD:orePyroxene"
+    },
+    {
+      "target": "orange",
+      "weight": 200,
+      "id": "OD:oreScheelite"
+    },
+    {
+      "target": "gray",
+      "weight": 200,
+      "id": "OD:oreWolframite"
+    },
+    {
+      "target": "white",
+      "weight": 200,
+      "id": "OD:oreChromite"
+    },
+    {
+      "target": "brown",
+      "weight": 200,
+      "id": "OD:oreRutile"
+    },
+    {
+      "target": "brown",
+      "weight": 200,
+      "id": "OD:oreIlmenite"
+    },
+    {
+      "target": "red",
+      "weight": 200,
+      "id": "OD:oreVanadinite"
+    },
+    {
+      "target": "red",
+      "weight": 200,
+      "id": "OD:oreWulfenite"
     }
   ]
 }

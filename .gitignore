@@ -33,3 +33,5 @@ config/jei/worldSettings.cfg
 **/*.code-workspace
 **/*.pdf
 **/*.xcf
+
+!resourcepacks/noborder

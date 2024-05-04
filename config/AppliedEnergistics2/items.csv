@@ -1341,6 +1341,7 @@ aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Zamak
 aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Samarium Scandium Alloy
 aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Magnesium Lithium Alloy
 aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Platinum Iridium Alloy
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Super Alloy
 aeadditions:pattern.fluid:0, ME Fluid Pattern: Wub Wub Juice
 aeadditions:pattern.fluid:0, ME Fluid Pattern: Nutrient Distillation
 aeadditions:pattern.fluid:0, ME Fluid Pattern: Dew of the Void
@@ -2633,15 +2634,19 @@ appliedenergistics2:facade:0, Cable Facade - Acacia Trim
 appliedenergistics2:facade:0, Cable Facade - Dark Oak Trim
 appliedenergistics2:facade:0, Cable Facade - Modularium Block
 appliedenergistics2:facade:0, Cable Facade - Amalgamation Block
-appliedenergistics2:facade:0, Cable Facade - Reactor Casing
-appliedenergistics2:facade:0, Cable Facade - Reactor Fuel Rod
+appliedenergistics2:facade:0, Cable Facade - Reactor Casing Tier 1
+appliedenergistics2:facade:0, Cable Facade - Reactor Fuel Rod Tier 1
 appliedenergistics2:facade:0, Cable Facade - Workbench Tier 4 Casing
 appliedenergistics2:facade:0, Cable Facade - Workbench Tier 5 Casing
 appliedenergistics2:facade:0, Cable Facade - Workbench Tier 6 Casing
 appliedenergistics2:facade:0, Cable Facade - Factory Core
 appliedenergistics2:facade:0, Cable Facade - Rest Elements
 appliedenergistics2:facade:0, Cable Facade - Interconnect Structure Casing
-appliedenergistics2:facade:0, Cable Facade - Missing
+appliedenergistics2:facade:0, Cable Facade - Reactor Casing Tier 2
+appliedenergistics2:facade:0, Cable Facade - Reactor Casing Tier 3
+appliedenergistics2:facade:0, Cable Facade - Reactor Fuel Rod Tier 2
+appliedenergistics2:facade:0, Cable Facade - Reactor Fuel Rod Tier 3
+appliedenergistics2:facade:0, Cable Facade - Super Alloy Casing
 appliedenergistics2:facade:0, Cable Facade - Missing
 appliedenergistics2:facade:0, Cable Facade - Missing
 appliedenergistics2:facade:0, Cable Facade - Missing
@@ -4518,14 +4523,28 @@ zerocore:debugtool, Debug Tool
 base:wrench, Wrench
 contenttweaker:modularium_block:0, Modularium Block
 contenttweaker:amalgamation_block:0, Amalgamation Block
-contenttweaker:reactorcasing_block:0, Reactor Casing
-contenttweaker:reactorfuelrod_block:0, Reactor Fuel Rod
+contenttweaker:reactorcasing_block:0, Reactor Casing Tier 1
+contenttweaker:reactorfuelrod_block:0, Reactor Fuel Rod Tier 1
 contenttweaker:workbench4_block:0, Workbench Tier 4 Casing
 contenttweaker:workbench5_block:0, Workbench Tier 5 Casing
 contenttweaker:workbench6_block:0, Workbench Tier 6 Casing
 contenttweaker:factorycore_block:0, Factory Core
 contenttweaker:commondusts_block:0, Rest Elements
 contenttweaker:interconnectstructure_block:0, Interconnect Structure Casing
+contenttweaker:reactorcasing2_block:0, Reactor Casing Tier 2
+contenttweaker:reactorcasing3_block:0, Reactor Casing Tier 3
+contenttweaker:reactorfuelrod2_block:0, Reactor Fuel Rod Tier 2
+contenttweaker:reactorfuelrod3_block:0, Reactor Fuel Rod Tier 3
+contenttweaker:superalloycasing_block:0, Super Alloy Casing
+contenttweaker:custom_item, item.contenttweaker.custom_item.name
+contenttweaker:iron_singularity_item, Iron Singularity
+contenttweaker:diamond_singularity_item, Diamond Singularity
+contenttweaker:emerald_singularity_item, Emerald Singularity
+contenttweaker:redstone_singularity_item, Redstone Singularity
+contenttweaker:gold_singularity_item, Gold Singularity
+contenttweaker:lapis_singularity_item, Lapis Lazuli Singularity
+contenttweaker:flax_seed_item, Flax Seed
+contenttweaker:creative_core_item, Creative Core
 contenttweaker:material_part:0, Terbium Gear
 contenttweaker:material_part:1, Terbium Plate
 contenttweaker:material_part:2, Terbium Nugget
@@ -4737,6 +4756,60 @@ contenttweaker:material_part:277, Platinum Iridium Alloy Nugget
 contenttweaker:material_part:278, Platinum Iridium Alloy Ingot
 contenttweaker:material_part:279, Platinum Iridium Alloy Rod
 contenttweaker:material_part:280, Platinum Iridium Alloy Dust
+contenttweaker:material_part:283, Super Alloy Gear
+contenttweaker:material_part:284, Super Alloy Plate
+contenttweaker:material_part:285, Super Alloy Nugget
+contenttweaker:material_part:286, Super Alloy Ingot
+contenttweaker:material_part:287, Super Alloy Rod
+contenttweaker:material_part:288, Super Alloy Dust
+contenttweaker:material_part:291, Plutonium-241 Ingot
+contenttweaker:material_part:292, Plutonium-241 Dust
+contenttweaker:material_part:293, Plutonium-241 Nugget
+contenttweaker:material_part:294, Plutonium-241 (Depleted) Ingot
+contenttweaker:material_part:295, Plutonium-241 (Depleted) Dust
+contenttweaker:material_part:296, Plutonium-241 (Depleted) Nugget
+contenttweaker:material_part:297, Neptunium-236 Ingot
+contenttweaker:material_part:298, Neptunium-236 Dust
+contenttweaker:material_part:299, Neptunium-236 Nugget
+contenttweaker:material_part:300, Neptunium-236 (Depleted) Ingot
+contenttweaker:material_part:301, Neptunium-236 (Depleted) Dust
+contenttweaker:material_part:302, Neptunium-236 (Depleted) Nugget
+contenttweaker:material_part:303, Americium-242 Ingot
+contenttweaker:material_part:304, Americium-242 Dust
+contenttweaker:material_part:305, Americium-242 Nugget
+contenttweaker:material_part:306, Americium-242 (Depleted) Ingot
+contenttweaker:material_part:307, Americium-242 (Depleted) Dust
+contenttweaker:material_part:308, Americium-242 (Depleted) Nugget
+contenttweaker:material_part:309, Curium-243 Ingot
+contenttweaker:material_part:310, Curium-243 Dust
+contenttweaker:material_part:311, Curium-243 Nugget
+contenttweaker:material_part:312, Curium-243 (Depleted) Ingot
+contenttweaker:material_part:313, Curium-243 (Depleted) Dust
+contenttweaker:material_part:314, Curium-243 (Depleted) Nugget
+contenttweaker:material_part:315, Curium-245 Ingot
+contenttweaker:material_part:316, Curium-245 Dust
+contenttweaker:material_part:317, Curium-245 Nugget
+contenttweaker:material_part:318, Curium-245 (Depleted) Ingot
+contenttweaker:material_part:319, Curium-245 (Depleted) Dust
+contenttweaker:material_part:320, Curium-245 (Depleted) Nugget
+contenttweaker:material_part:321, Curium-247 Ingot
+contenttweaker:material_part:322, Curium-247 Dust
+contenttweaker:material_part:323, Curium-247 Nugget
+contenttweaker:material_part:324, Curium-247 (Depleted) Ingot
+contenttweaker:material_part:325, Curium-247 (Depleted) Dust
+contenttweaker:material_part:326, Curium-247 (Depleted) Nugget
+contenttweaker:material_part:327, Californium-244 Ingot
+contenttweaker:material_part:328, Californium-244 Dust
+contenttweaker:material_part:329, Californium-244 Nugget
+contenttweaker:material_part:330, Californium-244 (Depleted) Ingot
+contenttweaker:material_part:331, Californium-244 (Depleted) Dust
+contenttweaker:material_part:332, Californium-244 (Depleted) Nugget
+contenttweaker:material_part:333, Californium-246 Ingot
+contenttweaker:material_part:334, Californium-246 Dust
+contenttweaker:material_part:335, Californium-246 Nugget
+contenttweaker:material_part:336, Californium-246 (Depleted) Ingot
+contenttweaker:material_part:337, Californium-246 (Depleted) Dust
+contenttweaker:material_part:338, Californium-246 (Depleted) Nugget
 valkyrielib:guide, Digital Guide
 valkyrielib:modifier_component, Modifier Component
 valkyrielib:modifier_speed, Speed Modifier

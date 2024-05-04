@@ -196,6 +196,14 @@
 - [x] Add the Creative Core Item, which allows crafting of creative items.
 - [x] Add the creative page for the quests.
 
+### 0.1.9
+
+- [x] Fixed Void Ore Miners.
+- [x] Added the mod "BetterFPS".
+- [x] Added a resource pack called "noborder", which makes the border completely invisible. 
+- [x] Add Modularium to Super Alloy Recipe.
+- [x] Changed the Tiny Compact Machine recipe, to make every compact machine more autocraftable.
+
 ### 
 
 - [ ] 

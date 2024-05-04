@@ -196,7 +196,7 @@ workbench3GrainsRecipe.addItemInput(<enderio:item_alloy_ingot:3>);
 workbench3GrainsRecipe.addItemOutput(<enderio:item_material:20> * 16);
 workbench3GrainsRecipe.build();
 
-var workbench3ReinforcedCasingRecipe = RecipeBuilder.newBuilder("workbench3ReinforcedCasingRecipe", "workbench3", 200);
+var workbench3ReinforcedCasingRecipe = RecipeBuilder.newBuilder("workbench3ReinforcedCasingRecipe", "workbench3", 100);
 workbench3ReinforcedCasingRecipe.addEnergyPerTickInput(512);
 workbench3ReinforcedCasingRecipe.addItemInput(<modularmachinery:blockcasing:0> * 4);
 workbench3ReinforcedCasingRecipe.addItemInput(<enderio:item_alloy_ingot:6> * 4);
@@ -837,6 +837,7 @@ blastfurnaceSuperAlloyRecipe.addItemInput(<contenttweaker:material_part:336>);
 blastfurnaceSuperAlloyRecipe.addItemInput(<contenttweaker:material_part:19> * 16);
 blastfurnaceSuperAlloyRecipe.addItemInput(<contenttweaker:material_part:262> * 32);
 blastfurnaceSuperAlloyRecipe.addItemInput(<contenttweaker:material_part:205> * 64);
+blastfurnaceSuperAlloyRecipe.addItemInput(<modularmachinery:itemmodularium> * 64);
 blastfurnaceSuperAlloyRecipe.addItemInput(<contenttweaker:commondusts_block> * 64);
 blastfurnaceSuperAlloyRecipe.addItemOutput(<contenttweaker:material_part:286>);
 blastfurnaceSuperAlloyRecipe.build();
