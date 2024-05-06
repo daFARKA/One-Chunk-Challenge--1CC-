@@ -1,7 +1,7 @@
 {
     "machine": "ore_processing_unit",
     "registryName": "opu_wolframite",
-    "recipeTime": 100,
+    "recipeTime": 20,
     "requirements": [
         {
             "type": "modularmachinery:energy",

@@ -1,7 +1,7 @@
 {
     "machine": "ore_processing_unit",
     "registryName": "opu_vadinite",
-    "recipeTime": 100,
+    "recipeTime": 10,
     "requirements": [
         {
             "type": "modularmachinery:energy",

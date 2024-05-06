@@ -204,7 +204,13 @@
 - [x] Add Modularium to Super Alloy Recipe.
 - [x] Changed the Tiny Compact Machine recipe, to make every compact machine more autocraftable.
 
-### 
+#### 0.1.9.1 
+
+- [x] Significantly accelerated Ore Processing Unit recipes in general. It is now dependant on tier of ore.
+- [x] The last modularium recipe now produces blocks, instead of ingots.
+- [x] Add a new Reinforced Machine Casing recipe.
+
+###
 
 - [ ] 
 

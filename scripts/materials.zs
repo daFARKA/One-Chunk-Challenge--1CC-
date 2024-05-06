@@ -237,7 +237,7 @@ var tungsten = MaterialSystem.getMaterialBuilder().setName("Tungsten").setColor(
 tungsten.registerParts(["gear", "plate", "nugget", "ingot", "rod", "dust", "block", "molten"] as string[]);
 
 
-// tungstenSteel - large compact machine
+// tungstenSteel - large compact machine, reinforced machine casing
 var tungstenSteel_color = Color.fromHex("c4cacc") as Color;
 
 var tungstenSteel = MaterialSystem.getMaterialBuilder().setName("Tungsten Steel").setColor(tungstenSteel_color).build();

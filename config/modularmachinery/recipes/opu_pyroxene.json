@@ -1,7 +1,7 @@
 {
     "machine": "ore_processing_unit",
     "registryName": "opu_pyroxene",
-    "recipeTime": 200,
+    "recipeTime": 50,
     "requirements": [
         {
             "type": "modularmachinery:energy",

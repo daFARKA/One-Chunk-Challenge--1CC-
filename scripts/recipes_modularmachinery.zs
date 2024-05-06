@@ -373,7 +373,7 @@ workbench6ModulariumRecipe.addFluidInput(<liquid:chlorine> * 1000);
 workbench6ModulariumRecipe.addItemInput(<contenttweaker:material_part:232> * 32);
 workbench6ModulariumRecipe.addItemInput(<contenttweaker:material_part:195> * 32);
 workbench6ModulariumRecipe.addItemInput(<contenttweaker:commondusts_block> * 64);
-workbench6ModulariumRecipe.addItemOutput(<modularmachinery:itemmodularium> * 256);
+workbench6ModulariumRecipe.addItemOutput(<contenttweaker:modularium_block> * 32);
 workbench6ModulariumRecipe.build();
 
 var workbench6VacFluidInput = RecipeBuilder.newBuilder("workbench6VacFluidInput", "workbench6", 2400);
@@ -440,6 +440,14 @@ workbench6SuperAlloyCasingRecipe.addItemInput(<contenttweaker:material_part:284>
 workbench6SuperAlloyCasingRecipe.addItemInput(<contenttweaker:material_part:283>);
 workbench6SuperAlloyCasingRecipe.addItemOutput(<contenttweaker:superalloycasing_block>);
 workbench6SuperAlloyCasingRecipe.build();
+
+var workbench6ReinforcedCasingRecipe = RecipeBuilder.newBuilder("workbench6ReinforcedCasingRecipe", "workbench6", 20);
+workbench6ReinforcedCasingRecipe.addEnergyPerTickInput(65536);
+workbench6ReinforcedCasingRecipe.addItemInput(<modularmachinery:blockcasing:0> * 4);
+workbench6ReinforcedCasingRecipe.addItemInput(<enderio:item_alloy_ingot:6> * 4);
+workbench6ReinforcedCasingRecipe.addItemInput(<contenttweaker:material_part:185> * 4);
+workbench6ReinforcedCasingRecipe.addItemOutput(<modularmachinery:blockcasing:4> * 4);
+workbench6ReinforcedCasingRecipe.build();
 
 
 // Final Workbench
