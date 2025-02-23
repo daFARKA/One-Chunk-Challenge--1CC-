@@ -206,12 +206,15 @@
 
 #### 0.1.9.1 
 
-- [x] Significantly accelerated Ore Processing Unit recipes in general. It is now dependant on tier of ore.
+- [x] Significantly accelerated Ore Processing Unit recipes in general. It is now dependent on tier of ore.
 - [x] The last modularium recipe now produces blocks, instead of ingots.
 - [x] Add a new Reinforced Machine Casing recipe.
 
 ###
 
+- [x] Accelerated all reactor recipes.
+- [x] The stepping stone recipes for new reactor tiers can now be directly made with uranium 235.
+- [ ] Added some depleted fission fuel furnace recipes.
 - [ ] 
 
 <div style="page-break-after: always;"></div>
@@ -220,8 +223,8 @@
 
 - [ ] Adjust the composition of the island.
 - [ ] Add a lategame reactor that lets you skip fission fuel chain entirely. (Supercharged Nuclear Reactor)
-- [ ] Add a custom plate machine.
 - [ ] Add more recipes to the Blast Furnace.
+- [ ] Change the recipe of the Staff of Traveling, so it is obtainable in Peaceful.
 
 <div style="page-break-after: always;"></div>
 

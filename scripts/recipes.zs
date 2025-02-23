@@ -83,6 +83,8 @@ furnace.addRecipe(<contenttweaker:material_part:315>, <contenttweaker:material_p
 furnace.addRecipe(<contenttweaker:material_part:321>, <contenttweaker:material_part:322>, 0.0);
 furnace.addRecipe(<contenttweaker:material_part:327>, <contenttweaker:material_part:328>, 0.0);
 furnace.addRecipe(<contenttweaker:material_part:333>, <contenttweaker:material_part:334>, 0.0);
+furnace.addRecipe(<contenttweaker:material_part:300>, <contenttweaker:material_part:301>, 0.0);
+furnace.addRecipe(<contenttweaker:material_part:318>, <contenttweaker:material_part:319>, 0.0);
 recipes.addShaped(<contenttweaker:material_part:112>, [[null, <contenttweaker:material_part:111>, null],[<contenttweaker:material_part:111>, null, null], [null, null, null]]);
 recipes.addShaped(<contenttweaker:material_part:120>, [[null, <contenttweaker:material_part:119>, null],[<contenttweaker:material_part:119>, null, null], [null, null, null]]);
 recipes.addShaped(<contenttweaker:reactorfuelrod_block>, [[<contenttweaker:material_part:109>, <contenttweaker:material_part:111>, <contenttweaker:material_part:109>],[<contenttweaker:material_part:111>, <contenttweaker:material_part:112>, <contenttweaker:material_part:111>], [<contenttweaker:material_part:109>, <contenttweaker:material_part:111>, <contenttweaker:material_part:109>]]);
